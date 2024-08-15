@@ -1,0 +1,62 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="dftx-uuitZYyHQWTPwZ1">
+    <mxGraphModel dx="1137" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N7iIkxwQAjEZ4CynyVp_-1" target="N7iIkxwQAjEZ4CynyVp_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-1" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N7iIkxwQAjEZ4CynyVp_-2" target="N7iIkxwQAjEZ4CynyVp_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-2" value="TOMTOM Traffic API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N7iIkxwQAjEZ4CynyVp_-4" target="N7iIkxwQAjEZ4CynyVp_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-4" value="Save to .json file" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-6" value="Consumer" style="whiteSpace=wrap;html=1;rounded=1;verticalAlign=top;" vertex="1" parent="N7iIkxwQAjEZ4CynyVp_-9">
+          <mxGeometry width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-8" value="Filter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N7iIkxwQAjEZ4CynyVp_-9">
+          <mxGeometry x="20" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-10" value="Filter Data Volume" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="90" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-11" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="N7iIkxwQAjEZ4CynyVp_-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-12" value="WASM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="N7iIkxwQAjEZ4CynyVp_-11">
+          <mxGeometry x="0.02" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-17" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N7iIkxwQAjEZ4CynyVp_-6" target="N7iIkxwQAjEZ4CynyVp_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-19" value="1. Docker&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N7iIkxwQAjEZ4CynyVp_-20" value="&lt;div&gt;The consumer program uses Wasmer to run a filter. Specifically, the&lt;/div&gt;&lt;div&gt;filter program is first compiled to wasm (using the wasm32-wasi target). If&lt;/div&gt;&lt;div&gt;multiple such filters exist, they are all compiled on startup. The application&lt;/div&gt;&lt;div&gt;then loads the file and creates its store, module, and environment. Afterwards,&lt;/div&gt;&lt;div&gt;it instantiates the module, and calls the start function to run it. Since&lt;/div&gt;&lt;div&gt;wasm32-wasi is used as a system interface, input and output redirection work&lt;/div&gt;&lt;div&gt;as they do in a native application, so stdin and stdout can still be used like&lt;/div&gt;&lt;div&gt;before. The resulting Outcome after the data has been filtered is then printed&lt;/div&gt;&lt;div&gt;to a file.&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="530" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
