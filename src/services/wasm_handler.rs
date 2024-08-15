@@ -7,7 +7,7 @@ pub struct WasmHandler {
     memory: Memory,
     alloc: TypedFunc<i32, i32>,
     dealloc: TypedFunc<(i32, i32), ()>,
-    filter_incidents: TypedFunc<(i32, i32), i32>,
+    filter_historical_options: TypedFunc<(i32, i32), i32>,
     get_result_len: TypedFunc<(), i32>,
 }
 
@@ -27,8 +27,8 @@ impl WasmHandler {
             .context("Failed to get alloc function")?;
         let dealloc = instance.get_typed_func(&mut store, "dealloc")
             .context("Failed to get dealloc function")?;
-        let filter_incidents = instance.get_typed_func(&mut store, "filter_incidents")
-            .context("Failed to get filter_incidents function")?;
+        let filter_historical_options = instance.get_typed_func(&mut store, "filter_historical_options")
+            .context("Failed to get filter_historical_options function")?;
         let get_result_len = instance.get_typed_func(&mut store, "get_result_len")
             .context("Failed to get get_result_len function")?;
 
@@ -37,26 +37,25 @@ impl WasmHandler {
             memory,
             alloc,
             dealloc,
-            filter_incidents,
+            filter_historical_options,
             get_result_len,
         })
     }
 
-    /// Filter incidents using the WebAssembly module
-    pub fn filter_incidents(&mut self, incidents_json: &[u8]) -> Result<Vec<u8>> {
-        let incidents_len = incidents_json.len();
-        let incidents_ptr = self.alloc.call(&mut self.store, incidents_len as i32)?;
-        
-        self.memory.write(&mut self.store, incidents_ptr as usize, incidents_json)?;
-        
-        let result_ptr = self.filter_incidents.call(&mut self.store, (incidents_ptr, incidents_len as i32))?;
+    /// Filter historical options using the WebAssembly module
+    pub fn filter_historical_options(&mut self, options_json: &[u8]) -> Result<Vec<u8>> {
+        let options_len = options_json.len();
+        let options_ptr = self.alloc.call(&mut self.store, options_len as i32)?;
+        self.memory.write(&mut self.store, options_ptr as usize, options_json)?;
+
+        let result_ptr = self.filter_historical_options.call(&mut self.store, (options_ptr, options_len as i32))?;
         let result_len = self.get_result_len.call(&mut self.store, ())?;
-        
+
         let mut result = vec![0u8; result_len as usize];
         self.memory.read(&self.store, result_ptr as usize, &mut result)?;
-        
-        self.dealloc.call(&mut self.store, (incidents_ptr, incidents_len as i32))?;
-        
+
+        self.dealloc.call(&mut self.store, (options_ptr, options_len as i32))?;
+
         Ok(result)
     }
 }

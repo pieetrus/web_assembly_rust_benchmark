@@ -1,24 +1,29 @@
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Serialize, Deserialize)]
-pub struct Incident {
+pub struct HistoricalOption {
+    #[serde(rename = "contractID")]
+    pub contract_id: String,
+    pub symbol: String,
+    pub expiration: String,
+    pub strike: String,
     #[serde(rename = "type")]
-    pub incident_type: String,
-    pub properties: IncidentProperties,
-}
-
-#[derive(Debug, Serialize, Deserialize)]
-pub struct IncidentProperties {
-    pub id: String,
-    #[serde(rename = "magnitudeOfDelay")]
-    pub magnitude_of_delay: u8,
-    pub events: Vec<Event>,
-}
-
-#[derive(Debug, Serialize, Deserialize)]
-pub struct Event {
-    pub code: u16,
-    pub description: String,
+    pub option_type: String,
+    pub last: String,
+    pub mark: String,
+    pub bid: String,
+    pub bid_size: String,
+    pub ask: String,
+    pub ask_size: String,
+    pub volume: String,
+    pub open_interest: String,
+    pub date: String,
+    pub implied_volatility: String,
+    pub delta: String,
+    pub gamma: String,
+    pub theta: String,
+    pub vega: String,
+    pub rho: String
 }
 
 static mut RESULT: Option<Vec<u8>> = None;
@@ -37,20 +42,19 @@ pub extern "C" fn dealloc(ptr: *mut u8, len: usize) {
         let _ = Vec::from_raw_parts(ptr, 0, len);
     }
 }
-
 #[no_mangle]
-pub extern "C" fn filter_incidents(ptr: *const u8, len: usize) -> *const u8 {
-    let incidents_json = unsafe { std::slice::from_raw_parts(ptr, len) };
-    let incidents: Vec<Incident> = serde_json::from_slice(incidents_json).unwrap();
-    
-    let filtered_incidents: Vec<&Incident> = incidents.iter()
-        .filter(|incident| {
-            incident.properties.events.iter().all(|event| event.code != 701)
+pub extern "C" fn filter_historical_options(ptr: *const u8, len: usize) -> *const u8 {
+    let options_json = unsafe { std::slice::from_raw_parts(ptr, len) };
+    let options: Vec<HistoricalOption> = serde_json::from_slice(options_json).unwrap();
+
+    let filtered_options: Vec<&HistoricalOption> = options.iter()
+        .filter(|option| {
+            // Example filter: only keep options with a strike price above 85.00
+            option.strike.parse::<f64>().unwrap_or(0.0) > 85.00
         })
         .collect();
-    
-    let result = serde_json::to_vec(&filtered_incidents).unwrap();
-    
+
+    let result = serde_json::to_vec(&filtered_options).unwrap();
     unsafe {
         RESULT = Some(result);
         RESULT.as_ref().unwrap().as_ptr()

@@ -5,7 +5,7 @@ use services::{consumer, producer};
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    producer::get_traffic_incidents().await?;
+    producer::get_historical_options_information().await?;
     
     consumer::consume()?;
 

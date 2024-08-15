@@ -1,27 +1,34 @@
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Serialize, Deserialize)]
-pub struct TrafficIncidentResponse {
-    pub incidents: Vec<Incident>,
+pub struct HistoricalOptionsResponse {
+    pub endpoint: String,
+    pub message: String,
+    pub data: Vec<HistoricalOption>,
 }
 
 #[derive(Debug, Serialize, Deserialize)]
-pub struct Incident {
+pub struct HistoricalOption {
+    #[serde(rename = "contractID")]
+    pub contract_id: String,
+    pub symbol: String,
+    pub expiration: String,
+    pub strike: String,
     #[serde(rename = "type")]
-    pub incident_type: String,
-    pub properties: IncidentProperties,
-}
-
-#[derive(Debug, Serialize, Deserialize)]
-pub struct IncidentProperties {
-    pub id: String,
-    #[serde(rename = "magnitudeOfDelay")]
-    pub magnitude_of_delay: u8,
-    pub events: Vec<Event>,
-}
-
-#[derive(Debug, Serialize, Deserialize)]
-pub struct Event {
-    pub code: u16,
-    pub description: String,
+    pub option_type: String,
+    pub last: String,
+    pub mark: String,
+    pub bid: String,
+    pub bid_size: String,
+    pub ask: String,
+    pub ask_size: String,
+    pub volume: String,
+    pub open_interest: String,
+    pub date: String,
+    pub implied_volatility: String,
+    pub delta: String,
+    pub gamma: String,
+    pub theta: String,
+    pub vega: String,
+    pub rho: String,
 }

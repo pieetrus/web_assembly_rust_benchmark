@@ -771,6 +771,20 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fbf6a919d6cf397374f7dfeeea91d974c7c0a7221d0d0f4f20d859d329e53fcc"
 
 [[package]]
+name = "historical_options_analyzer"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "dotenv",
+ "reqwest",
+ "rocket",
+ "serde",
+ "serde_json",
+ "tokio",
+ "wasmtime",
+]
+
+[[package]]
 name = "http"
 version = "0.2.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2713,20 +2727,6 @@ checksum = "26fdeaafd9bd129f65e7c031593c24d62186301e0c72c8978fa1678be7d532c0"
 dependencies = [
  "js-sys",
  "wasm-bindgen",
-]
-
-[[package]]
-name = "web_assmebly_sandbox"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "dotenv",
- "reqwest",
- "rocket",
- "serde",
- "serde_json",
- "tokio",
- "wasmtime",
 ]
 
 [[package]]
