@@ -15,8 +15,6 @@ pub struct Incident {
 #[derive(Debug, Serialize, Deserialize)]
 pub struct IncidentProperties {
     pub id: String,
-    #[serde(rename = "iconCategory")]
-    pub icon_category: u8,
     #[serde(rename = "magnitudeOfDelay")]
     pub magnitude_of_delay: u8,
     pub events: Vec<Event>,
