@@ -14,14 +14,23 @@ pub async fn consume_and_process_options() -> Result<()> {
     let wasm_file = Path::new("wasm-filter/target/wasm32-unknown-unknown/release/wasm_filter.wasm");
     let mut options_processor = OptionsProcessor::new(wasm_file)?;
 
-    let payload = kafka_consumer.receive_message().await?;
-    
-    let json_data: HistoricalOptionsResponse = serde_json::from_slice(&payload)
-        .context("Failed to parse historical options data")?;
+    println!("Consumer started. Waiting for messages...");
 
-    let filtered_options = options_processor.process_options(&json_data.data)?;
+    loop {
+        match kafka_consumer.receive_message().await {
+            Ok(payload) => {
+                println!("Received new message. Processing...");
+                let json_data: HistoricalOptionsResponse = serde_json::from_slice(&payload)
+                    .context("Failed to parse historical options data")?;
 
-    options_processor.print_filtered_options(&filtered_options);
-
-    Ok(())
+                let filtered_options = options_processor.process_options(&json_data.data)?;
+                options_processor.print_filtered_options(&filtered_options);
+            }
+            Err(e) => {
+                eprintln!("Error receiving message: {}", e);
+                // Optionally add a short delay to avoid tight loop on persistent errors
+                tokio::time::sleep(tokio::time::Duration::from_secs(1)).await;
+            }
+        }
+    }
 }
