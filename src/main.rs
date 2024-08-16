@@ -1,13 +1,15 @@
-mod services;
+mod api;
+mod kaffka;
+mod processing;
 mod models;
+mod services;
 
-use services::{consumer, producer};
+use anyhow::Result;
+use services::{produce_historical_options, consume_and_process_options};
 
 #[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    producer::get_historical_options_information().await?;
-    
-    consumer::consume()?;
-
+async fn main() -> Result<()> {
+    produce_historical_options().await?;
+    consume_and_process_options().await?;
     Ok(())
 }

@@ -15,6 +15,7 @@ impl WasmHandler {
     /// Initialize a new WasmHandler with the given WebAssembly file
     pub fn new(wasm_file: &Path) -> Result<Self> {
         let engine = Engine::default();
+        
         let module = Module::from_file(&engine, wasm_file)
             .context("Failed to load WebAssembly module")?;
         let mut store = Store::new(&engine, ());
