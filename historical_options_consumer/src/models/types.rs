@@ -1,13 +1,13 @@
 use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct HistoricalOptionsResponse {
     pub endpoint: String,
     pub message: String,
     pub data: Vec<HistoricalOption>,
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct HistoricalOption {
     #[serde(rename = "contractID")]
     pub contract_id: String,

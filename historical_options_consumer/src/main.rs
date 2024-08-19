@@ -1,8 +1,9 @@
-mod kaffka;
-mod processing;
-mod models;
-mod services;
+pub mod kaffka;
+pub mod processing;
+pub mod services;
+pub mod models;
 use anyhow::Result;
+
 use services::consume_and_process_options;
 
 #[tokio::main]

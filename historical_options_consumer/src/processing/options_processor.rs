@@ -25,8 +25,9 @@ impl OptionsProcessor {
 
     pub fn print_filtered_options(&self, options: &[HistoricalOption]) {
         println!("Filtered Historical Options received!");
+        println!("Length of options: {}", options.len());
         // for option in options {
-        //     println!("{:#?}", option);
+            // println!("{:#?}", option);
         // }
     }
 }
