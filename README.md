@@ -1,3 +1,5 @@
+<img src="https://www.rust-lang.org/static/images/wasm-ferris.png" alt="Alt text" title="Optional title" height="100px" align="right">
+
 # Historical Options Analyzer
 
 This distributed Rust application fetches and analyzes historical options data using the Alpha Vantage API and WebAssembly for data processing. It consists of separate producer and consumer applications, communicating through Apache Kafka.
