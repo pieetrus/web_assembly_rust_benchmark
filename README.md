@@ -1,4 +1,4 @@
-<img src="https://www.rust-lang.org/static/images/wasm-ferris.png" alt="Alt text" title="Optional title" height="100px" align="right">
+<img src="https://www.rust-lang.org/static/images/wasm-ferris.png" alt="Alt text" height="100px" align="right">
 
 # Web Assembly Rust Benchmark
 
