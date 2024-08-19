@@ -6,7 +6,7 @@ use crate::kaffka::KafkaConsumer;
 use crate::processing::options_processor::OptionsProcessor;
 use crate::models::types::HistoricalOptionsResponse;
 
-pub async fn consume_and_process_options() -> Result<()> {
+pub async fn consume_and_process_options_wasm() -> Result<()> {
     let kafka_consumer = KafkaConsumer::new(
         "localhost:29092",
         "historical_options_group",
