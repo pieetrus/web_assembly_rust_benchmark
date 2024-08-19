@@ -1,4 +1,4 @@
-# Historical Options Analyzer
+# Web Assembly Rust Benchmark
 
 This distributed Rust application fetches and analyzes historical options data using the Alpha Vantage API and WebAssembly for data processing. It consists of separate producer and consumer applications, communicating through Apache Kafka.
 
