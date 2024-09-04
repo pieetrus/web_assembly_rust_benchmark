@@ -1,0 +1,55 @@
+warning: `historical_options_consumer` (bench "wasm_benchmark") generated 3 warnings
+    Finished `bench` profile [unoptimized] target(s) in 42.40s
+     Running unittests src/lib.rs (target/release/deps/historical_options_consumer-378dc7bd347e0027)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (target/release/deps/historical_options_consumer-719b59bc98f8f8f8)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running benches/wasm_benchmark.rs (target/release/deps/wasm_benchmark-45d8f01e623c4b12)
+Gnuplot not found, using plotters backend
+Benchmarking filter_rust_wa_comparison/WASM/100: Collecting 100 samples infilter_rust_wa_comparison/WASM/100
+                        time:   [2.0024 ms 2.0034 ms 2.0045 ms]
+Benchmarking filter_rust_wa_comparison/Native/100: Collecting 100 samples filter_rust_wa_comparison/Native/100
+                        time:   [82.169 µs 82.201 µs 82.243 µs]
+Found 6 outliers among 100 measurements (6.00%)
+  1 (1.00%) high mild
+  5 (5.00%) high severe
+Benchmarking filter_rust_wa_comparison/WASM/1000: Collecting 100 samples ifilter_rust_wa_comparison/WASM/1000
+                        time:   [19.660 ms 19.668 ms 19.676 ms]
+Found 3 outliers among 100 measurements (3.00%)
+  1 (1.00%) low mild
+  2 (2.00%) high severe
+Benchmarking filter_rust_wa_comparison/Native/1000: Warming up for 3.0000 Benchmarking filter_rust_wa_comparison/Native/1000: Collecting 100 samplesfilter_rust_wa_comparison/Native/1000
+                        time:   [816.13 µs 816.50 µs 816.84 µs]
+Found 18 outliers among 100 measurements (18.00%)
+  10 (10.00%) low severe
+  2 (2.00%) low mild
+  2 (2.00%) high mild
+  4 (4.00%) high severe
+Benchmarking filter_rust_wa_comparison/WASM/10000: Collecting 100 samples filter_rust_wa_comparison/WASM/10000
+                        time:   [208.19 ms 208.30 ms 208.41 ms]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+Benchmarking filter_rust_wa_comparison/Native/10000: Warming up for 3.0000Benchmarking filter_rust_wa_comparison/Native/10000: Collecting 100 samplefilter_rust_wa_comparison/Native/10000
+                        time:   [10.785 ms 10.790 ms 10.795 ms]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+Benchmarking filter_rust_wa_comparison/WASM/100000: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 100.0s. You may wish to increase target time to 209.9s, or reduce sample count to 40.
+Benchmarking filter_rust_wa_comparison/WASM/100000: Collecting 100 samplesfilter_rust_wa_comparison/WASM/100000
+                        time:   [2.0779 s 2.0790 s 2.0800 s]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+Benchmarking filter_rust_wa_comparison/Native/100000: Warming up for 3.000Benchmarking filter_rust_wa_comparison/Native/100000: Collecting 100 samplfilter_rust_wa_comparison/Native/100000
+                        time:   [124.11 ms 124.13 ms 124.15 ms]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) low severe
+  1 (1.00%) high mild
+

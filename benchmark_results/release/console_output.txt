@@ -1,0 +1,54 @@
+
+Running benches/wasm_benchmark.rs (target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+Gnuplot not found, using plotters backend
+filter_rust_wa_comparison/WASM/100
+                        time:   [577.03 µs 577.28 µs 577.57 µs]
+                        change: [-71.230% -71.203% -71.173%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+filter_rust_wa_comparison/Native/100
+                        time:   [63.038 µs 63.048 µs 63.060 µs]
+                        change: [-23.424% -23.358% -23.305%] (p = 0.00 < 0.05)
+                        Performance has improved.
+filter_rust_wa_comparison/WASM/1000
+                        time:   [5.6429 ms 5.6440 ms 5.6449 ms]
+                        change: [-71.374% -71.358% -71.343%] (p = 0.00 < 0.05)
+                        Performance has improved.
+filter_rust_wa_comparison/Native/1000
+                        time:   [623.66 µs 623.75 µs 623.85 µs]
+                        change: [-23.679% -23.654% -23.628%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 8 outliers among 100 measurements (8.00%)
+  8 (8.00%) high mild
+filter_rust_wa_comparison/WASM/10000
+                        time:   [66.107 ms 66.137 ms 66.171 ms]
+                        change: [-68.271% -68.249% -68.226%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 5 outliers among 100 measurements (5.00%)
+  3 (3.00%) high mild
+  2 (2.00%) high severe
+filter_rust_wa_comparison/Native/10000
+                        time:   [8.9248 ms 8.9279 ms 8.9313 ms]
+                        change: [-17.379% -17.289% -17.222%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 20 outliers among 100 measurements (20.00%)
+  7 (7.00%) low severe
+  3 (3.00%) low mild
+  3 (3.00%) high mild
+  7 (7.00%) high severe
+filter_rust_wa_comparison/WASM/100000
+                        time:   [660.88 ms 661.36 ms 662.03 ms]
+                        change: [-68.217% -68.188% -68.148%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 6 outliers among 100 measurements (6.00%)
+  1 (1.00%) low severe
+  2 (2.00%) high mild
+  3 (3.00%) high severe
+filter_rust_wa_comparison/Native/100000
+                        time:   [105.95 ms 106.03 ms 106.10 ms]
+                        change: [-14.649% -14.586% -14.518%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+

@@ -2,7 +2,7 @@ use criterion::{criterion_group, criterion_main, Criterion};
 use historical_options_consumer::{
     models::{types::HistoricalOption, HistoricalOptionsResponse}, processing::options_processor::OptionsProcessor, services::native_filter_options
 };
-use std::path::Path;
+use std::{path::Path, time::Duration};
 use std::fs::File;
 use std::io::Read;
 use anyhow::{Result, Context};
@@ -46,7 +46,7 @@ fn compare_filters(c: &mut Criterion) {
     let wasm_file = Path::new("wasm-filter/target/wasm32-unknown-unknown/release/wasm_filter.wasm");
     let mut options_processor = OptionsProcessor::new(wasm_file).unwrap();
 
-    let mut group = c.benchmark_group("Filter Comparison");
+    let mut group = c.benchmark_group("filter_rust_wa_comparison");
     for size in sizes {
         let sample_data = prepare_sample_data(size).expect("Failed to prepare sample data");
         
@@ -106,5 +106,9 @@ pub fn prepare_sample_data(size: usize) -> Result<Vec<HistoricalOption>> {
 // }
 
 // criterion_group!(benches, benchmark_wasm_filter, benchmark_native_filter);
-criterion_group!(benches, compare_filters);
+criterion_group!{
+    name = benches;
+    config = Criterion::default().measurement_time(Duration::from_secs(100));
+    targets = compare_filters
+  }
 criterion_main!(benches);
