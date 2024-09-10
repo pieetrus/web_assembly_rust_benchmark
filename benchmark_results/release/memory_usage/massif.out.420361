@@ -1,0 +1,257 @@
+desc: (none)
+cmd: /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8 --bench
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=658582
+mem_heap_B=472
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=659124
+mem_heap_B=592
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=659302
+mem_heap_B=1616
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=660428
+mem_heap_B=1736
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=785867
+mem_heap_B=1736
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=peak
+n4: 1736 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1024 0x508DBA3: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x509CCDF: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x509BCDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 1024 0x508F307: getdelim (iogetdelim.c:73)
+     n1: 1024 0x50A50C3: pthread_getattr_np@@GLIBC_2.32 (pthread_getattr_np.c:122)
+      n1: 1024 0x918598: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+       n0: 1024 0x1F3C44: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+ n1: 472 0x508E64D: __fopen_internal (iofopen.c:65)
+  n1: 472 0x508E64D: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 472 0x50A4FB2: pthread_getattr_np@@GLIBC_2.32 (pthread_getattr_np.c:85)
+    n1: 472 0x918598: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+     n0: 472 0x1F3C44: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+ n1: 240 0x508F17D: getdelim (iogetdelim.c:102)
+  n1: 240 0x50A50C3: pthread_getattr_np@@GLIBC_2.32 (pthread_getattr_np.c:122)
+   n1: 240 0x918598: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+    n0: 240 0x1F3C44: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=785867
+mem_heap_B=1496
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=786076
+mem_heap_B=472
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=786203
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=786254
+mem_heap_B=32
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=787289
+mem_heap_B=184
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=787345
+mem_heap_B=216
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=787414
+mem_heap_B=184
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=787492
+mem_heap_B=152
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=787523
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=788143
+mem_heap_B=56
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n8: 56 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56 0x918F46: std::thread::Thread::new_inner (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+  n1: 56 0x918762: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+   n0: 56 0x1F3C44: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+ n1: 0 0x508DBA3: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 0 0x509CCDF: _IO_doallocbuf (genops.c:347)
+   n1: 0 0x509BCDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n1: 0 0x508F307: getdelim (iogetdelim.c:73)
+     n1: 0 0x50A50C3: pthread_getattr_np@@GLIBC_2.32 (pthread_getattr_np.c:122)
+      n1: 0 0x918598: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+       n0: 0 0x1F3C44: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+ n1: 0 0x508E64D: __fopen_internal (iofopen.c:65)
+  n1: 0 0x508E64D: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 0 0x50A4FB2: pthread_getattr_np@@GLIBC_2.32 (pthread_getattr_np.c:85)
+    n1: 0 0x918598: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+     n0: 0 0x1F3C44: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+ n1: 0 0x508F122: getdelim (iogetdelim.c:62)
+  n1: 0 0x50A50C3: pthread_getattr_np@@GLIBC_2.32 (pthread_getattr_np.c:122)
+   n1: 0 0x918598: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+    n0: 0 0x1F3C44: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+ n1: 0 0x508F17D: getdelim (iogetdelim.c:102)
+  n1: 0 0x50A50C3: pthread_getattr_np@@GLIBC_2.32 (pthread_getattr_np.c:122)
+   n1: 0 0x918598: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+    n0: 0 0x1F3C44: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+ n1: 0 0x50A1162: __pthread_attr_extension (pthread_attr_extension.c:28)
+  n1: 0 0x50A148F: pthread_attr_setaffinity_np@@GLIBC_2.32 (pthread_attr_setaffinity.c:45)
+   n1: 0 0x50A4F5D: pthread_getattr_np@@GLIBC_2.32 (pthread_getattr_np.c:194)
+    n1: 0 0x918598: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+     n0: 0 0x1F3C44: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+ n1: 0 0x50A14AB: pthread_attr_setaffinity_np@@GLIBC_2.32 (pthread_attr_setaffinity.c:51)
+  n1: 0 0x50A4F5D: pthread_getattr_np@@GLIBC_2.32 (pthread_getattr_np.c:194)
+   n1: 0 0x918598: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+    n0: 0 0x1F3C44: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+ n1: 0 0x50A4EF9: pthread_getattr_np@@GLIBC_2.32 (pthread_getattr_np.c:180)
+  n1: 0 0x918598: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+   n0: 0 0x1F3C44: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8)
+#-----------
+snapshot=16
+#-----------
+time=788283
+mem_heap_B=88
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=789761
+mem_heap_B=96
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=789938
+mem_heap_B=112
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=789988
+mem_heap_B=128
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=790040
+mem_heap_B=136
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=790197
+mem_heap_B=146
+mem_heap_extra_B=86
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=790459
+mem_heap_B=162
+mem_heap_extra_B=86
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=790605
+mem_heap_B=210
+mem_heap_extra_B=86
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=791813
+mem_heap_B=466
+mem_heap_extra_B=94
+mem_stacks_B=0
+heap_tree=empty

@@ -1,0 +1,1802 @@
+desc: (none)
+cmd: /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc -vV
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=19947403
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=19971930
+mem_heap_B=76514
+mem_heap_extra_B=534
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=19990812
+mem_heap_B=79933
+mem_heap_extra_B=1187
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=20008428
+mem_heap_B=83902
+mem_heap_extra_B=1714
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=20022207
+mem_heap_B=86128
+mem_heap_extra_B=2208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=20040778
+mem_heap_B=93230
+mem_heap_extra_B=2826
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=20067891
+mem_heap_B=99224
+mem_heap_extra_B=3608
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=20088229
+mem_heap_B=103111
+mem_heap_extra_B=4353
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=20110864
+mem_heap_B=107294
+mem_heap_extra_B=5138
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=20126046
+mem_heap_B=109618
+mem_heap_extra_B=5686
+mem_stacks_B=0
+heap_tree=detailed
+n6: 109618 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 13162 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 13162 in 332 places, all below massif's threshold (1.00%)
+ n1: 11440 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 11440 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 11440 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 11440 in 11 places, all below massif's threshold (1.00%)
+ n2: 6156 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 6156 0x11E17D8F: _GLOBAL__sub_I_MachineScheduler.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 6156 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 6156 0x4006567: call_init (dl-init.c:33)
+     n1: 6156 0x4006567: _dl_init (dl-init.c:117)
+      n1: 6156 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 6156 0x1: ???
+        n1: 6156 0x1FFEFFFC02: ???
+         n0: 6156 0x1FFEFFFC4D: ???
+  n0: 0 in 4 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+ n0: 1548 in 29 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=20147421
+mem_heap_B=112228
+mem_heap_extra_B=6404
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=20161304
+mem_heap_B=125087
+mem_heap_extra_B=6585
+mem_stacks_B=0
+heap_tree=detailed
+n6: 125087 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n3: 18456 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 12300 0x11D561E8: _GLOBAL__sub_I_DAGCombiner.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 12300 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 12300 0x4006567: call_init (dl-init.c:33)
+     n1: 12300 0x4006567: _dl_init (dl-init.c:117)
+      n1: 12300 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 12300 0x1: ???
+        n1: 12300 0x1FFEFFFC02: ???
+         n0: 12300 0x1FFEFFFC4D: ???
+  n1: 6156 0x11E17D8F: _GLOBAL__sub_I_MachineScheduler.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 6156 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 6156 0x4006567: call_init (dl-init.c:33)
+     n1: 6156 0x4006567: _dl_init (dl-init.c:117)
+      n1: 6156 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 6156 0x1: ???
+        n1: 6156 0x1FFEFFFC02: ???
+         n0: 6156 0x1FFEFFFC4D: ???
+  n0: 0 in 4 places, all below massif's threshold (1.00%)
+ n1: 15132 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 15132 in 384 places, all below massif's threshold (1.00%)
+ n1: 12480 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 12480 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 12480 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 12480 in 12 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+ n0: 1707 in 29 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=20181930
+mem_heap_B=122684
+mem_heap_extra_B=7244
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=20194824
+mem_heap_B=123746
+mem_heap_extra_B=7654
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=20210005
+mem_heap_B=127163
+mem_heap_extra_B=8141
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=20228651
+mem_heap_B=131366
+mem_heap_extra_B=8834
+mem_stacks_B=0
+heap_tree=detailed
+n6: 131366 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 20148 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 20148 in 504 places, all below massif's threshold (1.00%)
+ n1: 17680 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 17680 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 17680 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 17680 in 17 places, all below massif's threshold (1.00%)
+ n2: 12300 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 12300 0x11D561E8: _GLOBAL__sub_I_DAGCombiner.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 12300 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 12300 0x4006567: call_init (dl-init.c:33)
+     n1: 12300 0x4006567: _dl_init (dl-init.c:117)
+      n1: 12300 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 12300 0x1: ???
+        n1: 12300 0x1FFEFFFC02: ???
+         n0: 12300 0x1FFEFFFC4D: ???
+  n0: 0 in 5 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+ n0: 3926 in 36 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=20241955
+mem_heap_B=132675
+mem_heap_extra_B=9277
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=20264513
+mem_heap_B=136736
+mem_heap_extra_B=10088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=20287115
+mem_heap_B=140740
+mem_heap_extra_B=10908
+mem_stacks_B=0
+heap_tree=detailed
+n6: 140740 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 25511 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 25511 in 631 places, all below massif's threshold (1.00%)
+ n1: 21840 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 21840 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 21840 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 21840 in 21 places, all below massif's threshold (1.00%)
+ n2: 12300 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 12300 0x11D561E8: _GLOBAL__sub_I_DAGCombiner.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 12300 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 12300 0x4006567: call_init (dl-init.c:33)
+     n1: 12300 0x4006567: _dl_init (dl-init.c:117)
+      n1: 12300 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 12300 0x1: ???
+        n1: 12300 0x1FFEFFFC02: ???
+         n0: 12300 0x1FFEFFFC4D: ???
+  n0: 0 in 5 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+ n0: 3777 in 36 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=20303642
+mem_heap_B=143142
+mem_heap_extra_B=11514
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=20329543
+mem_heap_B=146236
+mem_heap_extra_B=12356
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=20350651
+mem_heap_B=150303
+mem_heap_extra_B=12961
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=20368303
+mem_heap_B=175062
+mem_heap_extra_B=13050
+mem_stacks_B=0
+heap_tree=detailed
+n6: 175062 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n3: 36888 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 24588 0x11E0E7CF: _GLOBAL__sub_I_HWAddressSanitizer.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 24588 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 24588 0x4006567: call_init (dl-init.c:33)
+     n1: 24588 0x4006567: _dl_init (dl-init.c:117)
+      n1: 24588 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 24588 0x1: ???
+        n1: 24588 0x1FFEFFFC02: ???
+         n0: 24588 0x1FFEFFFC4D: ???
+  n1: 12300 0x11D561E8: _GLOBAL__sub_I_DAGCombiner.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 12300 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 12300 0x4006567: call_init (dl-init.c:33)
+     n1: 12300 0x4006567: _dl_init (dl-init.c:117)
+      n1: 12300 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 12300 0x1: ???
+        n1: 12300 0x1FFEFFFC02: ???
+         n0: 12300 0x1FFEFFFC4D: ???
+  n0: 0 in 5 places, all below massif's threshold (1.00%)
+ n1: 30945 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 30945 in 766 places, all below massif's threshold (1.00%)
+ n1: 26000 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 26000 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 26000 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 26000 in 25 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+ n0: 3917 in 36 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=20389536
+mem_heap_B=166333
+mem_heap_extra_B=13859
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=20402158
+mem_heap_B=168596
+mem_heap_extra_B=14356
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=20419377
+mem_heap_B=171279
+mem_heap_extra_B=14945
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=20432528
+mem_heap_B=173708
+mem_heap_extra_B=15380
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=20451217
+mem_heap_B=176502
+mem_heap_extra_B=16106
+mem_stacks_B=0
+heap_tree=detailed
+n6: 176502 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 38095 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 38095 in 931 places, all below massif's threshold (1.00%)
+ n1: 31200 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 31200 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 31200 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 31200 in 30 places, all below massif's threshold (1.00%)
+ n2: 24588 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 24588 0x11E0E7CF: _GLOBAL__sub_I_HWAddressSanitizer.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 24588 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 24588 0x4006567: call_init (dl-init.c:33)
+     n1: 24588 0x4006567: _dl_init (dl-init.c:117)
+      n1: 24588 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 24588 0x1: ???
+        n1: 24588 0x1FFEFFFC02: ???
+         n0: 24588 0x1FFEFFFC4D: ???
+  n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n0: 5307 in 36 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+#-----------
+snapshot=29
+#-----------
+time=20475213
+mem_heap_B=181054
+mem_heap_extra_B=17114
+mem_stacks_B=0
+heap_tree=detailed
+n6: 181054 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 40128 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 40128 in 978 places, all below massif's threshold (1.00%)
+ n1: 32240 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 32240 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 32240 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 32240 in 31 places, all below massif's threshold (1.00%)
+ n2: 24588 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 24588 0x11E0E7CF: _GLOBAL__sub_I_HWAddressSanitizer.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 24588 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 24588 0x4006567: call_init (dl-init.c:33)
+     n1: 24588 0x4006567: _dl_init (dl-init.c:117)
+      n1: 24588 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 24588 0x1: ???
+        n1: 24588 0x1FFEFFFC02: ???
+         n0: 24588 0x1FFEFFFC4D: ???
+  n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n0: 6786 in 36 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+#-----------
+snapshot=30
+#-----------
+time=20492294
+mem_heap_B=183218
+mem_heap_extra_B=17678
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=20520229
+mem_heap_B=187772
+mem_heap_extra_B=18620
+mem_stacks_B=0
+heap_tree=detailed
+n6: 187772 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 44040 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 44040 in 1071 places, all below massif's threshold (1.00%)
+ n1: 35360 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 35360 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 35360 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 35360 in 34 places, all below massif's threshold (1.00%)
+ n2: 24588 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 24588 0x11E0E7CF: _GLOBAL__sub_I_HWAddressSanitizer.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 24588 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 24588 0x4006567: call_init (dl-init.c:33)
+     n1: 24588 0x4006567: _dl_init (dl-init.c:117)
+      n1: 24588 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 24588 0x1: ???
+        n1: 24588 0x1FFEFFFC02: ???
+         n0: 24588 0x1FFEFFFC4D: ???
+  n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n0: 6472 in 36 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+#-----------
+snapshot=32
+#-----------
+time=20535454
+mem_heap_B=190213
+mem_heap_extra_B=19115
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=20550233
+mem_heap_B=192651
+mem_heap_extra_B=19565
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=20571990
+mem_heap_B=196657
+mem_heap_extra_B=20247
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=20587140
+mem_heap_B=199059
+mem_heap_extra_B=20797
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=20614675
+mem_heap_B=204683
+mem_heap_extra_B=21869
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=20636798
+mem_heap_B=207748
+mem_heap_extra_B=22636
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=20656831
+mem_heap_B=213266
+mem_heap_extra_B=25454
+mem_stacks_B=0
+heap_tree=detailed
+n7: 213266 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 54670 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 54670 in 1321 places, all below massif's threshold (1.00%)
+ n1: 43680 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 43680 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 43680 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 43680 in 42 places, all below massif's threshold (1.00%)
+ n2: 24588 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 24588 0x11E0E7CF: _GLOBAL__sub_I_HWAddressSanitizer.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 24588 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 24588 0x4006567: call_init (dl-init.c:33)
+     n1: 24588 0x4006567: _dl_init (dl-init.c:117)
+      n1: 24588 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 24588 0x1: ???
+        n1: 24588 0x1FFEFFFC02: ???
+         n0: 24588 0x1FFEFFFC4D: ???
+  n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n0: 10216 in 93 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+ n1: 2800 0x11D8679A: _GLOBAL__sub_I_MLInlineAdvisor.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 2800 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 2800 0x4006567: call_init (dl-init.c:33)
+    n1: 2800 0x4006567: _dl_init (dl-init.c:117)
+     n1: 2800 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 2800 0x1: ???
+       n1: 2800 0x1FFEFFFC02: ???
+        n0: 2800 0x1FFEFFFC4D: ???
+#-----------
+snapshot=39
+#-----------
+time=20671954
+mem_heap_B=213768
+mem_heap_extra_B=24112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=20686486
+mem_heap_B=216171
+mem_heap_extra_B=24549
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=20708460
+mem_heap_B=226192
+mem_heap_extra_B=25968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=20734313
+mem_heap_B=230153
+mem_heap_extra_B=26455
+mem_stacks_B=0
+heap_tree=detailed
+n8: 230153 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 58336 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 58336 in 1408 places, all below massif's threshold (1.00%)
+ n1: 47840 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 47840 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 47840 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 47840 in 46 places, all below massif's threshold (1.00%)
+ n2: 24588 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 24588 0x11E0E7CF: _GLOBAL__sub_I_HWAddressSanitizer.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 24588 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 24588 0x4006567: call_init (dl-init.c:33)
+     n1: 24588 0x4006567: _dl_init (dl-init.c:117)
+      n1: 24588 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 24588 0x1: ???
+        n1: 24588 0x1FFEFFFC02: ???
+         n0: 24588 0x1FFEFFFC4D: ???
+  n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n0: 15181 in 112 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+ n1: 4096 0x118ABD61: llvm::BumpPtrAllocatorImpl<llvm::MallocAllocator, 4096ul, 4096ul, 128ul>::Allocate(unsigned long, llvm::Align) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4096 0x11E5F9E8: llvm::logicalview::LVStringPool::getIndex(llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4096 0x11E5F984: _GLOBAL__sub_I_LVSupport.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4096 0x400647D: call_init.part.0 (dl-init.c:70)
+     n1: 4096 0x4006567: call_init (dl-init.c:33)
+      n1: 4096 0x4006567: _dl_init (dl-init.c:117)
+       n1: 4096 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+        n1: 4096 0x1: ???
+         n1: 4096 0x1FFEFFFC02: ???
+          n0: 4096 0x1FFEFFFC4D: ???
+ n1: 2800 0x11D8679A: _GLOBAL__sub_I_MLInlineAdvisor.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 2800 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 2800 0x4006567: call_init (dl-init.c:33)
+    n1: 2800 0x4006567: _dl_init (dl-init.c:117)
+     n1: 2800 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 2800 0x1: ???
+       n1: 2800 0x1FFEFFFC02: ???
+        n0: 2800 0x1FFEFFFC4D: ???
+#-----------
+snapshot=43
+#-----------
+time=20759099
+mem_heap_B=233519
+mem_heap_extra_B=27209
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=20781399
+mem_heap_B=237644
+mem_heap_extra_B=27892
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=20796217
+mem_heap_B=239877
+mem_heap_extra_B=28363
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=20828074
+mem_heap_B=289200
+mem_heap_extra_B=28440
+mem_stacks_B=0
+heap_tree=detailed
+n7: 289200 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 73752 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 49164 0x11E9870A: _GLOBAL__sub_I_ARMTargetMachine.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 49164 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 49164 0x4006567: call_init (dl-init.c:33)
+     n1: 49164 0x4006567: _dl_init (dl-init.c:117)
+      n1: 49164 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 49164 0x1: ???
+        n1: 49164 0x1FFEFFFC02: ???
+         n0: 49164 0x1FFEFFFC4D: ???
+  n1: 24588 0x11E0E7CF: _GLOBAL__sub_I_HWAddressSanitizer.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 24588 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 24588 0x4006567: call_init (dl-init.c:33)
+     n1: 24588 0x4006567: _dl_init (dl-init.c:117)
+      n1: 24588 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 24588 0x1: ???
+        n1: 24588 0x1FFEFFFC02: ???
+         n0: 24588 0x1FFEFFFC4D: ???
+  n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 63701 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 63701 in 1530 places, all below massif's threshold (1.00%)
+ n1: 52000 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 52000 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 52000 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 52000 in 50 places, all below massif's threshold (1.00%)
+ n0: 18339 in 113 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+ n1: 4096 0x118ABD61: llvm::BumpPtrAllocatorImpl<llvm::MallocAllocator, 4096ul, 4096ul, 128ul>::Allocate(unsigned long, llvm::Align) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4096 0x11E5F9E8: llvm::logicalview::LVStringPool::getIndex(llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4096 0x11E5F984: _GLOBAL__sub_I_LVSupport.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4096 0x400647D: call_init.part.0 (dl-init.c:70)
+     n1: 4096 0x4006567: call_init (dl-init.c:33)
+      n1: 4096 0x4006567: _dl_init (dl-init.c:117)
+       n1: 4096 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+        n1: 4096 0x1: ???
+         n1: 4096 0x1FFEFFFC02: ???
+          n0: 4096 0x1FFEFFFC4D: ???
+#-----------
+snapshot=47
+#-----------
+time=20843070
+mem_heap_B=266742
+mem_heap_extra_B=28938
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=20857843
+mem_heap_B=269020
+mem_heap_extra_B=29468
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=20879933
+mem_heap_B=272966
+mem_heap_extra_B=30306
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=20892976
+mem_heap_B=275088
+mem_heap_extra_B=30784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=20905788
+mem_heap_B=276111
+mem_heap_extra_B=31209
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=20918448
+mem_heap_B=280623
+mem_heap_extra_B=31833
+mem_stacks_B=0
+heap_tree=detailed
+n7: 280623 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 70592 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 70592 in 1719 places, all below massif's threshold (1.00%)
+ n1: 58240 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 58240 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 58240 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 58240 in 56 places, all below massif's threshold (1.00%)
+ n2: 49164 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 49164 0x11E9870A: _GLOBAL__sub_I_ARMTargetMachine.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 49164 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 49164 0x4006567: call_init (dl-init.c:33)
+     n1: 49164 0x4006567: _dl_init (dl-init.c:117)
+      n1: 49164 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 49164 0x1: ???
+        n1: 49164 0x1FFEFFFC02: ???
+         n0: 49164 0x1FFEFFFC4D: ???
+  n0: 0 in 7 places, all below massif's threshold (1.00%)
+ n0: 21219 in 143 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+ n1: 4096 0x118ABD61: llvm::BumpPtrAllocatorImpl<llvm::MallocAllocator, 4096ul, 4096ul, 128ul>::Allocate(unsigned long, llvm::Align) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4096 0x11E5F9E8: llvm::logicalview::LVStringPool::getIndex(llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4096 0x11E5F984: _GLOBAL__sub_I_LVSupport.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4096 0x400647D: call_init.part.0 (dl-init.c:70)
+     n1: 4096 0x4006567: call_init (dl-init.c:33)
+      n1: 4096 0x4006567: _dl_init (dl-init.c:117)
+       n1: 4096 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+        n1: 4096 0x1: ???
+         n1: 4096 0x1FFEFFFC02: ???
+          n0: 4096 0x1FFEFFFC4D: ???
+#-----------
+snapshot=53
+#-----------
+time=20931206
+mem_heap_B=283540
+mem_heap_extra_B=32428
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=20944036
+mem_heap_B=286277
+mem_heap_extra_B=32827
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=20956875
+mem_heap_B=288337
+mem_heap_extra_B=33255
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=20967672
+mem_heap_B=291460
+mem_heap_extra_B=33620
+mem_stacks_B=0
+heap_tree=detailed
+n7: 291460 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73629 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 73629 in 1805 places, all below massif's threshold (1.00%)
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 61360 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 61360 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 61360 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 61360 in 59 places, all below massif's threshold (1.00%)
+ n2: 49164 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 49164 0x11E9870A: _GLOBAL__sub_I_ARMTargetMachine.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 49164 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 49164 0x4006567: call_init (dl-init.c:33)
+     n1: 49164 0x4006567: _dl_init (dl-init.c:117)
+      n1: 49164 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 49164 0x1: ???
+        n1: 49164 0x1FFEFFFC02: ???
+         n0: 49164 0x1FFEFFFC4D: ???
+  n0: 0 in 7 places, all below massif's threshold (1.00%)
+ n0: 25899 in 174 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+ n1: 4096 0x118ABD61: llvm::BumpPtrAllocatorImpl<llvm::MallocAllocator, 4096ul, 4096ul, 128ul>::Allocate(unsigned long, llvm::Align) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4096 0x11E5F9E8: llvm::logicalview::LVStringPool::getIndex(llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4096 0x11E5F984: _GLOBAL__sub_I_LVSupport.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4096 0x400647D: call_init.part.0 (dl-init.c:70)
+     n1: 4096 0x4006567: call_init (dl-init.c:33)
+      n1: 4096 0x4006567: _dl_init (dl-init.c:117)
+       n1: 4096 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+        n1: 4096 0x1: ???
+         n1: 4096 0x1FFEFFFC02: ???
+          n0: 4096 0x1FFEFFFC4D: ???
+#-----------
+snapshot=57
+#-----------
+time=20980511
+mem_heap_B=293253
+mem_heap_extra_B=34059
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=20993384
+mem_heap_B=295420
+mem_heap_extra_B=34492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=21006364
+mem_heap_B=297745
+mem_heap_extra_B=34983
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=21019217
+mem_heap_B=299903
+mem_heap_extra_B=35369
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=21031982
+mem_heap_B=301144
+mem_heap_extra_B=35848
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=21044814
+mem_heap_B=303297
+mem_heap_extra_B=36303
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=21057584
+mem_heap_B=305582
+mem_heap_extra_B=36754
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=21059180
+mem_heap_B=305670
+mem_heap_extra_B=36802
+mem_stacks_B=0
+heap_tree=detailed
+n7: 305670 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 81980 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 81980 in 2004 places, all below massif's threshold (1.00%)
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 67600 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 67600 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 67600 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 67600 in 65 places, all below massif's threshold (1.00%)
+ n2: 49164 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 49164 0x11E9870A: _GLOBAL__sub_I_ARMTargetMachine.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 49164 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 49164 0x4006567: call_init (dl-init.c:33)
+     n1: 49164 0x4006567: _dl_init (dl-init.c:117)
+      n1: 49164 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 49164 0x1: ???
+        n1: 49164 0x1FFEFFFC02: ???
+         n0: 49164 0x1FFEFFFC4D: ???
+  n0: 0 in 7 places, all below massif's threshold (1.00%)
+ n0: 25518 in 174 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+ n1: 4096 0x118ABD61: llvm::BumpPtrAllocatorImpl<llvm::MallocAllocator, 4096ul, 4096ul, 128ul>::Allocate(unsigned long, llvm::Align) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4096 0x11E5F9E8: llvm::logicalview::LVStringPool::getIndex(llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4096 0x11E5F984: _GLOBAL__sub_I_LVSupport.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4096 0x400647D: call_init.part.0 (dl-init.c:70)
+     n1: 4096 0x4006567: call_init (dl-init.c:33)
+      n1: 4096 0x4006567: _dl_init (dl-init.c:117)
+       n1: 4096 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+        n1: 4096 0x1: ???
+         n1: 4096 0x1FFEFFFC02: ???
+          n0: 4096 0x1FFEFFFC4D: ???
+#-----------
+snapshot=65
+#-----------
+time=21072768
+mem_heap_B=307090
+mem_heap_extra_B=37070
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=21085622
+mem_heap_B=309065
+mem_heap_extra_B=37487
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=21098009
+mem_heap_B=311332
+mem_heap_extra_B=37924
+mem_stacks_B=0
+heap_tree=detailed
+n7: 311332 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 83779 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 83779 in 2053 places, all below massif's threshold (1.00%)
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 69680 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 69680 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 69680 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 69680 in 67 places, all below massif's threshold (1.00%)
+ n2: 49164 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 49164 0x11E9870A: _GLOBAL__sub_I_ARMTargetMachine.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 49164 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 49164 0x4006567: call_init (dl-init.c:33)
+     n1: 49164 0x4006567: _dl_init (dl-init.c:117)
+      n1: 49164 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 49164 0x1: ???
+        n1: 49164 0x1FFEFFFC02: ???
+         n0: 49164 0x1FFEFFFC4D: ???
+  n0: 0 in 7 places, all below massif's threshold (1.00%)
+ n0: 27301 in 181 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+ n1: 4096 0x118ABD61: llvm::BumpPtrAllocatorImpl<llvm::MallocAllocator, 4096ul, 4096ul, 128ul>::Allocate(unsigned long, llvm::Align) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4096 0x11E5F9E8: llvm::logicalview::LVStringPool::getIndex(llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4096 0x11E5F984: _GLOBAL__sub_I_LVSupport.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4096 0x400647D: call_init.part.0 (dl-init.c:70)
+     n1: 4096 0x4006567: call_init (dl-init.c:33)
+      n1: 4096 0x4006567: _dl_init (dl-init.c:117)
+       n1: 4096 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+        n1: 4096 0x1: ???
+         n1: 4096 0x1FFEFFFC02: ???
+          n0: 4096 0x1FFEFFFC4D: ???
+#-----------
+snapshot=68
+#-----------
+time=21110847
+mem_heap_B=312693
+mem_heap_extra_B=38187
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=21123524
+mem_heap_B=313554
+mem_heap_extra_B=38606
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=21174456
+mem_heap_B=387491
+mem_heap_extra_B=38717
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=21249838
+mem_heap_B=387963
+mem_heap_extra_B=38733
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=21465284
+mem_heap_B=389227
+mem_heap_extra_B=38749
+mem_stacks_B=0
+heap_tree=detailed
+n7: 389227 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 85514 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 85514 in 2104 places, all below massif's threshold (1.00%)
+ n1: 72704 0xA3DB2B5: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 71760 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 71760 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 71760 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 71760 in 69 places, all below massif's threshold (1.00%)
+ n2: 49164 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 49164 0x11E9870A: _GLOBAL__sub_I_ARMTargetMachine.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 49164 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 49164 0x4006567: call_init (dl-init.c:33)
+     n1: 49164 0x4006567: _dl_init (dl-init.c:117)
+      n1: 49164 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 49164 0x1: ???
+        n1: 49164 0x1FFEFFFC02: ???
+         n0: 49164 0x1FFEFFFC4D: ???
+  n0: 0 in 7 places, all below massif's threshold (1.00%)
+ n0: 32773 in 186 places, all below massif's threshold (1.00%)
+ n1: 4608 0x11D5A863: llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>* llvm::DenseMapBase<llvm::DenseMap<unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >, unsigned int, llvm::DebugCounter::CounterInfo, llvm::DenseMapInfo<unsigned int, void>, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo> >::InsertIntoBucketImpl<unsigned int>(unsigned int const&, unsigned int const&, llvm::detail::DenseMapPair<unsigned int, llvm::DebugCounter::CounterInfo>*) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 4608 0x11D5A6CD: llvm::DebugCounter::addCounter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 4608 0x11D5A5C1: llvm::DebugCounter::registerCounter(llvm::StringRef, llvm::StringRef) (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+    n1: 4608 0x11D59325: _GLOBAL__sub_I_MachineCopyPropagation.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+     n1: 4608 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 4608 0x4006567: call_init (dl-init.c:33)
+       n1: 4608 0x4006567: _dl_init (dl-init.c:117)
+        n1: 4608 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 4608 0x1: ???
+          n1: 4608 0x1FFEFFFC02: ???
+           n0: 4608 0x1FFEFFFC4D: ???
+#-----------
+snapshot=73
+#-----------
+time=21478081
+mem_heap_B=387987
+mem_heap_extra_B=38781
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=21509541
+mem_heap_B=423179
+mem_heap_extra_B=38805
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=21519047
+mem_heap_B=491615
+mem_heap_extra_B=38985
+mem_stacks_B=0
+heap_tree=detailed
+n8: 491615 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 85514 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 85514 in 2104 places, all below massif's threshold (1.00%)
+ n1: 72704 0xA3DB2B5: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 71760 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 71760 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 71760 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 71760 in 69 places, all below massif's threshold (1.00%)
+ n1: 67584 0xA35021F: rustc_driver_impl::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 67584 0x121C06: rustc_main::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+   n1: 67584 0x121BF2: std::sys_common::backtrace::__rust_begin_short_backtrace::<fn(), ()> (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+    n1: 67584 0x121BE8: std::rt::lang_start::<()>::{closure#0} (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+     n1: 67584 0x48D9D5C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+      n1: 67584 0x48D9D5C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+       n1: 67584 0x48D9D5C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+        n1: 67584 0x48D9D5C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+         n1: 67584 0x48D9D5C: {closure#2} (rt.rs:141)
+          n1: 67584 0x48D9D5C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+           n1: 67584 0x48D9D5C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+            n1: 67584 0x48D9D5C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+             n1: 67584 0x48D9D5C: std::rt::lang_start_internal (rt.rs:141)
+              n0: 67584 0x121D26: main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+ n2: 49164 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 49164 0x11E9870A: _GLOBAL__sub_I_ARMTargetMachine.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 49164 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 49164 0x4006567: call_init (dl-init.c:33)
+     n1: 49164 0x4006567: _dl_init (dl-init.c:117)
+      n1: 49164 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 49164 0x1: ???
+        n1: 49164 0x1FFEFFFC02: ???
+         n0: 49164 0x1FFEFFFC4D: ???
+  n0: 0 in 7 places, all below massif's threshold (1.00%)
+ n0: 39417 in 213 places, all below massif's threshold (1.00%)
+ n1: 32768 0xA34E3C0: <tracing_subscriber::registry::sharded::Registry as core::default::Default>::default (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 32768 0xA34C75D: rustc_log::init_logger (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+   n1: 32768 0xA34C45A: rustc_driver_impl::init_logger (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+    n1: 32768 0xA3501CE: rustc_driver_impl::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+     n1: 32768 0x121C06: rustc_main::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+      n1: 32768 0x121BF2: std::sys_common::backtrace::__rust_begin_short_backtrace::<fn(), ()> (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+       n1: 32768 0x121BE8: std::rt::lang_start::<()>::{closure#0} (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+        n1: 32768 0x48D9D5C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+         n1: 32768 0x48D9D5C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+          n1: 32768 0x48D9D5C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+           n1: 32768 0x48D9D5C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+            n1: 32768 0x48D9D5C: {closure#2} (rt.rs:141)
+             n1: 32768 0x48D9D5C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+              n1: 32768 0x48D9D5C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+               n1: 32768 0x48D9D5C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                n1: 32768 0x48D9D5C: std::rt::lang_start_internal (rt.rs:141)
+                 n0: 32768 0x121D26: main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+#-----------
+snapshot=76
+#-----------
+time=21523498
+mem_heap_B=496890
+mem_heap_extra_B=39366
+mem_stacks_B=0
+heap_tree=detailed
+n8: 496890 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 85514 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 85514 in 2104 places, all below massif's threshold (1.00%)
+ n1: 72704 0xA3DB2B5: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 71760 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 71760 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 71760 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 71760 in 69 places, all below massif's threshold (1.00%)
+ n1: 67584 0xA35021F: rustc_driver_impl::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 67584 0x121C06: rustc_main::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+   n1: 67584 0x121BF2: std::sys_common::backtrace::__rust_begin_short_backtrace::<fn(), ()> (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+    n1: 67584 0x121BE8: std::rt::lang_start::<()>::{closure#0} (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+     n1: 67584 0x48D9D5C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+      n1: 67584 0x48D9D5C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+       n1: 67584 0x48D9D5C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+        n1: 67584 0x48D9D5C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+         n1: 67584 0x48D9D5C: {closure#2} (rt.rs:141)
+          n1: 67584 0x48D9D5C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+           n1: 67584 0x48D9D5C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+            n1: 67584 0x48D9D5C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+             n1: 67584 0x48D9D5C: std::rt::lang_start_internal (rt.rs:141)
+              n0: 67584 0x121D26: main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+ n2: 49164 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 49164 0x11E9870A: _GLOBAL__sub_I_ARMTargetMachine.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 49164 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 49164 0x4006567: call_init (dl-init.c:33)
+     n1: 49164 0x4006567: _dl_init (dl-init.c:117)
+      n1: 49164 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 49164 0x1: ???
+        n1: 49164 0x1FFEFFFC02: ???
+         n0: 49164 0x1FFEFFFC4D: ???
+  n0: 0 in 7 places, all below massif's threshold (1.00%)
+ n0: 44692 in 254 places, all below massif's threshold (1.00%)
+ n1: 32768 0xA34E3C0: <tracing_subscriber::registry::sharded::Registry as core::default::Default>::default (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 32768 0xA34C75D: rustc_log::init_logger (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+   n1: 32768 0xA34C45A: rustc_driver_impl::init_logger (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+    n1: 32768 0xA3501CE: rustc_driver_impl::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+     n1: 32768 0x121C06: rustc_main::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+      n1: 32768 0x121BF2: std::sys_common::backtrace::__rust_begin_short_backtrace::<fn(), ()> (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+       n1: 32768 0x121BE8: std::rt::lang_start::<()>::{closure#0} (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+        n1: 32768 0x48D9D5C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+         n1: 32768 0x48D9D5C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+          n1: 32768 0x48D9D5C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+           n1: 32768 0x48D9D5C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+            n1: 32768 0x48D9D5C: {closure#2} (rt.rs:141)
+             n1: 32768 0x48D9D5C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+              n1: 32768 0x48D9D5C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+               n1: 32768 0x48D9D5C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                n1: 32768 0x48D9D5C: std::rt::lang_start_internal (rt.rs:141)
+                 n0: 32768 0x121D26: main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+#-----------
+snapshot=77
+#-----------
+time=21535305
+mem_heap_B=500802
+mem_heap_extra_B=40950
+mem_stacks_B=0
+heap_tree=detailed
+n8: 500802 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 85514 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 85514 in 2104 places, all below massif's threshold (1.00%)
+ n1: 72704 0xA3DB2B5: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 71760 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 71760 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 71760 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 71760 in 69 places, all below massif's threshold (1.00%)
+ n1: 67584 0xA35021F: rustc_driver_impl::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 67584 0x121C06: rustc_main::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+   n1: 67584 0x121BF2: std::sys_common::backtrace::__rust_begin_short_backtrace::<fn(), ()> (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+    n1: 67584 0x121BE8: std::rt::lang_start::<()>::{closure#0} (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+     n1: 67584 0x48D9D5C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+      n1: 67584 0x48D9D5C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+       n1: 67584 0x48D9D5C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+        n1: 67584 0x48D9D5C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+         n1: 67584 0x48D9D5C: {closure#2} (rt.rs:141)
+          n1: 67584 0x48D9D5C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+           n1: 67584 0x48D9D5C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+            n1: 67584 0x48D9D5C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+             n1: 67584 0x48D9D5C: std::rt::lang_start_internal (rt.rs:141)
+              n0: 67584 0x121D26: main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+ n2: 49164 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 49164 0x11E9870A: _GLOBAL__sub_I_ARMTargetMachine.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 49164 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 49164 0x4006567: call_init (dl-init.c:33)
+     n1: 49164 0x4006567: _dl_init (dl-init.c:117)
+      n1: 49164 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 49164 0x1: ???
+        n1: 49164 0x1FFEFFFC02: ???
+         n0: 49164 0x1FFEFFFC4D: ???
+  n0: 0 in 7 places, all below massif's threshold (1.00%)
+ n0: 48604 in 268 places, all below massif's threshold (1.00%)
+ n1: 32768 0xA34E3C0: <tracing_subscriber::registry::sharded::Registry as core::default::Default>::default (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 32768 0xA34C75D: rustc_log::init_logger (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+   n1: 32768 0xA34C45A: rustc_driver_impl::init_logger (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+    n1: 32768 0xA3501CE: rustc_driver_impl::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+     n1: 32768 0x121C06: rustc_main::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+      n1: 32768 0x121BF2: std::sys_common::backtrace::__rust_begin_short_backtrace::<fn(), ()> (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+       n1: 32768 0x121BE8: std::rt::lang_start::<()>::{closure#0} (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+        n1: 32768 0x48D9D5C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+         n1: 32768 0x48D9D5C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+          n1: 32768 0x48D9D5C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+           n1: 32768 0x48D9D5C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+            n1: 32768 0x48D9D5C: {closure#2} (rt.rs:141)
+             n1: 32768 0x48D9D5C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+              n1: 32768 0x48D9D5C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+               n1: 32768 0x48D9D5C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                n1: 32768 0x48D9D5C: std::rt::lang_start_internal (rt.rs:141)
+                 n0: 32768 0x121D26: main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+#-----------
+snapshot=78
+#-----------
+time=21547995
+mem_heap_B=504321
+mem_heap_extra_B=41447
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=21561670
+mem_heap_B=505817
+mem_heap_extra_B=41767
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=21563605
+mem_heap_B=505945
+mem_heap_extra_B=41775
+mem_stacks_B=0
+heap_tree=peak
+n9: 505945 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 85514 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 85514 in 2104 places, all below massif's threshold (1.00%)
+ n1: 72704 0xA3DB2B5: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 71760 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 71760 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 71760 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 71760 in 69 places, all below massif's threshold (1.00%)
+ n1: 67584 0xA35021F: rustc_driver_impl::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 67584 0x121C06: rustc_main::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+   n1: 67584 0x121BF2: std::sys_common::backtrace::__rust_begin_short_backtrace::<fn(), ()> (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+    n1: 67584 0x121BE8: std::rt::lang_start::<()>::{closure#0} (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+     n1: 67584 0x48D9D5C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+      n1: 67584 0x48D9D5C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+       n1: 67584 0x48D9D5C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+        n1: 67584 0x48D9D5C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+         n1: 67584 0x48D9D5C: {closure#2} (rt.rs:141)
+          n1: 67584 0x48D9D5C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+           n1: 67584 0x48D9D5C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+            n1: 67584 0x48D9D5C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+             n1: 67584 0x48D9D5C: std::rt::lang_start_internal (rt.rs:141)
+              n0: 67584 0x121D26: main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+ n2: 49164 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 49164 0x11E9870A: _GLOBAL__sub_I_ARMTargetMachine.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 49164 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 49164 0x4006567: call_init (dl-init.c:33)
+     n1: 49164 0x4006567: _dl_init (dl-init.c:117)
+      n1: 49164 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 49164 0x1: ???
+        n1: 49164 0x1FFEFFFC02: ???
+         n0: 49164 0x1FFEFFFC4D: ???
+  n0: 0 in 7 places, all below massif's threshold (1.00%)
+ n0: 47091 in 273 places, all below massif's threshold (1.00%)
+ n1: 32768 0xA34E3C0: <tracing_subscriber::registry::sharded::Registry as core::default::Default>::default (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 32768 0xA34C75D: rustc_log::init_logger (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+   n1: 32768 0xA34C45A: rustc_driver_impl::init_logger (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+    n1: 32768 0xA3501CE: rustc_driver_impl::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+     n1: 32768 0x121C06: rustc_main::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+      n1: 32768 0x121BF2: std::sys_common::backtrace::__rust_begin_short_backtrace::<fn(), ()> (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+       n1: 32768 0x121BE8: std::rt::lang_start::<()>::{closure#0} (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+        n1: 32768 0x48D9D5C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+         n1: 32768 0x48D9D5C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+          n1: 32768 0x48D9D5C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+           n1: 32768 0x48D9D5C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+            n1: 32768 0x48D9D5C: {closure#2} (rt.rs:141)
+             n1: 32768 0x48D9D5C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+              n1: 32768 0x48D9D5C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+               n1: 32768 0x48D9D5C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                n1: 32768 0x48D9D5C: std::rt::lang_start_internal (rt.rs:141)
+                 n0: 32768 0x121D26: main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+ n2: 6656 0x9604575: alloc::raw_vec::finish_grow::<alloc::alloc::Global> (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n2: 6656 0xA07E4BD: <alloc::raw_vec::RawVec<getopts::OptGroup>>::grow_one (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+   n1: 6656 0xA07E757: <getopts::Options>::optopt (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+    n1: 6656 0xA07E533: rustc_session::config::opt::opt_s::{closure#0} (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+     n1: 6656 0xA07F289: rustc_driver_impl::handle_options (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+      n1: 6656 0xA35217D: rustc_driver_impl::run_compiler (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+       n1: 6656 0xA35034C: rustc_driver_impl::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+        n1: 6656 0x121C06: rustc_main::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+         n1: 6656 0x121BF2: std::sys_common::backtrace::__rust_begin_short_backtrace::<fn(), ()> (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+          n1: 6656 0x121BE8: std::rt::lang_start::<()>::{closure#0} (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+           n1: 6656 0x48D9D5C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+            n1: 6656 0x48D9D5C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+             n1: 6656 0x48D9D5C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+              n1: 6656 0x48D9D5C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+               n1: 6656 0x48D9D5C: {closure#2} (rt.rs:141)
+                n1: 6656 0x48D9D5C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+                 n1: 6656 0x48D9D5C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+                  n1: 6656 0x48D9D5C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                   n1: 6656 0x48D9D5C: std::rt::lang_start_internal (rt.rs:141)
+                    n0: 6656 0x121D26: main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=81
+#-----------
+time=21577760
+mem_heap_B=505757
+mem_heap_extra_B=41755
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=22079178
+mem_heap_B=507039
+mem_heap_extra_B=42337
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=22091808
+mem_heap_B=506714
+mem_heap_extra_B=41710
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=22169405
+mem_heap_B=491002
+mem_heap_extra_B=38654
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=22184264
+mem_heap_B=488424
+mem_heap_extra_B=38584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=22204515
+mem_heap_B=481912
+mem_heap_extra_B=37792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=22217141
+mem_heap_B=472134
+mem_heap_extra_B=36002
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=22263104
+mem_heap_B=467395
+mem_heap_extra_B=35317
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=22277305
+mem_heap_B=466060
+mem_heap_extra_B=35228
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=22293362
+mem_heap_B=457036
+mem_heap_extra_B=33924
+mem_stacks_B=0
+heap_tree=detailed
+n8: 457036 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 85514 0x11BD6B4B: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n0: 85514 in 2104 places, all below massif's threshold (1.00%)
+ n1: 72704 0xA3DB2B5: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 72704 0x11E5FB45: _GLOBAL__sub_I_eh_alloc.cc (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n1: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 72704 0x1: ???
+       n1: 72704 0x1FFEFFFC02: ???
+        n0: 72704 0x1FFEFFFC4D: ???
+ n1: 71760 0xB643791: __new_exitfn (cxa_atexit.c:114)
+  n1: 71760 0xB64390A: __internal_atexit (cxa_atexit.c:44)
+   n1: 71760 0xB64390A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 71760 in 69 places, all below massif's threshold (1.00%)
+ n1: 67584 0xA35021F: rustc_driver_impl::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 67584 0x121C06: rustc_main::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+   n1: 67584 0x121BF2: std::sys_common::backtrace::__rust_begin_short_backtrace::<fn(), ()> (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+    n1: 67584 0x121BE8: std::rt::lang_start::<()>::{closure#0} (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+     n1: 67584 0x48D9D5C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+      n1: 67584 0x48D9D5C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+       n1: 67584 0x48D9D5C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+        n1: 67584 0x48D9D5C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+         n1: 67584 0x48D9D5C: {closure#2} (rt.rs:141)
+          n1: 67584 0x48D9D5C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+           n1: 67584 0x48D9D5C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+            n1: 67584 0x48D9D5C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+             n1: 67584 0x48D9D5C: std::rt::lang_start_internal (rt.rs:141)
+              n0: 67584 0x121D26: main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+ n2: 49164 0x11BD6E8D: llvm::cl::Option::addArgument() (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+  n1: 49164 0x11E9870A: _GLOBAL__sub_I_ARMTargetMachine.cpp (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libLLVM.so.18.1-rust-1.80.1-stable)
+   n1: 49164 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 49164 0x4006567: call_init (dl-init.c:33)
+     n1: 49164 0x4006567: _dl_init (dl-init.c:117)
+      n1: 49164 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+       n1: 49164 0x1: ???
+        n1: 49164 0x1FFEFFFC02: ???
+         n0: 49164 0x1FFEFFFC4D: ???
+  n0: 0 in 7 places, all below massif's threshold (1.00%)
+ n1: 32768 0xA34E3C0: <tracing_subscriber::registry::sharded::Registry as core::default::Default>::default (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+  n1: 32768 0xA34C75D: rustc_log::init_logger (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+   n1: 32768 0xA34C45A: rustc_driver_impl::init_logger (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+    n1: 32768 0xA3501CE: rustc_driver_impl::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librustc_driver-a30ca400d2857f33.so)
+     n1: 32768 0x121C06: rustc_main::main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+      n1: 32768 0x121BF2: std::sys_common::backtrace::__rust_begin_short_backtrace::<fn(), ()> (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+       n1: 32768 0x121BE8: std::rt::lang_start::<()>::{closure#0} (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+        n1: 32768 0x48D9D5C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+         n1: 32768 0x48D9D5C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+          n1: 32768 0x48D9D5C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+           n1: 32768 0x48D9D5C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+            n1: 32768 0x48D9D5C: {closure#2} (rt.rs:141)
+             n1: 32768 0x48D9D5C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+              n1: 32768 0x48D9D5C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+               n1: 32768 0x48D9D5C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                n1: 32768 0x48D9D5C: std::rt::lang_start_internal (rt.rs:141)
+                 n0: 32768 0x121D26: main (in /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc)
+ n0: 4838 in 292 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=91
+#-----------
+time=22366750
+mem_heap_B=455660
+mem_heap_extra_B=33836
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=92
+#-----------
+time=22379602
+mem_heap_B=426540
+mem_heap_extra_B=33612
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=93
+#-----------
+time=22392454
+mem_heap_B=397420
+mem_heap_extra_B=33388
+mem_stacks_B=0
+heap_tree=empty

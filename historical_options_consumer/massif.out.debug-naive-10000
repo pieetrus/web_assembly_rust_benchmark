@@ -1,0 +1,962 @@
+desc: (none)
+cmd: target/debug/historical_options_consumer
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=3242747
+mem_heap_B=269433
+mem_heap_extra_B=6095
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=6600284
+mem_heap_B=299867
+mem_heap_extra_B=16421
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=10533132
+mem_heap_B=334764
+mem_heap_extra_B=28508
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=13042782
+mem_heap_B=337437
+mem_heap_extra_B=36203
+mem_stacks_B=0
+heap_tree=detailed
+n7: 337437 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 130048 0x1ACE1A: alloc::alloc::alloc (alloc.rs:100)
+  n2: 130048 0x1ACF04: alloc::alloc::Global::alloc_impl (alloc.rs:183)
+   n1: 101480 0x1ACD5A: allocate (alloc.rs:243)
+    n3: 101480 0x1ACD5A: alloc::alloc::exchange_malloc (alloc.rs:332)
+     n1: 74880 0x1E25AC: new<[tokio::runtime::time::wheel::level::Level; 6]> (boxed.rs:259)
+      n1: 74880 0x1E25AC: tokio::runtime::time::wheel::Wheel::new (mod.rs:57)
+       n1: 74880 0x1F35E0: tokio::runtime::time::Driver::new::{{closure}} (mod.rs:145)
+        n1: 74880 0x19386C: core::iter::adapters::map::map_fold::{{closure}} (map.rs:89)
+         n1: 74880 0x1B6A1F: core::iter::traits::iterator::Iterator::fold (iterator.rs:2589)
+          n1: 74880 0x1920BD: <core::iter::adapters::map::Map<I,F> as core::iter::traits::iterator::Iterator>::fold (map.rs:129)
+           n1: 74880 0x193740: core::iter::traits::iterator::Iterator::for_each (iterator.rs:818)
+            n1: 74880 0x194A91: alloc::vec::Vec<T,A>::extend_trusted (mod.rs:3096)
+             n1: 74880 0x1968D6: <alloc::vec::Vec<T,A> as alloc::vec::spec_extend::SpecExtend<T,I>>::spec_extend (spec_extend.rs:26)
+              n1: 74880 0x1926FF: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter_nested::SpecFromIterNested<T,I>>::from_iter (spec_from_iter_nested.rs:62)
+               n1: 74880 0x1968F9: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (spec_from_iter.rs:33)
+                n1: 74880 0x19680D: <alloc::vec::Vec<T> as core::iter::traits::collect::FromIterator<T>>::from_iter (mod.rs:2970)
+                 n1: 74880 0x1936B9: core::iter::traits::iterator::Iterator::collect (iterator.rs:2005)
+                  n1: 74880 0x1F336D: tokio::runtime::time::Driver::new (mod.rs:144)
+                   n1: 74880 0x19A5D9: tokio::runtime::driver::create_time_driver (driver.rs:314)
+                    n1: 74880 0x19973C: tokio::runtime::driver::Driver::new (driver.rs:53)
+                     n1: 74880 0x1BEC81: tokio::runtime::builder::Builder::build_threaded_runtime (builder.rs:1252)
+                      n1: 74880 0x1BE248: tokio::runtime::builder::Builder::build (builder.rs:699)
+                       n1: 74880 0x12D16B: historical_options_consumer::main (main.rs:32)
+                        n1: 74880 0x1335EA: core::ops::function::FnOnce::call_once (lib.rs:0)
+                         n1: 74880 0x12A87D: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:155)
+                          n1: 74880 0x12A230: std::rt::lang_start::{{closure}} (emit.rs:3550)
+                           n1: 74880 0x26D74C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                            n1: 74880 0x26D74C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+                             n1: 74880 0x26D74C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+                              n1: 74880 0x26D74C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+                               n1: 74880 0x26D74C: {closure#2} (rt.rs:141)
+                                n1: 74880 0x26D74C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+                                 n1: 74880 0x26D74C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+                                  n1: 74880 0x26D74C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                                   n1: 74880 0x26D74C: std::rt::lang_start_internal (rt.rs:141)
+                                    n1: 74880 0x12A209: std::rt::lang_start (emit.rs:0)
+                                     n0: 74880 0x12D27D: main (lib.rs:0)
+     n1: 21840 0x18CD75: new<alloc::sync::ArcInner<tokio::sync::watch::Shared<()>>> (boxed.rs:259)
+      n1: 21840 0x18CD75: alloc::sync::Arc<T>::new (sync.rs:393)
+       n1: 21840 0x19BBB1: tokio::sync::watch::channel (watch.rs:503)
+        n1: 21840 0x1CAD0F: <tokio::signal::registry::EventInfo as core::default::Default>::default (registry.rs:20)
+         n1: 21840 0x1CF82B: <tokio::signal::unix::SignalInfo as core::default::Default>::default (unix.rs:227)
+          n1: 21840 0x1CF729: tokio::signal::unix::<impl tokio::signal::registry::Init for alloc::vec::Vec<tokio::signal::unix::SignalInfo>>::init::{{closure}} (unix.rs:33)
+           n1: 21840 0x193909: core::iter::adapters::map::map_fold::{{closure}} (map.rs:89)
+            n2: 21840 0x19CA82: core::ops::try_trait::NeverShortCircuit<T>::wrap_mut_2::{{closure}} (try_trait.rs:390)
+             n1: 21504 0x1B0470: <core::ops::range::RangeInclusive<T> as core::iter::range::RangeInclusiveIteratorImpl>::spec_try_fold (range.rs:1184)
+              n1: 21504 0x1B65A4: try_fold<i32, (), core::ops::try_trait::{impl#0}::wrap_mut_2::{closure_env#0}<(), (), i32, core::iter::adapters::map::map_fold::{closure_env#0}<i32, tokio::signal::unix::SignalInfo, (), tokio::signal::unix::{impl#0}::init::{closure_env#0}, core::iter::traits::iterator::Iterator::for_each::call::{closure_env#0}<tokio::signal::unix::SignalInfo, alloc::vec::{impl#20}::extend_trusted::{closure_env#0}<tokio::signal::unix::SignalInfo, alloc::alloc::Global, core::iter::adapters::map::Map<core::ops::range::RangeInclusive<i32>, tokio::signal::unix::{impl#0}::init::{closure_env#0}>>>>>, core::ops::try_trait::NeverShortCircuit<()>> (range.rs:1309)
+               n1: 21504 0x1B65A4: core::iter::range::<impl core::iter::traits::iterator::Iterator for core::ops::range::RangeInclusive<A>>::fold (mod.rs:378)
+                n1: 21504 0x19210C: <core::iter::adapters::map::Map<I,F> as core::iter::traits::iterator::Iterator>::fold (map.rs:129)
+                 n1: 21504 0x193775: core::iter::traits::iterator::Iterator::for_each (iterator.rs:818)
+                  n1: 21504 0x194723: alloc::vec::Vec<T,A>::extend_trusted (mod.rs:3096)
+                   n1: 21504 0x1968BA: <alloc::vec::Vec<T,A> as alloc::vec::spec_extend::SpecExtend<T,I>>::spec_extend (spec_extend.rs:26)
+                    n1: 21504 0x19250C: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter_nested::SpecFromIterNested<T,I>>::from_iter (spec_from_iter_nested.rs:62)
+                     n1: 21504 0x19693D: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (spec_from_iter.rs:33)
+                      n1: 21504 0x196848: <alloc::vec::Vec<T> as core::iter::traits::collect::FromIterator<T>>::from_iter (mod.rs:2970)
+                       n1: 21504 0x1936FD: core::iter::traits::iterator::Iterator::collect (iterator.rs:2005)
+                        n1: 21504 0x197FDF: tokio::signal::unix::<impl tokio::signal::registry::Init for alloc::vec::Vec<tokio::signal::unix::SignalInfo>>::init (unix.rs:33)
+                         n1: 21504 0x1CB099: tokio::signal::registry::globals_init (registry.rs:158)
+                          n1: 21504 0x1B10D0: core::ops::function::FnOnce::call_once (function.rs:250)
+                           n1: 21504 0x1B8352: tokio::util::once_cell::OnceCell<T>::do_init::{{closure}} (once_cell.rs:48)
+                            n1: 21504 0x1CC097: std::sync::once::Once::call_once::{{closure}} (once.rs:149)
+                             n1: 21504 0x199112: std::sys::sync::once::futex::Once::call (futex.rs:124)
+                              n1: 21504 0x1CBEEE: std::sync::once::Once::call_once (once.rs:149)
+                               n1: 21504 0x1B831F: tokio::util::once_cell::OnceCell<T>::do_init (once_cell.rs:47)
+                                n1: 21504 0x1B8286: tokio::util::once_cell::OnceCell<T>::get (once_cell.rs:30)
+                                 n0: 21504 0x1CB13C: tokio::signal::registry::globals (registry.rs:169)
+             n0: 336 in 1 place, below massif's threshold (1.00%)
+     n0: 4760 in 14 places, all below massif's threshold (1.00%)
+   n2: 28568 0x1ADB88: <alloc::alloc::Global as core::alloc::Allocator>::allocate (alloc.rs:243)
+    n1: 24576 0x1D6246: alloc::raw_vec::RawVec<T,A>::try_allocate_in (raw_vec.rs:230)
+     n1: 24576 0x193DBE: with_capacity_in<tokio::loom::std::unsafe_cell::UnsafeCell<core::mem::maybe_uninit::MaybeUninit<tokio::runtime::task::Notified<alloc::sync::Arc<tokio::runtime::scheduler::multi_thread::handle::Handle, alloc::alloc::Global>>>>, alloc::alloc::Global> (raw_vec.rs:158)
+      n1: 24576 0x193DBE: with_capacity_in<tokio::loom::std::unsafe_cell::UnsafeCell<core::mem::maybe_uninit::MaybeUninit<tokio::runtime::task::Notified<alloc::sync::Arc<tokio::runtime::scheduler::multi_thread::handle::Handle, alloc::alloc::Global>>>>, alloc::alloc::Global> (mod.rs:699)
+       n1: 24576 0x193DBE: alloc::vec::Vec<T>::with_capacity (mod.rs:481)
+        n1: 24576 0x1C86EE: tokio::runtime::scheduler::multi_thread::queue::local (queue.rs:86)
+         n1: 24576 0x1EE60E: tokio::runtime::scheduler::multi_thread::worker::create (worker.rs:257)
+          n1: 24576 0x1F30B1: tokio::runtime::scheduler::multi_thread::MultiThread::new (mod.rs:66)
+           n1: 24576 0x1BF18B: tokio::runtime::builder::Builder::build_threaded_runtime (builder.rs:1263)
+            n1: 24576 0x1BE248: tokio::runtime::builder::Builder::build (builder.rs:699)
+             n1: 24576 0x12D16B: historical_options_consumer::main (main.rs:32)
+              n1: 24576 0x1335EA: core::ops::function::FnOnce::call_once (lib.rs:0)
+               n1: 24576 0x12A87D: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:155)
+                n1: 24576 0x12A230: std::rt::lang_start::{{closure}} (emit.rs:3550)
+                 n1: 24576 0x26D74C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                  n1: 24576 0x26D74C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+                   n1: 24576 0x26D74C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+                    n1: 24576 0x26D74C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+                     n1: 24576 0x26D74C: {closure#2} (rt.rs:141)
+                      n1: 24576 0x26D74C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+                       n1: 24576 0x26D74C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+                        n1: 24576 0x26D74C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                         n1: 24576 0x26D74C: std::rt::lang_start_internal (rt.rs:141)
+                          n1: 24576 0x12A209: std::rt::lang_start (emit.rs:0)
+                           n0: 24576 0x12D27D: main (lib.rs:0)
+    n0: 3992 in 8 places, all below massif's threshold (1.00%)
+ n1: 111457 0x29262F: alloc::raw_vec::finish_grow (raw_vec.rs:0)
+  n1: 111457 0x292DDC: grow_amortized<u8, alloc::alloc::Global> (raw_vec.rs:485)
+   n1: 111457 0x292DDC: try_reserve<u8, alloc::alloc::Global> (raw_vec.rs:372)
+    n1: 111457 0x292DDC: try_reserve<u8, alloc::alloc::Global> (mod.rs:1039)
+     n1: 111457 0x292DDC: alloc::string::String::try_reserve (string.rs:1251)
+      n1: 111457 0x270E17: <&std::fs::File as std::io::Read>::read_to_string (fs.rs:832)
+       n1: 111457 0x270F45: <std::fs::File as std::io::Read>::read_to_string (fs.rs:926)
+        n1: 111457 0x12CB9B: historical_options_consumer::prepare_sample_data (isle_x64.rs:14897)
+         n1: 111457 0x146313: historical_options_consumer::main::{{closure}} (main.rs:24)
+          n1: 111457 0x145FEE: tokio::runtime::park::CachedParkThread::block_on::{{closure}} (park.rs:281)
+           n1: 111457 0x145054: with_budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:107)
+            n1: 111457 0x145054: budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:73)
+             n1: 111457 0x145054: tokio::runtime::park::CachedParkThread::block_on (park.rs:281)
+              n1: 111457 0x12C889: tokio::runtime::context::blocking::BlockingRegionGuard::block_on (isle_x64.rs:16533)
+               n1: 111457 0x133DBA: tokio::runtime::scheduler::multi_thread::MultiThread::block_on::{{closure}} (isle_x64.rs:16183)
+                n1: 111457 0x12977F: tokio::runtime::context::runtime::enter_runtime (emit.rs:1701)
+                 n1: 111457 0x133CDC: tokio::runtime::scheduler::multi_thread::MultiThread::block_on (isle_x64.rs:16173)
+                  n1: 111457 0x146665: tokio::runtime::runtime::Runtime::block_on_inner (runtime.rs:363)
+                   n1: 111457 0x14677A: tokio::runtime::runtime::Runtime::block_on (runtime.rs:335)
+                    n1: 111457 0x12D1CB: historical_options_consumer::main (isle_x64.rs:14955)
+                     n1: 111457 0x1335EA: core::ops::function::FnOnce::call_once (lib.rs:0)
+                      n1: 111457 0x12A87D: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:155)
+                       n1: 111457 0x12A230: std::rt::lang_start::{{closure}} (emit.rs:3550)
+                        n1: 111457 0x26D74C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                         n1: 111457 0x26D74C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+                          n1: 111457 0x26D74C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+                           n1: 111457 0x26D74C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+                            n1: 111457 0x26D74C: {closure#2} (rt.rs:141)
+                             n1: 111457 0x26D74C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+                              n1: 111457 0x26D74C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+                               n1: 111457 0x26D74C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                                n1: 111457 0x26D74C: std::rt::lang_start_internal (rt.rs:141)
+                                 n1: 111457 0x12A209: std::rt::lang_start (emit.rs:0)
+                                  n0: 111457 0x12D27D: main (lib.rs:0)
+ n1: 61440 0x186B74: realloc (alloc.rs:138)
+  n1: 61440 0x186B74: alloc::alloc::Global::grow_impl (alloc.rs:215)
+   n1: 61440 0x186E7F: <alloc::alloc::Global as core::alloc::Allocator>::grow (alloc.rs:268)
+    n1: 61440 0x186233: alloc::raw_vec::finish_grow (raw_vec.rs:570)
+     n1: 61440 0x18128B: alloc::raw_vec::RawVec<T,A>::grow_amortized (raw_vec.rs:485)
+      n1: 61440 0x181906: alloc::raw_vec::RawVec<T,A>::grow_one (raw_vec.rs:364)
+       n1: 61440 0x181FBA: alloc::vec::Vec<T,A>::push (mod.rs:1999)
+        n1: 61440 0x12B64B: <serde::de::impls::<impl serde::de::Deserialize for alloc::vec::Vec<T>>::deserialize::VecVisitor<T> as serde::de::Visitor>::visit_seq (impls.rs:1176)
+         n1: 61440 0x13732E: <&mut serde_json::de::Deserializer<R> as serde::de::Deserializer>::deserialize_seq (isle_x64.rs:16843)
+          n1: 61440 0x12DD04: serde::de::impls::<impl serde::de::Deserialize for alloc::vec::Vec<T>>::deserialize (impls.rs:1186)
+           n1: 61440 0x12A8A4: <core::marker::PhantomData<T> as serde::de::DeserializeSeed>::deserialize (mod.rs:801)
+            n1: 61440 0x135FBC: <serde_json::de::MapAccess<R> as serde::de::MapAccess>::next_value_seed (isle_x64.rs:16595)
+             n1: 61440 0x135665: serde::de::MapAccess::next_value (mod.rs:1874)
+              n1: 61440 0x14235E: <historical_options_consumer::models::types::_::<impl serde::de::Deserialize for historical_options_consumer::models::types::HistoricalOptionsResponse>::deserialize::__Visitor as serde::de::Visitor>::visit_map (types.rs:3)
+               n1: 61440 0x1382F8: <&mut serde_json::de::Deserializer<R> as serde::de::Deserializer>::deserialize_struct (de.rs:1843)
+                n1: 61440 0x14343E: historical_options_consumer::models::types::_::<impl serde::de::Deserialize for historical_options_consumer::models::types::HistoricalOptionsResponse>::deserialize (types.rs:3)
+                 n1: 61440 0x133FF5: serde_json::de::from_trait (de.rs:2481)
+                  n1: 61440 0x13561F: serde_json::de::from_str (isle_x64.rs:16493)
+                   n1: 61440 0x12CCA5: historical_options_consumer::prepare_sample_data (main.rs:41)
+                    n1: 61440 0x146313: historical_options_consumer::main::{{closure}} (main.rs:24)
+                     n1: 61440 0x145FEE: tokio::runtime::park::CachedParkThread::block_on::{{closure}} (park.rs:281)
+                      n1: 61440 0x145054: with_budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:107)
+                       n1: 61440 0x145054: budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:73)
+                        n1: 61440 0x145054: tokio::runtime::park::CachedParkThread::block_on (park.rs:281)
+                         n1: 61440 0x12C889: tokio::runtime::context::blocking::BlockingRegionGuard::block_on (isle_x64.rs:16533)
+                          n1: 61440 0x133DBA: tokio::runtime::scheduler::multi_thread::MultiThread::block_on::{{closure}} (isle_x64.rs:16183)
+                           n1: 61440 0x12977F: tokio::runtime::context::runtime::enter_runtime (emit.rs:1701)
+                            n1: 61440 0x133CDC: tokio::runtime::scheduler::multi_thread::MultiThread::block_on (isle_x64.rs:16173)
+                             n1: 61440 0x146665: tokio::runtime::runtime::Runtime::block_on_inner (runtime.rs:363)
+                              n1: 61440 0x14677A: tokio::runtime::runtime::Runtime::block_on (runtime.rs:335)
+                               n1: 61440 0x12D1CB: historical_options_consumer::main (isle_x64.rs:14955)
+                                n1: 61440 0x1335EA: core::ops::function::FnOnce::call_once (lib.rs:0)
+                                 n0: 61440 0x12A87D: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:155)
+ n1: 12312 0x20C4BA: alloc::alloc::alloc (alloc.rs:100)
+  n2: 12312 0x20C5A4: alloc::alloc::Global::alloc_impl (alloc.rs:183)
+   n2: 12288 0x20C7D8: <alloc::alloc::Global as core::alloc::Allocator>::allocate (alloc.rs:243)
+    n1: 12288 0x20A7A8: alloc::raw_vec::RawVec<T,A>::try_allocate_in (raw_vec.rs:230)
+     n1: 12288 0x20E66E: with_capacity_in<libc::unix::linux_like::epoll_event, alloc::alloc::Global> (raw_vec.rs:158)
+      n1: 12288 0x20E66E: with_capacity_in<libc::unix::linux_like::epoll_event, alloc::alloc::Global> (mod.rs:699)
+       n1: 12288 0x20E66E: alloc::vec::Vec<T>::with_capacity (mod.rs:481)
+        n1: 12288 0x20EA5D: mio::event::events::Events::with_capacity (events.rs:94)
+         n1: 12288 0x1AE917: tokio::runtime::io::driver::Driver::new (driver.rs:102)
+          n1: 12288 0x199A93: tokio::runtime::driver::create_io_stack (driver.rs:150)
+           n1: 12288 0x199525: tokio::runtime::driver::Driver::new (driver.rs:48)
+            n1: 12288 0x1BEC81: tokio::runtime::builder::Builder::build_threaded_runtime (builder.rs:1252)
+             n1: 12288 0x1BE248: tokio::runtime::builder::Builder::build (builder.rs:699)
+              n1: 12288 0x12D16B: historical_options_consumer::main (main.rs:32)
+               n1: 12288 0x1335EA: core::ops::function::FnOnce::call_once (lib.rs:0)
+                n1: 12288 0x12A87D: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:155)
+                 n1: 12288 0x12A230: std::rt::lang_start::{{closure}} (emit.rs:3550)
+                  n1: 12288 0x26D74C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                   n1: 12288 0x26D74C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+                    n1: 12288 0x26D74C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+                     n1: 12288 0x26D74C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+                      n1: 12288 0x26D74C: {closure#2} (rt.rs:141)
+                       n1: 12288 0x26D74C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+                        n1: 12288 0x26D74C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+                         n1: 12288 0x26D74C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                          n1: 12288 0x26D74C: std::rt::lang_start_internal (rt.rs:141)
+                           n1: 12288 0x12A209: std::rt::lang_start (emit.rs:0)
+                            n0: 12288 0x12D27D: main (lib.rs:0)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 24 in 1 place, below massif's threshold (1.00%)
+ n1: 11152 0x22CB8A: alloc::alloc::alloc (alloc.rs:100)
+  n1: 11152 0x22CC74: alloc::alloc::Global::alloc_impl (alloc.rs:183)
+   n1: 11152 0x22DA58: <alloc::alloc::Global as core::alloc::Allocator>::allocate (alloc.rs:243)
+    n1: 11152 0x226276: alloc::raw_vec::RawVec<T,A>::try_allocate_in (raw_vec.rs:230)
+     n1: 11152 0x23063E: with_capacity_in<u8, alloc::alloc::Global> (raw_vec.rs:158)
+      n1: 11152 0x23063E: with_capacity_in<u8, alloc::alloc::Global> (mod.rs:699)
+       n1: 11152 0x23063E: <T as alloc::slice::hack::ConvertVec>::to_vec (slice.rs:162)
+        n1: 11152 0x23163C: to_vec<u8, alloc::alloc::Global> (slice.rs:111)
+         n1: 11152 0x23163C: to_vec_in<u8, alloc::alloc::Global> (slice.rs:441)
+          n1: 11152 0x23163C: to_vec<u8> (slice.rs:416)
+           n1: 11152 0x23163C: to_owned<u8> (slice.rs:823)
+            n1: 11152 0x23163C: alloc::str::<impl alloc::borrow::ToOwned for str>::to_owned (str.rs:211)
+             n1: 11152 0x22DA80: <serde::de::impls::StringVisitor as serde::de::Visitor>::visit_str (impls.rs:607)
+              n1: 11152 0x22D3EB: serde::de::Visitor::visit_borrowed_str (mod.rs:1515)
+               n1: 11152 0x137A09: <&mut serde_json::de::Deserializer<R> as serde::de::Deserializer>::deserialize_str (de.rs:1532)
+                n1: 11152 0x137B54: <&mut serde_json::de::Deserializer<R> as serde::de::Deserializer>::deserialize_string (de.rs:1549)
+                 n1: 11152 0x143DA5: serde::de::impls::<impl serde::de::Deserialize for alloc::string::String>::deserialize (impls.rs:704)
+                  n1: 11152 0x12A924: <core::marker::PhantomData<T> as serde::de::DeserializeSeed>::deserialize (emit.rs:3671)
+                   n1: 11152 0x135EEC: <serde_json::de::MapAccess<R> as serde::de::MapAccess>::next_value_seed (isle_x64.rs:16614)
+                    n1: 11152 0x135645: serde::de::MapAccess::next_value (mod.rs:1874)
+                     n0: 11152 in 20 places, all below massif's threshold (1.00%)
+ n0: 6420 in 21 places, all below massif's threshold (1.00%)
+ n1: 4608 0x275D40: aligned_malloc (alloc.rs:84)
+  n1: 4608 0x275D40: alloc (alloc.rs:28)
+   n1: 4608 0x275D40: __rdl_alloc (alloc.rs:400)
+    n0: 4608 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=17579261
+mem_heap_B=342241
+mem_heap_extra_B=50151
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=21792811
+mem_heap_B=408158
+mem_heap_extra_B=63082
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=24857264
+mem_heap_B=411396
+mem_heap_extra_B=72508
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=28521800
+mem_heap_B=1266715
+mem_heap_extra_B=391197
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=31993000
+mem_heap_B=2290756
+mem_heap_extra_B=843724
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=33781123
+mem_heap_B=2381053
+mem_heap_extra_B=1105475
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=37146291
+mem_heap_B=4248570
+mem_heap_extra_B=1487470
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=42063319
+mem_heap_B=4496895
+mem_heap_extra_B=2206977
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=45216117
+mem_heap_B=8119002
+mem_heap_extra_B=2643854
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=47451145
+mem_heap_B=8231875
+mem_heap_extra_B=2970933
+mem_stacks_B=0
+heap_tree=detailed
+n5: 8231875 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3932160 0x186B74: realloc (alloc.rs:138)
+  n1: 3932160 0x186B74: alloc::alloc::Global::grow_impl (alloc.rs:215)
+   n1: 3932160 0x186E7F: <alloc::alloc::Global as core::alloc::Allocator>::grow (alloc.rs:268)
+    n1: 3932160 0x186233: alloc::raw_vec::finish_grow (raw_vec.rs:570)
+     n2: 3932160 0x18128B: alloc::raw_vec::RawVec<T,A>::grow_amortized (raw_vec.rs:485)
+      n1: 3932160 0x181898: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (raw_vec.rs:349)
+       n1: 3932160 0x1820E8: reserve<historical_options_consumer::models::types::HistoricalOption, alloc::alloc::Global> (raw_vec.rs:355)
+        n1: 3932160 0x1820E8: alloc::vec::Vec<T,A>::reserve (mod.rs:972)
+         n1: 3932160 0x12DAF7: alloc::vec::Vec<T,A>::append_elements (isle_x64.rs:15050)
+          n1: 3932160 0x12DA80: <alloc::vec::Vec<T,A> as alloc::vec::spec_extend::SpecExtend<T,alloc::vec::into_iter::IntoIter<T>>>::spec_extend (spec_extend.rs:33)
+           n1: 3932160 0x12DF96: <alloc::vec::Vec<T,A> as core::iter::traits::collect::Extend<T>>::extend (mod.rs:3038)
+            n1: 3932160 0x12D01A: historical_options_consumer::prepare_sample_data (main.rs:50)
+             n1: 3932160 0x146313: historical_options_consumer::main::{{closure}} (main.rs:24)
+              n1: 3932160 0x145FEE: tokio::runtime::park::CachedParkThread::block_on::{{closure}} (park.rs:281)
+               n1: 3932160 0x145054: with_budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:107)
+                n1: 3932160 0x145054: budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:73)
+                 n1: 3932160 0x145054: tokio::runtime::park::CachedParkThread::block_on (park.rs:281)
+                  n1: 3932160 0x12C889: tokio::runtime::context::blocking::BlockingRegionGuard::block_on (isle_x64.rs:16533)
+                   n1: 3932160 0x133DBA: tokio::runtime::scheduler::multi_thread::MultiThread::block_on::{{closure}} (isle_x64.rs:16183)
+                    n1: 3932160 0x12977F: tokio::runtime::context::runtime::enter_runtime (emit.rs:1701)
+                     n1: 3932160 0x133CDC: tokio::runtime::scheduler::multi_thread::MultiThread::block_on (isle_x64.rs:16173)
+                      n1: 3932160 0x146665: tokio::runtime::runtime::Runtime::block_on_inner (runtime.rs:363)
+                       n1: 3932160 0x14677A: tokio::runtime::runtime::Runtime::block_on (runtime.rs:335)
+                        n1: 3932160 0x12D1CB: historical_options_consumer::main (isle_x64.rs:14955)
+                         n1: 3932160 0x1335EA: core::ops::function::FnOnce::call_once (lib.rs:0)
+                          n1: 3932160 0x12A87D: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:155)
+                           n1: 3932160 0x12A230: std::rt::lang_start::{{closure}} (emit.rs:3550)
+                            n1: 3932160 0x26D74C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                             n1: 3932160 0x26D74C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+                              n1: 3932160 0x26D74C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+                               n1: 3932160 0x26D74C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+                                n1: 3932160 0x26D74C: {closure#2} (rt.rs:141)
+                                 n1: 3932160 0x26D74C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+                                  n1: 3932160 0x26D74C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+                                   n1: 3932160 0x26D74C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                                    n1: 3932160 0x26D74C: std::rt::lang_start_internal (rt.rs:141)
+                                     n1: 3932160 0x12A209: std::rt::lang_start (emit.rs:0)
+                                      n0: 3932160 0x12D27D: main (lib.rs:0)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 3010560 0x1822EA: alloc::alloc::alloc (alloc.rs:100)
+  n1: 3010560 0x1823D4: alloc::alloc::Global::alloc_impl (alloc.rs:183)
+   n1: 3010560 0x182608: <alloc::alloc::Global as core::alloc::Allocator>::allocate (alloc.rs:243)
+    n1: 3010560 0x1816F8: alloc::raw_vec::RawVec<T,A>::try_allocate_in (raw_vec.rs:230)
+     n1: 3010560 0x14357A: with_capacity_in<historical_options_consumer::models::types::HistoricalOption, alloc::alloc::Global> (raw_vec.rs:158)
+      n1: 3010560 0x14357A: with_capacity_in<historical_options_consumer::models::types::HistoricalOption, alloc::alloc::Global> (mod.rs:699)
+       n1: 3010560 0x14357A: <T as alloc::slice::hack::ConvertVec>::to_vec (slice.rs:139)
+        n1: 3010560 0x12DD9F: to_vec<historical_options_consumer::models::types::HistoricalOption, alloc::alloc::Global> (slice.rs:111)
+         n1: 3010560 0x12DD9F: to_vec_in<historical_options_consumer::models::types::HistoricalOption, alloc::alloc::Global> (slice.rs:441)
+          n1: 3010560 0x12DD9F: <alloc::vec::Vec<T,A> as core::clone::Clone>::clone (mod.rs:2836)
+           n1: 3010560 0x12CEE7: historical_options_consumer::prepare_sample_data (main.rs:50)
+            n1: 3010560 0x146313: historical_options_consumer::main::{{closure}} (main.rs:24)
+             n1: 3010560 0x145FEE: tokio::runtime::park::CachedParkThread::block_on::{{closure}} (park.rs:281)
+              n1: 3010560 0x145054: with_budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:107)
+               n1: 3010560 0x145054: budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:73)
+                n1: 3010560 0x145054: tokio::runtime::park::CachedParkThread::block_on (park.rs:281)
+                 n1: 3010560 0x12C889: tokio::runtime::context::blocking::BlockingRegionGuard::block_on (isle_x64.rs:16533)
+                  n1: 3010560 0x133DBA: tokio::runtime::scheduler::multi_thread::MultiThread::block_on::{{closure}} (isle_x64.rs:16183)
+                   n1: 3010560 0x12977F: tokio::runtime::context::runtime::enter_runtime (emit.rs:1701)
+                    n1: 3010560 0x133CDC: tokio::runtime::scheduler::multi_thread::MultiThread::block_on (isle_x64.rs:16173)
+                     n1: 3010560 0x146665: tokio::runtime::runtime::Runtime::block_on_inner (runtime.rs:363)
+                      n1: 3010560 0x14677A: tokio::runtime::runtime::Runtime::block_on (runtime.rs:335)
+                       n1: 3010560 0x12D1CB: historical_options_consumer::main (isle_x64.rs:14955)
+                        n1: 3010560 0x1335EA: core::ops::function::FnOnce::call_once (lib.rs:0)
+                         n1: 3010560 0x12A87D: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:155)
+                          n1: 3010560 0x12A230: std::rt::lang_start::{{closure}} (emit.rs:3550)
+                           n1: 3010560 0x26D74C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                            n1: 3010560 0x26D74C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+                             n1: 3010560 0x26D74C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+                              n1: 3010560 0x26D74C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+                               n1: 3010560 0x26D74C: {closure#2} (rt.rs:141)
+                                n1: 3010560 0x26D74C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+                                 n1: 3010560 0x26D74C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+                                  n1: 3010560 0x26D74C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                                   n1: 3010560 0x26D74C: std::rt::lang_start_internal (rt.rs:141)
+                                    n1: 3010560 0x12A209: std::rt::lang_start (emit.rs:0)
+                                     n0: 3010560 0x12D27D: main (lib.rs:0)
+ n1: 998943 0x292F6D: alloc (alloc.rs:100)
+  n1: 998943 0x292F6D: alloc_impl (alloc.rs:183)
+   n1: 998943 0x292F6D: allocate (alloc.rs:243)
+    n1: 998943 0x292F6D: try_allocate_in<u8, alloc::alloc::Global> (raw_vec.rs:230)
+     n1: 998943 0x292F6D: with_capacity_in<u8, alloc::alloc::Global> (raw_vec.rs:158)
+      n1: 998943 0x292F6D: with_capacity_in<u8, alloc::alloc::Global> (mod.rs:699)
+       n1: 998943 0x292F6D: to_vec<u8, alloc::alloc::Global> (slice.rs:162)
+        n1: 998943 0x292F6D: to_vec<u8, alloc::alloc::Global> (slice.rs:111)
+         n1: 998943 0x292F6D: to_vec_in<u8, alloc::alloc::Global> (slice.rs:441)
+          n1: 998943 0x292F6D: clone<u8, alloc::alloc::Global> (mod.rs:2836)
+           n2: 998943 0x292F6D: <alloc::string::String as core::clone::Clone>::clone (string.rs:2099)
+            n0: 841943 in 19 places, all below massif's threshold (1.00%)
+            n1: 157000 0x12BE7F: <historical_options_consumer::models::types::HistoricalOption as core::clone::Clone>::clone (isle_x64.rs:14888)
+             n1: 157000 0x1438A9: <T as alloc::slice::hack::ConvertVec>::to_vec (slice.rs:146)
+              n1: 157000 0x12DD9F: to_vec<historical_options_consumer::models::types::HistoricalOption, alloc::alloc::Global> (slice.rs:111)
+               n1: 157000 0x12DD9F: to_vec_in<historical_options_consumer::models::types::HistoricalOption, alloc::alloc::Global> (slice.rs:441)
+                n1: 157000 0x12DD9F: <alloc::vec::Vec<T,A> as core::clone::Clone>::clone (mod.rs:2836)
+                 n1: 157000 0x12CEE7: historical_options_consumer::prepare_sample_data (main.rs:50)
+                  n1: 157000 0x146313: historical_options_consumer::main::{{closure}} (main.rs:24)
+                   n1: 157000 0x145FEE: tokio::runtime::park::CachedParkThread::block_on::{{closure}} (park.rs:281)
+                    n1: 157000 0x145054: with_budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:107)
+                     n1: 157000 0x145054: budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:73)
+                      n1: 157000 0x145054: tokio::runtime::park::CachedParkThread::block_on (park.rs:281)
+                       n1: 157000 0x12C889: tokio::runtime::context::blocking::BlockingRegionGuard::block_on (isle_x64.rs:16533)
+                        n1: 157000 0x133DBA: tokio::runtime::scheduler::multi_thread::MultiThread::block_on::{{closure}} (isle_x64.rs:16183)
+                         n1: 157000 0x12977F: tokio::runtime::context::runtime::enter_runtime (emit.rs:1701)
+                          n1: 157000 0x133CDC: tokio::runtime::scheduler::multi_thread::MultiThread::block_on (isle_x64.rs:16173)
+                           n1: 157000 0x146665: tokio::runtime::runtime::Runtime::block_on_inner (runtime.rs:363)
+                            n1: 157000 0x14677A: tokio::runtime::runtime::Runtime::block_on (runtime.rs:335)
+                             n1: 157000 0x12D1CB: historical_options_consumer::main (isle_x64.rs:14955)
+                              n1: 157000 0x1335EA: core::ops::function::FnOnce::call_once (lib.rs:0)
+                               n1: 157000 0x12A87D: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:155)
+                                n1: 157000 0x12A230: std::rt::lang_start::{{closure}} (emit.rs:3550)
+                                 n1: 157000 0x26D74C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                                  n1: 157000 0x26D74C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+                                   n1: 157000 0x26D74C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+                                    n1: 157000 0x26D74C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+                                     n1: 157000 0x26D74C: {closure#2} (rt.rs:141)
+                                      n1: 157000 0x26D74C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+                                       n1: 157000 0x26D74C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+                                        n1: 157000 0x26D74C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                                         n1: 157000 0x26D74C: std::rt::lang_start_internal (rt.rs:141)
+                                          n1: 157000 0x12A209: std::rt::lang_start (emit.rs:0)
+                                           n0: 157000 0x12D27D: main (lib.rs:0)
+ n0: 160164 in 26 places, all below massif's threshold (1.00%)
+ n1: 130048 0x1ACE1A: alloc::alloc::alloc (alloc.rs:100)
+  n1: 130048 0x1ACF04: alloc::alloc::Global::alloc_impl (alloc.rs:183)
+   n0: 130048 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=51027357
+mem_heap_B=8412470
+mem_heap_extra_B=3494226
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=53262363
+mem_heap_B=8525366
+mem_heap_extra_B=3821298
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=56838285
+mem_heap_B=8705953
+mem_heap_extra_B=4344647
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=59118230
+mem_heap_B=12736438
+mem_heap_extra_B=4633626
+mem_stacks_B=0
+heap_tree=detailed
+n4: 12736438 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 7864320 0x186B74: realloc (alloc.rs:138)
+  n1: 7864320 0x186B74: alloc::alloc::Global::grow_impl (alloc.rs:215)
+   n1: 7864320 0x186E7F: <alloc::alloc::Global as core::alloc::Allocator>::grow (alloc.rs:268)
+    n1: 7864320 0x186233: alloc::raw_vec::finish_grow (raw_vec.rs:570)
+     n2: 7864320 0x18128B: alloc::raw_vec::RawVec<T,A>::grow_amortized (raw_vec.rs:485)
+      n1: 7864320 0x181898: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (raw_vec.rs:349)
+       n1: 7864320 0x1820E8: reserve<historical_options_consumer::models::types::HistoricalOption, alloc::alloc::Global> (raw_vec.rs:355)
+        n1: 7864320 0x1820E8: alloc::vec::Vec<T,A>::reserve (mod.rs:972)
+         n1: 7864320 0x12DAF7: alloc::vec::Vec<T,A>::append_elements (isle_x64.rs:15050)
+          n1: 7864320 0x12DA80: <alloc::vec::Vec<T,A> as alloc::vec::spec_extend::SpecExtend<T,alloc::vec::into_iter::IntoIter<T>>>::spec_extend (spec_extend.rs:33)
+           n1: 7864320 0x12DF96: <alloc::vec::Vec<T,A> as core::iter::traits::collect::Extend<T>>::extend (mod.rs:3038)
+            n1: 7864320 0x12D01A: historical_options_consumer::prepare_sample_data (main.rs:50)
+             n1: 7864320 0x146313: historical_options_consumer::main::{{closure}} (main.rs:24)
+              n1: 7864320 0x145FEE: tokio::runtime::park::CachedParkThread::block_on::{{closure}} (park.rs:281)
+               n1: 7864320 0x145054: with_budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:107)
+                n1: 7864320 0x145054: budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:73)
+                 n1: 7864320 0x145054: tokio::runtime::park::CachedParkThread::block_on (park.rs:281)
+                  n1: 7864320 0x12C889: tokio::runtime::context::blocking::BlockingRegionGuard::block_on (isle_x64.rs:16533)
+                   n1: 7864320 0x133DBA: tokio::runtime::scheduler::multi_thread::MultiThread::block_on::{{closure}} (isle_x64.rs:16183)
+                    n1: 7864320 0x12977F: tokio::runtime::context::runtime::enter_runtime (emit.rs:1701)
+                     n1: 7864320 0x133CDC: tokio::runtime::scheduler::multi_thread::MultiThread::block_on (isle_x64.rs:16173)
+                      n1: 7864320 0x146665: tokio::runtime::runtime::Runtime::block_on_inner (runtime.rs:363)
+                       n1: 7864320 0x14677A: tokio::runtime::runtime::Runtime::block_on (runtime.rs:335)
+                        n1: 7864320 0x12D1CB: historical_options_consumer::main (isle_x64.rs:14955)
+                         n1: 7864320 0x1335EA: core::ops::function::FnOnce::call_once (lib.rs:0)
+                          n1: 7864320 0x12A87D: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:155)
+                           n1: 7864320 0x12A230: std::rt::lang_start::{{closure}} (emit.rs:3550)
+                            n1: 7864320 0x26D74C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                             n1: 7864320 0x26D74C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+                              n1: 7864320 0x26D74C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+                               n1: 7864320 0x26D74C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+                                n1: 7864320 0x26D74C: {closure#2} (rt.rs:141)
+                                 n1: 7864320 0x26D74C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+                                  n1: 7864320 0x26D74C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+                                   n1: 7864320 0x26D74C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                                    n1: 7864320 0x26D74C: std::rt::lang_start_internal (rt.rs:141)
+                                     n1: 7864320 0x12A209: std::rt::lang_start (emit.rs:0)
+                                      n0: 7864320 0x12D27D: main (lib.rs:0)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 3010560 0x1822EA: alloc::alloc::alloc (alloc.rs:100)
+  n1: 3010560 0x1823D4: alloc::alloc::Global::alloc_impl (alloc.rs:183)
+   n1: 3010560 0x182608: <alloc::alloc::Global as core::alloc::Allocator>::allocate (alloc.rs:243)
+    n1: 3010560 0x1816F8: alloc::raw_vec::RawVec<T,A>::try_allocate_in (raw_vec.rs:230)
+     n1: 3010560 0x14357A: with_capacity_in<historical_options_consumer::models::types::HistoricalOption, alloc::alloc::Global> (raw_vec.rs:158)
+      n1: 3010560 0x14357A: with_capacity_in<historical_options_consumer::models::types::HistoricalOption, alloc::alloc::Global> (mod.rs:699)
+       n1: 3010560 0x14357A: <T as alloc::slice::hack::ConvertVec>::to_vec (slice.rs:139)
+        n1: 3010560 0x12DD9F: to_vec<historical_options_consumer::models::types::HistoricalOption, alloc::alloc::Global> (slice.rs:111)
+         n1: 3010560 0x12DD9F: to_vec_in<historical_options_consumer::models::types::HistoricalOption, alloc::alloc::Global> (slice.rs:441)
+          n1: 3010560 0x12DD9F: <alloc::vec::Vec<T,A> as core::clone::Clone>::clone (mod.rs:2836)
+           n1: 3010560 0x12CEE7: historical_options_consumer::prepare_sample_data (main.rs:50)
+            n1: 3010560 0x146313: historical_options_consumer::main::{{closure}} (main.rs:24)
+             n1: 3010560 0x145FEE: tokio::runtime::park::CachedParkThread::block_on::{{closure}} (park.rs:281)
+              n1: 3010560 0x145054: with_budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:107)
+               n1: 3010560 0x145054: budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:73)
+                n1: 3010560 0x145054: tokio::runtime::park::CachedParkThread::block_on (park.rs:281)
+                 n1: 3010560 0x12C889: tokio::runtime::context::blocking::BlockingRegionGuard::block_on (isle_x64.rs:16533)
+                  n1: 3010560 0x133DBA: tokio::runtime::scheduler::multi_thread::MultiThread::block_on::{{closure}} (isle_x64.rs:16183)
+                   n1: 3010560 0x12977F: tokio::runtime::context::runtime::enter_runtime (emit.rs:1701)
+                    n1: 3010560 0x133CDC: tokio::runtime::scheduler::multi_thread::MultiThread::block_on (isle_x64.rs:16173)
+                     n1: 3010560 0x146665: tokio::runtime::runtime::Runtime::block_on_inner (runtime.rs:363)
+                      n1: 3010560 0x14677A: tokio::runtime::runtime::Runtime::block_on (runtime.rs:335)
+                       n1: 3010560 0x12D1CB: historical_options_consumer::main (isle_x64.rs:14955)
+                        n1: 3010560 0x1335EA: core::ops::function::FnOnce::call_once (lib.rs:0)
+                         n1: 3010560 0x12A87D: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:155)
+                          n1: 3010560 0x12A230: std::rt::lang_start::{{closure}} (emit.rs:3550)
+                           n1: 3010560 0x26D74C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                            n1: 3010560 0x26D74C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+                             n1: 3010560 0x26D74C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+                              n1: 3010560 0x26D74C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+                               n1: 3010560 0x26D74C: {closure#2} (rt.rs:141)
+                                n1: 3010560 0x26D74C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+                                 n1: 3010560 0x26D74C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+                                  n1: 3010560 0x26D74C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                                   n1: 3010560 0x26D74C: std::rt::lang_start_internal (rt.rs:141)
+                                    n1: 3010560 0x12A209: std::rt::lang_start (emit.rs:0)
+                                     n0: 3010560 0x12D27D: main (lib.rs:0)
+ n1: 1571346 0x292F6D: alloc (alloc.rs:100)
+  n1: 1571346 0x292F6D: alloc_impl (alloc.rs:183)
+   n1: 1571346 0x292F6D: allocate (alloc.rs:243)
+    n1: 1571346 0x292F6D: try_allocate_in<u8, alloc::alloc::Global> (raw_vec.rs:230)
+     n1: 1571346 0x292F6D: with_capacity_in<u8, alloc::alloc::Global> (raw_vec.rs:158)
+      n1: 1571346 0x292F6D: with_capacity_in<u8, alloc::alloc::Global> (mod.rs:699)
+       n1: 1571346 0x292F6D: to_vec<u8, alloc::alloc::Global> (slice.rs:162)
+        n1: 1571346 0x292F6D: to_vec<u8, alloc::alloc::Global> (slice.rs:111)
+         n1: 1571346 0x292F6D: to_vec_in<u8, alloc::alloc::Global> (slice.rs:441)
+          n1: 1571346 0x292F6D: clone<u8, alloc::alloc::Global> (mod.rs:2836)
+           n2: 1571346 0x292F6D: <alloc::string::String as core::clone::Clone>::clone (string.rs:2099)
+            n0: 1324386 in 19 places, all below massif's threshold (1.00%)
+            n1: 246960 0x12BE7F: <historical_options_consumer::models::types::HistoricalOption as core::clone::Clone>::clone (isle_x64.rs:14888)
+             n1: 246960 0x1438A9: <T as alloc::slice::hack::ConvertVec>::to_vec (slice.rs:146)
+              n1: 246960 0x12DD9F: to_vec<historical_options_consumer::models::types::HistoricalOption, alloc::alloc::Global> (slice.rs:111)
+               n1: 246960 0x12DD9F: to_vec_in<historical_options_consumer::models::types::HistoricalOption, alloc::alloc::Global> (slice.rs:441)
+                n1: 246960 0x12DD9F: <alloc::vec::Vec<T,A> as core::clone::Clone>::clone (mod.rs:2836)
+                 n1: 246960 0x12CEE7: historical_options_consumer::prepare_sample_data (main.rs:50)
+                  n1: 246960 0x146313: historical_options_consumer::main::{{closure}} (main.rs:24)
+                   n1: 246960 0x145FEE: tokio::runtime::park::CachedParkThread::block_on::{{closure}} (park.rs:281)
+                    n1: 246960 0x145054: with_budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:107)
+                     n1: 246960 0x145054: budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:73)
+                      n1: 246960 0x145054: tokio::runtime::park::CachedParkThread::block_on (park.rs:281)
+                       n1: 246960 0x12C889: tokio::runtime::context::blocking::BlockingRegionGuard::block_on (isle_x64.rs:16533)
+                        n1: 246960 0x133DBA: tokio::runtime::scheduler::multi_thread::MultiThread::block_on::{{closure}} (isle_x64.rs:16183)
+                         n1: 246960 0x12977F: tokio::runtime::context::runtime::enter_runtime (emit.rs:1701)
+                          n1: 246960 0x133CDC: tokio::runtime::scheduler::multi_thread::MultiThread::block_on (isle_x64.rs:16173)
+                           n1: 246960 0x146665: tokio::runtime::runtime::Runtime::block_on_inner (runtime.rs:363)
+                            n1: 246960 0x14677A: tokio::runtime::runtime::Runtime::block_on (runtime.rs:335)
+                             n1: 246960 0x12D1CB: historical_options_consumer::main (isle_x64.rs:14955)
+                              n1: 246960 0x1335EA: core::ops::function::FnOnce::call_once (lib.rs:0)
+                               n1: 246960 0x12A87D: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:155)
+                                n1: 246960 0x12A230: std::rt::lang_start::{{closure}} (emit.rs:3550)
+                                 n1: 246960 0x26D74C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                                  n1: 246960 0x26D74C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+                                   n1: 246960 0x26D74C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+                                    n1: 246960 0x26D74C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+                                     n1: 246960 0x26D74C: {closure#2} (rt.rs:141)
+                                      n1: 246960 0x26D74C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+                                       n1: 246960 0x26D74C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+                                        n1: 246960 0x26D74C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                                         n1: 246960 0x26D74C: std::rt::lang_start_internal (rt.rs:141)
+                                          n1: 246960 0x12A209: std::rt::lang_start (emit.rs:0)
+                                           n0: 246960 0x12D27D: main (lib.rs:0)
+ n0: 290212 in 27 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=91983351
+mem_heap_B=9725858
+mem_heap_extra_B=4633598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=94667367
+mem_heap_B=9627999
+mem_heap_extra_B=4350321
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=97351383
+mem_heap_B=9530210
+mem_heap_extra_B=4066974
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=100035412
+mem_heap_B=9432425
+mem_heap_extra_B=3783623
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=103391889
+mem_heap_B=9885649
+mem_heap_extra_B=3999455
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=106076490
+mem_heap_B=10486863
+mem_heap_extra_B=4321105
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=110773170
+mem_heap_B=11663481
+mem_heap_extra_B=4885711
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=113457658
+mem_heap_B=11774398
+mem_heap_extra_B=5206170
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=116813535
+mem_heap_B=13878200
+mem_heap_extra_B=5604360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=120838999
+mem_heap_B=14044172
+mem_heap_extra_B=6084364
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=124696027
+mem_heap_B=14202797
+mem_heap_extra_B=6543115
+mem_stacks_B=0
+heap_tree=peak
+n3: 14202797 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 11796480 0x186B74: realloc (alloc.rs:138)
+  n1: 11796480 0x186B74: alloc::alloc::Global::grow_impl (alloc.rs:215)
+   n1: 11796480 0x186E7F: <alloc::alloc::Global as core::alloc::Allocator>::grow (alloc.rs:268)
+    n1: 11796480 0x186233: alloc::raw_vec::finish_grow (raw_vec.rs:570)
+     n2: 11796480 0x18128B: alloc::raw_vec::RawVec<T,A>::grow_amortized (raw_vec.rs:485)
+      n1: 11796480 0x181898: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (raw_vec.rs:349)
+       n1: 11796480 0x1820E8: reserve<historical_options_consumer::models::types::HistoricalOption, alloc::alloc::Global> (raw_vec.rs:355)
+        n2: 11796480 0x1820E8: alloc::vec::Vec<T,A>::reserve (mod.rs:972)
+         n1: 7864320 0x12DAF7: alloc::vec::Vec<T,A>::append_elements (isle_x64.rs:15050)
+          n1: 7864320 0x12DA80: <alloc::vec::Vec<T,A> as alloc::vec::spec_extend::SpecExtend<T,alloc::vec::into_iter::IntoIter<T>>>::spec_extend (spec_extend.rs:33)
+           n1: 7864320 0x12DF96: <alloc::vec::Vec<T,A> as core::iter::traits::collect::Extend<T>>::extend (mod.rs:3038)
+            n1: 7864320 0x12D01A: historical_options_consumer::prepare_sample_data (main.rs:50)
+             n1: 7864320 0x146313: historical_options_consumer::main::{{closure}} (main.rs:24)
+              n1: 7864320 0x145FEE: tokio::runtime::park::CachedParkThread::block_on::{{closure}} (park.rs:281)
+               n1: 7864320 0x145054: with_budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:107)
+                n1: 7864320 0x145054: budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:73)
+                 n1: 7864320 0x145054: tokio::runtime::park::CachedParkThread::block_on (park.rs:281)
+                  n1: 7864320 0x12C889: tokio::runtime::context::blocking::BlockingRegionGuard::block_on (isle_x64.rs:16533)
+                   n1: 7864320 0x133DBA: tokio::runtime::scheduler::multi_thread::MultiThread::block_on::{{closure}} (isle_x64.rs:16183)
+                    n1: 7864320 0x12977F: tokio::runtime::context::runtime::enter_runtime (emit.rs:1701)
+                     n1: 7864320 0x133CDC: tokio::runtime::scheduler::multi_thread::MultiThread::block_on (isle_x64.rs:16173)
+                      n1: 7864320 0x146665: tokio::runtime::runtime::Runtime::block_on_inner (runtime.rs:363)
+                       n1: 7864320 0x14677A: tokio::runtime::runtime::Runtime::block_on (runtime.rs:335)
+                        n1: 7864320 0x12D1CB: historical_options_consumer::main (isle_x64.rs:14955)
+                         n1: 7864320 0x1335EA: core::ops::function::FnOnce::call_once (lib.rs:0)
+                          n1: 7864320 0x12A87D: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:155)
+                           n1: 7864320 0x12A230: std::rt::lang_start::{{closure}} (emit.rs:3550)
+                            n1: 7864320 0x26D74C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                             n1: 7864320 0x26D74C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+                              n1: 7864320 0x26D74C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+                               n1: 7864320 0x26D74C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+                                n1: 7864320 0x26D74C: {closure#2} (rt.rs:141)
+                                 n1: 7864320 0x26D74C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+                                  n1: 7864320 0x26D74C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+                                   n1: 7864320 0x26D74C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                                    n1: 7864320 0x26D74C: std::rt::lang_start_internal (rt.rs:141)
+                                     n1: 7864320 0x12A209: std::rt::lang_start (emit.rs:0)
+                                      n0: 7864320 0x12D27D: main (lib.rs:0)
+         n1: 3932160 0x181F39: alloc::vec::Vec<T,A>::extend_desugared (mod.rs:3068)
+          n1: 3932160 0x182157: <alloc::vec::Vec<T,A> as alloc::vec::spec_extend::SpecExtend<T,I>>::spec_extend (spec_extend.rs:17)
+           n1: 3932160 0x181C19: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter_nested::SpecFromIterNested<T,I>>::from_iter (spec_from_iter_nested.rs:43)
+            n1: 3932160 0x18217A: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (spec_from_iter.rs:33)
+             n1: 3932160 0x182135: <alloc::vec::Vec<T> as core::iter::traits::collect::FromIterator<T>>::from_iter (mod.rs:2970)
+              n1: 3932160 0x1841FA: core::iter::traits::iterator::Iterator::collect (iterator.rs:2005)
+               n1: 3932160 0x180F9D: historical_options_consumer::services::consumer_service_naive::native_filter_options (consumer_service_naive.rs:4)
+                n1: 3932160 0x1463CC: historical_options_consumer::main::{{closure}} (main.rs:26)
+                 n1: 3932160 0x145FEE: tokio::runtime::park::CachedParkThread::block_on::{{closure}} (park.rs:281)
+                  n1: 3932160 0x145054: with_budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:107)
+                   n1: 3932160 0x145054: budget<core::task::poll::Poll<core::result::Result<(), anyhow::Error>>, tokio::runtime::park::{impl#4}::block_on::{closure_env#0}<historical_options_consumer::main::{async_block_env#0}>> (coop.rs:73)
+                    n1: 3932160 0x145054: tokio::runtime::park::CachedParkThread::block_on (park.rs:281)
+                     n1: 3932160 0x12C889: tokio::runtime::context::blocking::BlockingRegionGuard::block_on (isle_x64.rs:16533)
+                      n1: 3932160 0x133DBA: tokio::runtime::scheduler::multi_thread::MultiThread::block_on::{{closure}} (isle_x64.rs:16183)
+                       n1: 3932160 0x12977F: tokio::runtime::context::runtime::enter_runtime (emit.rs:1701)
+                        n1: 3932160 0x133CDC: tokio::runtime::scheduler::multi_thread::MultiThread::block_on (isle_x64.rs:16173)
+                         n1: 3932160 0x146665: tokio::runtime::runtime::Runtime::block_on_inner (runtime.rs:363)
+                          n1: 3932160 0x14677A: tokio::runtime::runtime::Runtime::block_on (runtime.rs:335)
+                           n1: 3932160 0x12D1CB: historical_options_consumer::main (isle_x64.rs:14955)
+                            n1: 3932160 0x1335EA: core::ops::function::FnOnce::call_once (lib.rs:0)
+                             n1: 3932160 0x12A87D: std::sys_common::backtrace::__rust_begin_short_backtrace (backtrace.rs:155)
+                              n1: 3932160 0x12A230: std::rt::lang_start::{{closure}} (emit.rs:3550)
+                               n1: 3932160 0x26D74C: call_once<(), (dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (function.rs:284)
+                                n1: 3932160 0x26D74C: do_call<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panicking.rs:559)
+                                 n1: 3932160 0x26D74C: try<i32, &(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe)> (panicking.rs:523)
+                                  n1: 3932160 0x26D74C: catch_unwind<&(dyn core::ops::function::Fn<(), Output=i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe), i32> (panic.rs:149)
+                                   n1: 3932160 0x26D74C: {closure#2} (rt.rs:141)
+                                    n1: 3932160 0x26D74C: do_call<std::rt::lang_start_internal::{closure_env#2}, isize> (panicking.rs:559)
+                                     n1: 3932160 0x26D74C: try<isize, std::rt::lang_start_internal::{closure_env#2}> (panicking.rs:523)
+                                      n1: 3932160 0x26D74C: catch_unwind<std::rt::lang_start_internal::{closure_env#2}, isize> (panic.rs:149)
+                                       n1: 3932160 0x26D74C: std::rt::lang_start_internal (rt.rs:141)
+                                        n1: 3932160 0x12A209: std::rt::lang_start (emit.rs:0)
+                                         n0: 3932160 0x12D27D: main (lib.rs:0)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 2233313 0x292F6D: alloc (alloc.rs:100)
+  n1: 2233313 0x292F6D: alloc_impl (alloc.rs:183)
+   n1: 2233313 0x292F6D: allocate (alloc.rs:243)
+    n1: 2233313 0x292F6D: try_allocate_in<u8, alloc::alloc::Global> (raw_vec.rs:230)
+     n1: 2233313 0x292F6D: with_capacity_in<u8, alloc::alloc::Global> (raw_vec.rs:158)
+      n1: 2233313 0x292F6D: with_capacity_in<u8, alloc::alloc::Global> (mod.rs:699)
+       n1: 2233313 0x292F6D: to_vec<u8, alloc::alloc::Global> (slice.rs:162)
+        n1: 2233313 0x292F6D: to_vec<u8, alloc::alloc::Global> (slice.rs:111)
+         n1: 2233313 0x292F6D: to_vec_in<u8, alloc::alloc::Global> (slice.rs:441)
+          n1: 2233313 0x292F6D: clone<u8, alloc::alloc::Global> (mod.rs:2836)
+           n1: 2233313 0x292F6D: <alloc::string::String as core::clone::Clone>::clone (string.rs:2099)
+            n0: 2233313 in 40 places, all below massif's threshold (1.00%)
+ n0: 173004 in 28 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=127201204
+mem_heap_B=14111353
+mem_heap_extra_B=6275767
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=129706381
+mem_heap_B=14019949
+mem_heap_extra_B=6005491
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=132211558
+mem_heap_B=13928508
+mem_heap_extra_B=5736548
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=135969330
+mem_heap_B=13791407
+mem_heap_extra_B=5339809
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=138474507
+mem_heap_B=13699926
+mem_heap_extra_B=5075562
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=142232279
+mem_heap_B=13562789
+mem_heap_extra_B=4679083
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=144737456
+mem_heap_B=13471425
+mem_heap_extra_B=4414719
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=148495228
+mem_heap_B=13334296
+mem_heap_extra_B=4018248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=151000405
+mem_heap_B=13242924
+mem_heap_extra_B=3753876
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=153505592
+mem_heap_B=9219468
+mem_heap_extra_B=3489460
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=157263364
+mem_heap_B=9082561
+mem_heap_extra_B=3092767
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=159768541
+mem_heap_B=8991343
+mem_heap_extra_B=2828257
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=163526313
+mem_heap_B=8854469
+mem_heap_extra_B=2431531
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=166031490
+mem_heap_B=8763238
+mem_heap_extra_B=2167018
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=169789262
+mem_heap_B=8626284
+mem_heap_extra_B=1770356
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=172294439
+mem_heap_B=8535055
+mem_heap_extra_B=1505857
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=176052211
+mem_heap_B=8398136
+mem_heap_extra_B=1109160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=178557388
+mem_heap_B=8306855
+mem_heap_extra_B=844713
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=182315160
+mem_heap_B=8169989
+mem_heap_extra_B=447979
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=184820337
+mem_heap_B=8078748
+mem_heap_extra_B=183492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=186628410
+mem_heap_B=153612
+mem_heap_extra_B=3740
+mem_stacks_B=0
+heap_tree=empty

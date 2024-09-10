@@ -1,0 +1,907 @@
+desc: (none)
+cmd: target/release/historical_options_consumer
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=1175333
+mem_heap_B=298074
+mem_heap_extra_B=18134
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2425671
+mem_heap_B=404438
+mem_heap_extra_B=59210
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=3789404
+mem_heap_B=766888
+mem_heap_extra_B=207008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=4663011
+mem_heap_B=1241781
+mem_heap_extra_B=325747
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=5780079
+mem_heap_B=1308579
+mem_heap_extra_B=519349
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=7208481
+mem_heap_B=2239330
+mem_heap_extra_B=701630
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=8119447
+mem_heap_B=2293810
+mem_heap_extra_B=859510
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=9108365
+mem_heap_B=2352943
+mem_heap_extra_B=1030897
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=10607521
+mem_heap_B=3380614
+mem_heap_extra_B=1160202
+mem_stacks_B=0
+heap_tree=detailed
+n6: 3380614 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1966080 0x125261: alloc::raw_vec::finish_grow (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 1966080 0x1137B5: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 1966080 0x12A846: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 1966080 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 1966080 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 1966080 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 1966080 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 1966080 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 1966080 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 1966080 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n0: 1966080 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 752640 0x12B4FF: <alloc::vec::Vec<T,A> as core::clone::Clone>::clone (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 752640 0x12A7EF: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 752640 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 752640 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 752640 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 752640 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 752640 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 752640 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 752640 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n0: 752640 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n2: 374130 0x19132D: <alloc::string::String as core::clone::Clone>::clone (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n0: 315330 in 19 places, all below massif's threshold (1.00%)
+  n1: 58800 0x12B555: <alloc::vec::Vec<T,A> as core::clone::Clone>::clone (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 58800 0x12A7EF: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 58800 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 58800 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 58800 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 58800 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 58800 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 58800 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 58800 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n0: 58800 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n1: 111457 0x1909EF: alloc::raw_vec::finish_grow (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 111457 0x19119C: alloc::string::String::try_reserve (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 111457 0x16F3B7: <&std::fs::File as std::io::Read>::read_to_string (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 111457 0x16F4E5: <std::fs::File as std::io::Read>::read_to_string (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 111457 0x12A60F: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 111457 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 111457 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 111457 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 111457 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 111457 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n1: 111457 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+            n1: 111457 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+             n0: 111457 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n0: 101427 in 52 places, all below massif's threshold (1.00%)
+ n1: 74880 0x14A5F1: tokio::runtime::time::wheel::Wheel::new (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 74880 0x13DA17: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 74880 0x149A6F: tokio::runtime::driver::Driver::new (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 74880 0x1351E9: tokio::runtime::builder::Builder::build (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 74880 0x12AB70: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 74880 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 74880 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 74880 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n0: 74880 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+#-----------
+snapshot=10
+#-----------
+time=11775788
+mem_heap_B=4203145
+mem_heap_extra_B=1362655
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=13181184
+mem_heap_B=4287165
+mem_heap_extra_B=1606259
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=14292146
+mem_heap_B=4353636
+mem_heap_extra_B=1798772
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=15403125
+mem_heap_B=4420078
+mem_heap_extra_B=1991314
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=16375208
+mem_heap_B=4478218
+mem_heap_extra_B=2159774
+mem_stacks_B=0
+heap_tree=detailed
+n6: 4478218 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1966080 0x125261: alloc::raw_vec::finish_grow (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 1966080 0x1137B5: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 1966080 0x12A846: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 1966080 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 1966080 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 1966080 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 1966080 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 1966080 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 1966080 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 1966080 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n0: 1966080 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 1505280 0x12B4FF: <alloc::vec::Vec<T,A> as core::clone::Clone>::clone (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 1505280 0x12A7EF: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 1505280 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 1505280 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 1505280 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 1505280 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 1505280 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 1505280 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 1505280 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n0: 1505280 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n2: 719094 0x19132D: <alloc::string::String as core::clone::Clone>::clone (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n0: 606074 in 19 places, all below massif's threshold (1.00%)
+  n1: 113020 0x12B555: <alloc::vec::Vec<T,A> as core::clone::Clone>::clone (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 113020 0x12A7EF: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 113020 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 113020 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 113020 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 113020 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 113020 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 113020 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 113020 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n0: 113020 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n1: 111457 0x1909EF: alloc::raw_vec::finish_grow (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 111457 0x19119C: alloc::string::String::try_reserve (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 111457 0x16F3B7: <&std::fs::File as std::io::Read>::read_to_string (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 111457 0x16F4E5: <std::fs::File as std::io::Read>::read_to_string (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 111457 0x12A60F: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 111457 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 111457 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 111457 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 111457 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 111457 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n1: 111457 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+            n1: 111457 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+             n0: 111457 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n0: 101427 in 52 places, all below massif's threshold (1.00%)
+ n1: 74880 0x14A5F1: tokio::runtime::time::wheel::Wheel::new (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 74880 0x13DA17: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 74880 0x149A6F: tokio::runtime::driver::Driver::new (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 74880 0x1351E9: tokio::runtime::builder::Builder::build (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 74880 0x12AB70: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 74880 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 74880 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 74880 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n0: 74880 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+#-----------
+snapshot=15
+#-----------
+time=17862684
+mem_heap_B=8028599
+mem_heap_extra_B=2388793
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=18556971
+mem_heap_B=8070138
+mem_heap_extra_B=2509086
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=20064302
+mem_heap_B=8160265
+mem_heap_extra_B=2770343
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=21095369
+mem_heap_B=8221957
+mem_heap_extra_B=2948995
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=22641890
+mem_heap_B=8314438
+mem_heap_extra_B=3217042
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=23930702
+mem_heap_B=8391508
+mem_heap_extra_B=3440404
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=24704030
+mem_heap_B=8437775
+mem_heap_extra_B=3574393
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=25992781
+mem_heap_B=8514845
+mem_heap_extra_B=3797779
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=26766113
+mem_heap_B=8561097
+mem_heap_extra_B=3931783
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=28054866
+mem_heap_B=8638176
+mem_heap_extra_B=4155144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=28828182
+mem_heap_B=8684417
+mem_heap_extra_B=4289159
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=29859179
+mem_heap_B=8746092
+mem_heap_extra_B=4467836
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=31122915
+mem_heap_B=12733990
+mem_heap_extra_B=4633402
+mem_stacks_B=0
+heap_tree=detailed
+n4: 12733990 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 7864320 0x125261: alloc::raw_vec::finish_grow (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 7864320 0x1137B5: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 7864320 0x12A846: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 7864320 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 7864320 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 7864320 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 7864320 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 7864320 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 7864320 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 7864320 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n0: 7864320 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 3010560 0x12B4FF: <alloc::vec::Vec<T,A> as core::clone::Clone>::clone (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 3010560 0x12A7EF: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 3010560 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 3010560 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 3010560 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 3010560 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 3010560 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 3010560 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 3010560 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n0: 3010560 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n2: 1571346 0x19132D: <alloc::string::String as core::clone::Clone>::clone (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n0: 1324386 in 19 places, all below massif's threshold (1.00%)
+  n1: 246960 0x12B555: <alloc::vec::Vec<T,A> as core::clone::Clone>::clone (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 246960 0x12A7EF: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 246960 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 246960 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 246960 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 246960 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 246960 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 246960 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 246960 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n0: 246960 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n0: 287764 in 54 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=34804414
+mem_heap_B=9723410
+mem_heap_extra_B=4633374
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=35835282
+mem_heap_B=9553117
+mem_heap_extra_B=4139635
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=37184366
+mem_heap_B=9431657
+mem_heap_extra_B=3754583
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=38017888
+mem_heap_B=9595337
+mem_heap_extra_B=3872503
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=39267642
+mem_heap_B=9902330
+mem_heap_extra_B=4056494
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=40517507
+mem_heap_B=10455006
+mem_heap_extra_B=4235234
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=41350762
+mem_heap_B=10495904
+mem_heap_extra_B=4353464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=42601074
+mem_heap_B=11540291
+mem_heap_extra_B=4535693
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=44267942
+mem_heap_B=11622075
+mem_heap_extra_B=4772101
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=45101231
+mem_heap_B=11662985
+mem_heap_extra_B=4890407
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=45934951
+mem_heap_B=11703814
+mem_heap_extra_B=5008298
+mem_stacks_B=0
+heap_tree=detailed
+n4: 11703814 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 7864320 0x125261: alloc::raw_vec::finish_grow (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 7864320 0x1137B5: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 7864320 0x12A846: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 7864320 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 7864320 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 7864320 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 7864320 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 7864320 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 7864320 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 7864320 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n0: 7864320 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 1966080 0x130A01: alloc::raw_vec::finish_grow (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 1966080 0x114315: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 1966080 0x130178: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 1966080 0x130A72: historical_options_consumer::services::consumer_service_naive::native_filter_options (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 1966080 0x12545D: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 1966080 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 1966080 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 1966080 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 1966080 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 1966080 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n1: 1966080 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+            n0: 1966080 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n2: 1703122 0x19132D: <alloc::string::String as core::clone::Clone>::clone (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n0: 1506102 in 39 places, all below massif's threshold (1.00%)
+  n1: 197020 0x12B555: <alloc::vec::Vec<T,A> as core::clone::Clone>::clone (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 197020 0x12A7EF: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 197020 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 197020 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 197020 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 197020 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 197020 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 197020 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 197020 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n0: 197020 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n0: 170292 in 56 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=47185177
+mem_heap_B=11765175
+mem_heap_extra_B=5185849
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=48018393
+mem_heap_B=13772187
+mem_heap_extra_B=5304133
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=48852215
+mem_heap_B=13813172
+mem_heap_extra_B=5422572
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=49685402
+mem_heap_B=13854118
+mem_heap_extra_B=5540930
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=50519397
+mem_heap_B=13895025
+mem_heap_extra_B=5659119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=52185790
+mem_heap_B=13976896
+mem_heap_extra_B=5895680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=53018942
+mem_heap_B=14017848
+mem_heap_extra_B=6014160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=54268632
+mem_heap_B=14079328
+mem_heap_extra_B=6191872
+mem_stacks_B=0
+heap_tree=detailed
+n4: 14079328 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 7864320 0x125261: alloc::raw_vec::finish_grow (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 7864320 0x1137B5: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 7864320 0x12A846: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 7864320 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 7864320 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 7864320 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 7864320 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 7864320 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 7864320 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 7864320 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n0: 7864320 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 3932160 0x130A01: alloc::raw_vec::finish_grow (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 3932160 0x114315: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 3932160 0x130178: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 3932160 0x130A72: historical_options_consumer::services::consumer_service_naive::native_filter_options (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 3932160 0x12545D: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 3932160 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 3932160 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 3932160 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 3932160 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 3932160 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n1: 3932160 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+            n0: 3932160 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n1: 2112556 0x19132D: <alloc::string::String as core::clone::Clone>::clone (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n0: 2112556 in 40 places, all below massif's threshold (1.00%)
+ n0: 170292 in 56 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=55101778
+mem_heap_B=14120374
+mem_heap_extra_B=6310514
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=56599075
+mem_heap_B=14194068
+mem_heap_extra_B=6523652
+mem_stacks_B=0
+heap_tree=peak
+n4: 14194068 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 7864320 0x125261: alloc::raw_vec::finish_grow (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 7864320 0x1137B5: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 7864320 0x12A846: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 7864320 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 7864320 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 7864320 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 7864320 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 7864320 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 7864320 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 7864320 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n0: 7864320 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 3932160 0x130A01: alloc::raw_vec::finish_grow (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 3932160 0x114315: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 3932160 0x130178: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 3932160 0x130A72: historical_options_consumer::services::consumer_service_naive::native_filter_options (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 3932160 0x12545D: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 3932160 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 3932160 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 3932160 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 3932160 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 3932160 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n1: 3932160 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+            n0: 3932160 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n1: 2227296 0x19132D: <alloc::string::String as core::clone::Clone>::clone (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n0: 2227296 in 40 places, all below massif's threshold (1.00%)
+ n0: 170292 in 56 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=57015645
+mem_heap_B=14125062
+mem_heap_extra_B=6324074
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=57709947
+mem_heap_B=14010139
+mem_heap_extra_B=5983061
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=58404259
+mem_heap_B=13895237
+mem_heap_extra_B=5646043
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=59098571
+mem_heap_B=13780267
+mem_heap_extra_B=5313717
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=59792873
+mem_heap_B=13665348
+mem_heap_extra_B=4981404
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=60487185
+mem_heap_B=13550371
+mem_heap_extra_B=4649117
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=61181497
+mem_heap_B=13435375
+mem_heap_extra_B=4316865
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=61875799
+mem_heap_B=13320425
+mem_heap_extra_B=3984583
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=62570117
+mem_heap_B=9273377
+mem_heap_extra_B=3652239
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=63264429
+mem_heap_B=9158643
+mem_heap_extra_B=3319725
+mem_stacks_B=0
+heap_tree=detailed
+n3: 9158643 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 7864320 0x125261: alloc::raw_vec::finish_grow (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 7864320 0x1137B5: alloc::raw_vec::RawVec<T,A>::reserve::do_reserve_and_handle (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 7864320 0x12A846: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 7864320 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 7864320 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 7864320 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 7864320 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 7864320 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 7864320 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 7864320 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n0: 7864320 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 1125800 0x19132D: <alloc::string::String as core::clone::Clone>::clone (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n0: 948880 in 39 places, all below massif's threshold (1.00%)
+  n1: 176920 0x12B555: <alloc::vec::Vec<T,A> as core::clone::Clone>::clone (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 176920 0x12A7EF: historical_options_consumer::prepare_sample_data (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 176920 0x12541E: tokio::runtime::park::CachedParkThread::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 176920 0x127A26: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 176920 0x12583F: tokio::runtime::runtime::Runtime::block_on (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 176920 0x12ABBF: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 176920 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 176920 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 176920 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n0: 176920 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n0: 168523 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=63958732
+mem_heap_B=9043966
+mem_heap_extra_B=2987170
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=64653043
+mem_heap_B=8929217
+mem_heap_extra_B=2654655
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=65347355
+mem_heap_B=8814508
+mem_heap_extra_B=2322100
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=66041667
+mem_heap_B=8699744
+mem_heap_extra_B=1989616
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=66735969
+mem_heap_B=8585007
+mem_heap_extra_B=1657105
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=67430281
+mem_heap_B=8470239
+mem_heap_extra_B=1324625
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=68124593
+mem_heap_B=8355457
+mem_heap_extra_B=992159
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=68818895
+mem_heap_B=8240705
+mem_heap_extra_B=659679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=69513207
+mem_heap_B=8125912
+mem_heap_extra_B=327224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=70207664
+mem_heap_B=153268
+mem_heap_extra_B=3660
+mem_stacks_B=0
+heap_tree=detailed
+n7: 153268 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 74880 0x14A5F1: tokio::runtime::time::wheel::Wheel::new (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 74880 0x13DA17: <alloc::vec::Vec<T> as alloc::vec::spec_from_iter::SpecFromIter<T,I>>::from_iter (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 74880 0x149A6F: tokio::runtime::driver::Driver::new (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 74880 0x1351E9: tokio::runtime::builder::Builder::build (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 74880 0x12AB70: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 74880 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 74880 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 74880 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n0: 74880 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n1: 24576 0x142C28: tokio::runtime::scheduler::multi_thread::queue::local (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 24576 0x132612: tokio::runtime::scheduler::multi_thread::worker::create (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 24576 0x13F807: tokio::runtime::scheduler::multi_thread::MultiThread::new (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 24576 0x1354E5: tokio::runtime::builder::Builder::build (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 24576 0x12AB70: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 24576 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 24576 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 24576 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n0: 24576 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n2: 21840 0x143583: <tokio::signal::registry::EventInfo as core::default::Default>::default (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 21504 0x13FA24: tokio::signal::unix::<impl tokio::signal::registry::Init for alloc::vec::Vec<tokio::signal::unix::SignalInfo>>::init (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 21504 0x143730: tokio::signal::registry::globals_init (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 21504 0x1154DD: std::sys::sync::once::futex::Once::call (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 21504 0x1153AA: tokio::util::once_cell::OnceCell<T>::do_init (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 21504 0x138842: tokio::runtime::signal::Driver::new (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 21504 0x14994D: tokio::runtime::driver::Driver::new (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 21504 0x1351E9: tokio::runtime::builder::Builder::build (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 21504 0x12AB70: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 21504 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n1: 21504 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+            n1: 21504 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+             n0: 21504 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n0: 336 in 1 place, below massif's threshold (1.00%)
+ n1: 12288 0x14DF9B: mio::event::events::Events::with_capacity (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n1: 12288 0x137EA8: tokio::runtime::io::driver::Driver::new (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 12288 0x1498A5: tokio::runtime::driver::Driver::new (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 12288 0x1351E9: tokio::runtime::builder::Builder::build (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 12288 0x12AB70: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 12288 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 12288 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 12288 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n0: 12288 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+ n0: 12004 in 53 places, all below massif's threshold (1.00%)
+ n2: 4224 0x1741F0: __rdl_alloc (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+  n2: 3072 0x14FC2B: parking_lot_core::parking_lot::HashTable::new (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+   n1: 2048 0x14FF14: parking_lot_core::parking_lot::ThreadData::new (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+    n1: 2048 0x117AB3: std::sys::thread_local::fast_local::lazy::Storage<T,D>::initialize (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+     n1: 2048 0x14EF7C: parking_lot::condvar::Condvar::wait_until_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+      n1: 2048 0x137B3D: tokio::runtime::scheduler::multi_thread::park::Parker::park (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 2048 0x134869: tokio::runtime::scheduler::multi_thread::worker::Context::park_timeout (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 2048 0x133EFE: tokio::runtime::scheduler::multi_thread::worker::Context::run (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 2048 0x136776: tokio::runtime::context::scoped::Scoped<T>::set (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 2048 0x13A07C: tokio::runtime::context::runtime::enter_runtime (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n1: 2048 0x1331B5: tokio::runtime::scheduler::multi_thread::worker::run (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+            n1: 2048 0x13A7C2: tokio::runtime::task::core::Core<T,S>::poll (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+             n1: 2048 0x14B0F1: tokio::runtime::task::harness::Harness<T,S>::poll (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+              n1: 2048 0x14745F: tokio::runtime::blocking::pool::Inner::run (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+               n1: 2048 0x147CBE: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+                n1: 2048 0x13B5E1: core::ops::function::FnOnce::call_once{{vtable.shim}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+                 n1: 2048 0x17749A: std::sys::pal::unix::thread::Thread::new::thread_start (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+                  n1: 2048 0x50A3AC2: start_thread (pthread_create.c:442)
+                   n0: 2048 0x5134A03: clone (clone.S:100)
+   n0: 1024 in 1 place, below massif's threshold (1.00%)
+  n0: 1152 in 1 place, below massif's threshold (1.00%)
+ n1: 3456 0x40147D9: calloc (rtld-malloc.h:44)
+  n1: 3456 0x40147D9: allocate_dtv (dl-tls.c:375)
+   n1: 3456 0x40147D9: _dl_allocate_tls (dl-tls.c:634)
+    n1: 3456 0x50A47B4: allocate_stack (allocatestack.c:430)
+     n1: 3456 0x50A47B4: pthread_create@@GLIBC_2.34 (pthread_create.c:647)
+      n1: 3456 0x1772D1: std::sys::pal::unix::thread::Thread::new (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+       n1: 3456 0x13B231: std::thread::Builder::spawn_unchecked (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+        n1: 3456 0x147032: tokio::runtime::blocking::pool::Spawner::spawn_task (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+         n1: 3456 0x146CDB: tokio::runtime::blocking::pool::Spawner::spawn_blocking (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+          n1: 3456 0x146193: tokio::runtime::blocking::pool::spawn_blocking (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+           n1: 3456 0x135658: tokio::runtime::builder::Builder::build (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+            n1: 3456 0x12AB70: historical_options_consumer::main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+             n1: 3456 0x126E62: std::sys_common::backtrace::__rust_begin_short_backtrace (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+              n1: 3456 0x12981C: std::rt::lang_start::{{closure}} (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+               n1: 3456 0x16BCEC: std::rt::lang_start_internal (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)
+                n0: 3456 0x12AC74: main (in /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/historical_options_consumer)

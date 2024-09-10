@@ -1,0 +1,2066 @@
+desc: (none)
+cmd: /usr/bin/cc -m64 /tmp/rustcHcZcMj/symbols.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.00.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.01.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.02.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.03.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.04.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.05.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.06.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.07.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.08.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.09.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.10.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.11.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.12.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.13.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.14.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.wasm_benchmark.7736fce240d758f4-cgu.15.rcgu.o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8.2wmsttm82f69s63ue3q5e3yug.rcgu.o -Wl,--as-needed -L /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps -L /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/build/rdkafka-sys-7d667afc4c2ca882/out/lib -L /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/build/psm-e318463e81c189a8/out -L /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/build/zstd-sys-8c03c040cae7884c/out -L /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/build/ittapi-sys-1e0902f8e92da91f/out -L /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/build/wasmtime-runtime-23cbf1517014d777/out -L /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib -Wl,-Bstatic /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/librand-654dee9b570f8c7b.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/librand_chacha-5ff6c39867b15417.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libppv_lite86-e135ffb3117d4300.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/librand_core-020444c3de386fbe.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libgetrandom-e8488839446ec90d.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libhistorical_options_consumer-b511f6f9f7e65659.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwasmtime-f2dd162fbfe2e60b.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwat-1822e071b98b3bba.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwast-f6df697f4062a7f0.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwasm_encoder-cbd7b550f709f690.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libleb128-ef65f5475bcbddcd.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libunicode_width-147e4b4395044b58.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwasmtime_cranelift-63e350d1b2b75816.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwasmtime_cranelift_shared-020cdce70b0e3b1e.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcranelift_native-5b3e92cb8b7ddef0.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcranelift_wasm-d5b817c0b2588465.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcranelift_frontend-51bc0327e899a47c.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcranelift_codegen-82d7ee8f30bd7445.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libbumpalo-6fa9dede632fd314.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libhashbrown-035aa463876f87a5.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libahash-7e8084b7a1587bad.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libzerocopy-c1e4fbe07daa24a2.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcranelift_codegen_shared-eaa5556175d19480.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libregalloc2-090a14f668f3795e.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libslice_group_by-5d0ad1ee2856b947.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libfxhash-c0a511a79b5eaa0f.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libbyteorder-767d49a0ce1a1177.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcranelift_bforest-98f02ec8b4d77d89.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libpsm-02858c10e9f821ba.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwasmtime_cache-3b38756334ebfe93.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libfile_per_thread_logger-b45eaa2c6456ba7e.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libenv_logger-7b5172c3eb9f116b.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libtermcolor-91817b919abf241e.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libis_terminal-2e5c16ca6b3802f9.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libhumantime-a1565d7873115270.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libtoml-5d63c094d94a1f2a.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libzstd-2a4fb26326e0cbf4.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libzstd_safe-bf80f9477953df42.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libzstd_sys-1d2bb6a47cf7c635.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libdirectories_next-07866aa789f5a23b.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libdirs_sys_next-4492d9e048107594.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libsha2-c07a1f7aeec03f56.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcpufeatures-804ffed38ee48415.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libdigest-c96edfce00627321.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libblock_buffer-afc756277c82c0cf.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcrypto_common-a981f91d83ec740d.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libgeneric_array-b2b7d0fca4c3995e.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libtypenum-902c1465c15302b4.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libbase64-f95a1a3c01fe1348.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwasmtime_jit-91bd40093c879f21.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libaddr2line-4a7eddd37c1f04c7.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libbincode-4f1d8d4b5530f52e.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcpp_demangle-42043325ec27e7ac.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/librustc_demangle-f6f7e64659d1ae7b.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libittapi-c91c477b64ec8b3c.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libittapi_sys-ff6ed7ae43e9e7d8.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwasmtime_jit_icache_coherence-5735c71368c91b72.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwasmtime_runtime-623922de638b6a7b.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libmemfd-6e3339bfb7d9db1d.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/librustix-ab27d09e447fecfd.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libbitflags-ccad3abe4fed6e79.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/liblinux_raw_sys-e1ebc87f0ab2f675.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwasmtime_fiber-b92a2eaff6995f77.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwasmtime_asm_macros-8a89a918aec6f16a.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwasmtime_jit_debug-e03214adb0fa1776.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libonce_cell-9e854eed23737148.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/librustix-a6fb5a3e24fddb49.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libio_lifetimes-9e963a7ea5602586.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/liblinux_raw_sys-d41eb54f313ad0f3.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libmemoffset-fa59398b62b4b989.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwasmtime_environ-cb3596b71ba66262.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libgimli-0b311dae85ab24ae.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libfallible_iterator-4f4cd4ada70c699a.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libstable_deref_trait-cdf6ed4f9ceb4fd7.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwasmtime_types-e1863f45a461a440.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwasmparser-91a603d5de293d6b.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/liburl-435dd60ab4af6f8f.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libidna-aa1d8dc3640e2a5c.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libunicode_normalization-e9fea6aeb0734d82.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libtinyvec-abf3cbce5b7b6de6.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libtinyvec_macros-a97cb57006ff9a4c.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libunicode_bidi-bfe63f94d3a63059.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libform_urlencoded-f7fabed8fdf8a576.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libpercent_encoding-15841bd6f3c022bd.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcranelift_entity-58ae0a40106d977e.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libtarget_lexicon-428328a7aef344d2.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libthiserror-c9eb0f47049c3cef.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libobject-eb984d684aced8a7.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcrc32fast-4e0d6eece52d7a7b.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/librdkafka-a7dfff1e49dc66a1.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libtokio-199337ce9868cb5f.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libsignal_hook_registry-7bf0dcae03340853.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libsocket2-cffa21199b0a044d.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libbytes-a80ef3f62b914aaa.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libmio-ad4ba778470c8711.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libparking_lot-4580335c9310aa7b.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libparking_lot_core-7737931f11de9b5e.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libsmallvec-560262abb0239fff.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/liblock_api-f83b6d9ef7c7f49f.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libscopeguard-ac8773d0c8be3a88.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libfutures_util-b23abbbf9921535a.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libfutures_io-dafc9d882cc72dd9.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libslab-7f7438a3b1b45a3f.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libpin_project_lite-b28ff670628e6df5.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libfutures_task-7f80ab09f99a981d.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libpin_utils-df5b673dcd30f01e.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libfutures_channel-0f03fa831f877e11.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libfutures_sink-9c6027a5da4dcec6.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libfutures_core-7296ee1a336f1875.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/librdkafka_sys-e375b1f3f4e81d28.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libnum_enum-6322e39a698905e5.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/liblibz_sys-2813bcaab69d32ce.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/liblog-fee03072b48908b6.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libanyhow-5fdaed748052ed52.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcriterion-c3ee3571f70c1f86.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libatty-52182aed18e7e907.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/liblibc-f452a797550623b2.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libciborium-2d22fc5120504ca8.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libciborium_ll-4076a52b7c8cb0c6.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libhalf-274d44ffe6d01af9.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcfg_if-069aa8d3b6fffb61.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libciborium_io-3bf5930bcc2875f9.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libclap-766f07c802336773.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libtextwrap-7c0d8ce832db1303.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libclap_lex-53d0e0111b0d9c68.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libos_str_bytes-5506e52a01073adb.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libindexmap-eaa8e5105d37e6ce.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libhashbrown-1e5cb9dd48c894cd.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libbitflags-572d549a09e7b042.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/liboorandom-b2c6930069c1df58.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/librayon-8704d374a66af352.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/librayon_core-42d3d4e7963916c1.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcrossbeam_deque-743c0f6ed6fe6fe8.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcrossbeam_epoch-1162c98467d8fcf6.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcrossbeam_utils-5fe1a42cb8431226.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libanes-ad38154a375d0e76.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libplotters-b4fc2f12f424f0d9.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libplotters_svg-069c3328f7a5d8e7.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libnum_traits-5b705fb4109d8f34.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libplotters_backend-44160b96c8cec6dc.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libtinytemplate-5b40bd87a102157a.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcriterion_plot-9a15dd74b47ebfc3.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libitertools-92cd305ae031870a.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libeither-cbb2d4c5b75a4107.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libcast-4592476f93c8175a.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libwalkdir-8df54c2e96d1b5d2.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libsame_file-1134974984ce0018.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libserde_json-77d8334a18016e7c.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libitoa-5ca595a7c9604cbf.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libryu-9fe2ffa6563da72a.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libserde-ff992d237d3a94a8.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libregex-f856a95da7a3f284.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libregex_automata-c57cf0590c559b6e.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libaho_corasick-6aa5e41ce0afeeeb.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libmemchr-9dcb8248cb8a95d8.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/libregex_syntax-db3096d0954fa92c.rlib /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/liblazy_static-b8cd5ec493744c98.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-52417a9a08ba8fb9.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-1b238e97929fdc18.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-3692c2663daa48a5.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-5c1e2d61611c0240.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-e55c5186b9bbabcb.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-7911d2fe92903c6c.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-c03510cdc48cfa52.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-7ec6f3765287c7b7.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-ab3f1b788cf79cfc.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-6db4226b4e34b1a6.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-f5bb1a38d410fa1e.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler-e585efe74c64604d.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-03f8e93b59ffc316.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-669e9182bfe197a6.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-64b53226be979181.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-26921ac7e6a44d2b.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-6703049be165ebf1.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-04bfdf6b094564ce.rlib /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-6648dc218e522d87.rlib -Wl,-Bdynamic -lz -lgcc_s -lutil -lrt -lpthread -lm -ldl -lc -Wl,--eh-frame-hdr -Wl,-z,noexecstack -L /home/pietrus/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib -o /home/pietrus/repos/web_assembly_rust_benchmark/historical_options_consumer/target/release/deps/wasm_benchmark-c2936ebe95a4a6a8 -Wl,--gc-sections -pie -Wl,-z,relro,-z,now -Wl,-O1 -Wl,--strip-debug -nodefaultlibs
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=203438
+mem_heap_B=48
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=212040
+mem_heap_B=159720
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 159720 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 86040 0x42DB2B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 65536 0x42D842: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 65536 0x4326E8: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 65536 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n1: 20504 0x435A3B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 20504 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 20504 0x5038D8F: (below main) (libc_start_call_main.h:58)
+ n1: 72704 0x42D559: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 72704 0x5038EBA: call_init (libc-start.c:145)
+   n1: 72704 0x5038EBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+    n1: 72704 0x431F64: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 72704 0x1FFEFF7E67: ???
+      n1: 72704 0x1B: ???
+       n1: 72704 0xE8: ???
+        n1: 72704 0x1FFEFF8ADA: ???
+         n1: 72704 0x1FFEFF8AE6: ???
+          n1: 72704 0x1FFEFF8AEB: ???
+           n1: 72704 0x1FFEFF8B06: ???
+            n1: 72704 0x1FFEFF8BB4: ???
+             n1: 72704 0x1FFEFF8C62: ???
+              n1: 72704 0x1FFEFF8D10: ???
+               n1: 72704 0x1FFEFF8DBE: ???
+                n1: 72704 0x1FFEFF8E6C: ???
+                 n1: 72704 0x1FFEFF8F1A: ???
+                  n1: 72704 0x1FFEFF8FC8: ???
+                   n1: 72704 0x1FFEFF9076: ???
+                    n1: 72704 0x1FFEFF9124: ???
+                     n1: 72704 0x1FFEFF91D2: ???
+                      n1: 72704 0x1FFEFF9280: ???
+                       n1: 72704 0x1FFEFF932E: ???
+                        n1: 72704 0x1FFEFF93DC: ???
+                         n1: 72704 0x1FFEFF948A: ???
+                          n1: 72704 0x1FFEFF9538: ???
+                           n1: 72704 0x1FFEFF95E6: ???
+                            n1: 72704 0x1FFEFF9687: ???
+                             n1: 72704 0x1FFEFF9697: ???
+                              n1: 72704 0x1FFEFF969A: ???
+                               n0: 72704 0x1FFEFF96FA: ???
+ n0: 976 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=251393
+mem_heap_B=179432
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=264229
+mem_heap_B=179432
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=detailed
+n3: 179432 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 105752 0x42DB2B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 65536 0x42D842: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 65536 0x4326E8: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 65536 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n1: 20504 0x435A3B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 20504 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 20504 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n1: 19712 0x435B2C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 19712 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 19712 0x5038D8F: (below main) (libc_start_call_main.h:58)
+ n1: 72704 0x42D559: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 72704 0x5038EBA: call_init (libc-start.c:145)
+   n1: 72704 0x5038EBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+    n1: 72704 0x431F64: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 72704 0x1FFEFF7E67: ???
+      n1: 72704 0x1B: ???
+       n1: 72704 0xE8: ???
+        n1: 72704 0x1FFEFF8ADA: ???
+         n1: 72704 0x1FFEFF8AE6: ???
+          n1: 72704 0x1FFEFF8AEB: ???
+           n1: 72704 0x1FFEFF8B06: ???
+            n1: 72704 0x1FFEFF8BB4: ???
+             n1: 72704 0x1FFEFF8C62: ???
+              n1: 72704 0x1FFEFF8D10: ???
+               n1: 72704 0x1FFEFF8DBE: ???
+                n1: 72704 0x1FFEFF8E6C: ???
+                 n1: 72704 0x1FFEFF8F1A: ???
+                  n1: 72704 0x1FFEFF8FC8: ???
+                   n1: 72704 0x1FFEFF9076: ???
+                    n1: 72704 0x1FFEFF9124: ???
+                     n1: 72704 0x1FFEFF91D2: ???
+                      n1: 72704 0x1FFEFF9280: ???
+                       n1: 72704 0x1FFEFF932E: ???
+                        n1: 72704 0x1FFEFF93DC: ???
+                         n1: 72704 0x1FFEFF948A: ???
+                          n1: 72704 0x1FFEFF9538: ???
+                           n1: 72704 0x1FFEFF95E6: ???
+                            n1: 72704 0x1FFEFF9687: ???
+                             n1: 72704 0x1FFEFF9697: ???
+                              n1: 72704 0x1FFEFF969A: ???
+                               n0: 72704 0x1FFEFF96FA: ???
+ n0: 976 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=284916
+mem_heap_B=167591
+mem_heap_extra_B=193
+mem_stacks_B=0
+heap_tree=detailed
+n4: 167591 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 73737 0x42DB2B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 65536 0x42D842: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 65536 0x4326E8: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 65536 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n2: 8128 0x42D801: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432417: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 73 in 4 places, all below massif's threshold (1.00%)
+ n1: 72704 0x42D559: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 72704 0x5038EBA: call_init (libc-start.c:145)
+   n1: 72704 0x5038EBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+    n1: 72704 0x431F64: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 72704 0x1FFEFF7E67: ???
+      n1: 72704 0x1B: ???
+       n1: 72704 0xE8: ???
+        n1: 72704 0x1FFEFF8ADA: ???
+         n1: 72704 0x1FFEFF8AE6: ???
+          n1: 72704 0x1FFEFF8AEB: ???
+           n1: 72704 0x1FFEFF8B06: ???
+            n1: 72704 0x1FFEFF8BB4: ???
+             n1: 72704 0x1FFEFF8C62: ???
+              n1: 72704 0x1FFEFF8D10: ???
+               n1: 72704 0x1FFEFF8DBE: ???
+                n1: 72704 0x1FFEFF8E6C: ???
+                 n1: 72704 0x1FFEFF8F1A: ???
+                  n1: 72704 0x1FFEFF8FC8: ???
+                   n1: 72704 0x1FFEFF9076: ???
+                    n1: 72704 0x1FFEFF9124: ???
+                     n1: 72704 0x1FFEFF91D2: ???
+                      n1: 72704 0x1FFEFF9280: ???
+                       n1: 72704 0x1FFEFF932E: ???
+                        n1: 72704 0x1FFEFF93DC: ???
+                         n1: 72704 0x1FFEFF948A: ???
+                          n1: 72704 0x1FFEFF9538: ???
+                           n1: 72704 0x1FFEFF95E6: ???
+                            n1: 72704 0x1FFEFF9687: ???
+                             n1: 72704 0x1FFEFF9697: ???
+                              n1: 72704 0x1FFEFF969A: ???
+                               n0: 72704 0x1FFEFF96FA: ???
+ n1: 19712 0x42DBAF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 19712 0x435C6B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 19712 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 19712 0x5038D8F: (below main) (libc_start_call_main.h:58)
+ n0: 1438 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=312811
+mem_heap_B=175843
+mem_heap_extra_B=253
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=336937
+mem_heap_B=185539
+mem_heap_extra_B=685
+mem_stacks_B=0
+heap_tree=detailed
+n4: 185539 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 82326 0x42DB2B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 65536 0x42D842: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 65536 0x4326E8: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 65536 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n4: 16256 0x42D801: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432417: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B0F: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B28: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 534 in 10 places, all below massif's threshold (1.00%)
+ n1: 72704 0x42D559: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 72704 0x5038EBA: call_init (libc-start.c:145)
+   n1: 72704 0x5038EBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+    n1: 72704 0x431F64: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 72704 0x1FFEFF7E67: ???
+      n1: 72704 0x1B: ???
+       n1: 72704 0xE8: ???
+        n1: 72704 0x1FFEFF8ADA: ???
+         n1: 72704 0x1FFEFF8AE6: ???
+          n1: 72704 0x1FFEFF8AEB: ???
+           n1: 72704 0x1FFEFF8B06: ???
+            n1: 72704 0x1FFEFF8BB4: ???
+             n1: 72704 0x1FFEFF8C62: ???
+              n1: 72704 0x1FFEFF8D10: ???
+               n1: 72704 0x1FFEFF8DBE: ???
+                n1: 72704 0x1FFEFF8E6C: ???
+                 n1: 72704 0x1FFEFF8F1A: ???
+                  n1: 72704 0x1FFEFF8FC8: ???
+                   n1: 72704 0x1FFEFF9076: ???
+                    n1: 72704 0x1FFEFF9124: ???
+                     n1: 72704 0x1FFEFF91D2: ???
+                      n1: 72704 0x1FFEFF9280: ???
+                       n1: 72704 0x1FFEFF932E: ???
+                        n1: 72704 0x1FFEFF93DC: ???
+                         n1: 72704 0x1FFEFF948A: ???
+                          n1: 72704 0x1FFEFF9538: ???
+                           n1: 72704 0x1FFEFF95E6: ???
+                            n1: 72704 0x1FFEFF9687: ???
+                             n1: 72704 0x1FFEFF9697: ???
+                              n1: 72704 0x1FFEFF969A: ???
+                               n0: 72704 0x1FFEFF96FA: ???
+ n3: 27929 0x42DBAF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 19712 0x435C6B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 19712 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 19712 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n1: 8192 0x43911C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 8192 0x43909D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 8192 0x4379CB: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 8192 0x436EAD: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 8192 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n0: 8192 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 25 in 1 place, below massif's threshold (1.00%)
+ n0: 2580 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=353489
+mem_heap_B=185827
+mem_heap_extra_B=693
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=371869
+mem_heap_B=185827
+mem_heap_extra_B=693
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=390249
+mem_heap_B=185827
+mem_heap_extra_B=693
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=415660
+mem_heap_B=185686
+mem_heap_extra_B=698
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=445582
+mem_heap_B=185655
+mem_heap_extra_B=697
+mem_stacks_B=0
+heap_tree=detailed
+n4: 185655 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 82312 0x42DB2B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 65536 0x42D842: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 65536 0x4326E8: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 65536 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n4: 16256 0x42D801: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432417: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B0F: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B28: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 520 in 10 places, all below massif's threshold (1.00%)
+ n1: 72704 0x42D559: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 72704 0x5038EBA: call_init (libc-start.c:145)
+   n1: 72704 0x5038EBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+    n1: 72704 0x431F64: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 72704 0x1FFEFF7E67: ???
+      n1: 72704 0x1B: ???
+       n1: 72704 0xE8: ???
+        n1: 72704 0x1FFEFF8ADA: ???
+         n1: 72704 0x1FFEFF8AE6: ???
+          n1: 72704 0x1FFEFF8AEB: ???
+           n1: 72704 0x1FFEFF8B06: ???
+            n1: 72704 0x1FFEFF8BB4: ???
+             n1: 72704 0x1FFEFF8C62: ???
+              n1: 72704 0x1FFEFF8D10: ???
+               n1: 72704 0x1FFEFF8DBE: ???
+                n1: 72704 0x1FFEFF8E6C: ???
+                 n1: 72704 0x1FFEFF8F1A: ???
+                  n1: 72704 0x1FFEFF8FC8: ???
+                   n1: 72704 0x1FFEFF9076: ???
+                    n1: 72704 0x1FFEFF9124: ???
+                     n1: 72704 0x1FFEFF91D2: ???
+                      n1: 72704 0x1FFEFF9280: ???
+                       n1: 72704 0x1FFEFF932E: ???
+                        n1: 72704 0x1FFEFF93DC: ???
+                         n1: 72704 0x1FFEFF948A: ???
+                          n1: 72704 0x1FFEFF9538: ???
+                           n1: 72704 0x1FFEFF95E6: ???
+                            n1: 72704 0x1FFEFF9687: ???
+                             n1: 72704 0x1FFEFF9697: ???
+                              n1: 72704 0x1FFEFF969A: ???
+                               n0: 72704 0x1FFEFF96FA: ???
+ n3: 27929 0x42DBAF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 19712 0x435C6B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 19712 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 19712 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n1: 8192 0x43911C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 8192 0x43909D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 8192 0x4379CB: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 8192 0x436EAD: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 8192 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n0: 8192 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 25 in 1 place, below massif's threshold (1.00%)
+ n0: 2710 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=460326
+mem_heap_B=185787
+mem_heap_extra_B=701
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=479791
+mem_heap_B=185663
+mem_heap_extra_B=689
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=501191
+mem_heap_B=185656
+mem_heap_extra_B=696
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=522588
+mem_heap_B=185661
+mem_heap_extra_B=691
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=541633
+mem_heap_B=185778
+mem_heap_extra_B=694
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=571624
+mem_heap_B=185653
+mem_heap_extra_B=683
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=592790
+mem_heap_B=185788
+mem_heap_extra_B=700
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=624735
+mem_heap_B=185653
+mem_heap_extra_B=683
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=639548
+mem_heap_B=185782
+mem_heap_extra_B=706
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=665320
+mem_heap_B=185791
+mem_heap_extra_B=697
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=697404
+mem_heap_B=185656
+mem_heap_extra_B=696
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=725131
+mem_heap_B=185653
+mem_heap_extra_B=683
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=742300
+mem_heap_B=185653
+mem_heap_extra_B=683
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=767725
+mem_heap_B=185787
+mem_heap_extra_B=701
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=784908
+mem_heap_B=185789
+mem_heap_extra_B=699
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=801874
+mem_heap_B=185782
+mem_heap_extra_B=706
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=827344
+mem_heap_B=185786
+mem_heap_extra_B=702
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=852926
+mem_heap_B=185785
+mem_heap_extra_B=703
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=869962
+mem_heap_B=185784
+mem_heap_extra_B=704
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=895558
+mem_heap_B=185783
+mem_heap_extra_B=705
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=912447
+mem_heap_B=185779
+mem_heap_extra_B=693
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=929378
+mem_heap_B=185779
+mem_heap_extra_B=693
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=946323
+mem_heap_B=185783
+mem_heap_extra_B=705
+mem_stacks_B=0
+heap_tree=detailed
+n4: 185783 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 82312 0x42DB2B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 65536 0x42D842: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 65536 0x4326E8: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 65536 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n4: 16256 0x42D801: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432417: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B0F: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B28: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 520 in 10 places, all below massif's threshold (1.00%)
+ n1: 72704 0x42D559: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 72704 0x5038EBA: call_init (libc-start.c:145)
+   n1: 72704 0x5038EBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+    n1: 72704 0x431F64: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 72704 0x1FFEFF7E67: ???
+      n1: 72704 0x1B: ???
+       n1: 72704 0xE8: ???
+        n1: 72704 0x1FFEFF8ADA: ???
+         n1: 72704 0x1FFEFF8AE6: ???
+          n1: 72704 0x1FFEFF8AEB: ???
+           n1: 72704 0x1FFEFF8B06: ???
+            n1: 72704 0x1FFEFF8BB4: ???
+             n1: 72704 0x1FFEFF8C62: ???
+              n1: 72704 0x1FFEFF8D10: ???
+               n1: 72704 0x1FFEFF8DBE: ???
+                n1: 72704 0x1FFEFF8E6C: ???
+                 n1: 72704 0x1FFEFF8F1A: ???
+                  n1: 72704 0x1FFEFF8FC8: ???
+                   n1: 72704 0x1FFEFF9076: ???
+                    n1: 72704 0x1FFEFF9124: ???
+                     n1: 72704 0x1FFEFF91D2: ???
+                      n1: 72704 0x1FFEFF9280: ???
+                       n1: 72704 0x1FFEFF932E: ???
+                        n1: 72704 0x1FFEFF93DC: ???
+                         n1: 72704 0x1FFEFF948A: ???
+                          n1: 72704 0x1FFEFF9538: ???
+                           n1: 72704 0x1FFEFF95E6: ???
+                            n1: 72704 0x1FFEFF9687: ???
+                             n1: 72704 0x1FFEFF9697: ???
+                              n1: 72704 0x1FFEFF969A: ???
+                               n0: 72704 0x1FFEFF96FA: ???
+ n3: 27929 0x42DBAF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 19712 0x435C6B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 19712 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 19712 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n1: 8192 0x43911C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 8192 0x43909D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 8192 0x4379CB: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 8192 0x436EAD: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 8192 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n0: 8192 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 25 in 1 place, below massif's threshold (1.00%)
+ n0: 2838 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=963338
+mem_heap_B=185784
+mem_heap_extra_B=704
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=988892
+mem_heap_B=185790
+mem_heap_extra_B=698
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1005914
+mem_heap_B=185787
+mem_heap_extra_B=701
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1023034
+mem_heap_B=185789
+mem_heap_extra_B=699
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=1039958
+mem_heap_B=185782
+mem_heap_extra_B=706
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1065316
+mem_heap_B=185780
+mem_heap_extra_B=692
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1082373
+mem_heap_B=185787
+mem_heap_extra_B=701
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1099850
+mem_heap_B=185791
+mem_heap_extra_B=697
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=1117517
+mem_heap_B=185799
+mem_heap_extra_B=705
+mem_stacks_B=0
+heap_tree=detailed
+n4: 185799 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 82312 0x42DB2B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 65536 0x42D842: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 65536 0x4326E8: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 65536 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n4: 16256 0x42D801: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432417: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B0F: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B28: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 520 in 10 places, all below massif's threshold (1.00%)
+ n1: 72704 0x42D559: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 72704 0x5038EBA: call_init (libc-start.c:145)
+   n1: 72704 0x5038EBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+    n1: 72704 0x431F64: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 72704 0x1FFEFF7E67: ???
+      n1: 72704 0x1B: ???
+       n1: 72704 0xE8: ???
+        n1: 72704 0x1FFEFF8ADA: ???
+         n1: 72704 0x1FFEFF8AE6: ???
+          n1: 72704 0x1FFEFF8AEB: ???
+           n1: 72704 0x1FFEFF8B06: ???
+            n1: 72704 0x1FFEFF8BB4: ???
+             n1: 72704 0x1FFEFF8C62: ???
+              n1: 72704 0x1FFEFF8D10: ???
+               n1: 72704 0x1FFEFF8DBE: ???
+                n1: 72704 0x1FFEFF8E6C: ???
+                 n1: 72704 0x1FFEFF8F1A: ???
+                  n1: 72704 0x1FFEFF8FC8: ???
+                   n1: 72704 0x1FFEFF9076: ???
+                    n1: 72704 0x1FFEFF9124: ???
+                     n1: 72704 0x1FFEFF91D2: ???
+                      n1: 72704 0x1FFEFF9280: ???
+                       n1: 72704 0x1FFEFF932E: ???
+                        n1: 72704 0x1FFEFF93DC: ???
+                         n1: 72704 0x1FFEFF948A: ???
+                          n1: 72704 0x1FFEFF9538: ???
+                           n1: 72704 0x1FFEFF95E6: ???
+                            n1: 72704 0x1FFEFF9687: ???
+                             n1: 72704 0x1FFEFF9697: ???
+                              n1: 72704 0x1FFEFF969A: ???
+                               n0: 72704 0x1FFEFF96FA: ???
+ n3: 27929 0x42DBAF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 19712 0x435C6B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 19712 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 19712 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n1: 8192 0x43911C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 8192 0x43909D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 8192 0x4379CB: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 8192 0x436EAD: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 8192 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n0: 8192 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 25 in 1 place, below massif's threshold (1.00%)
+ n0: 2854 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=1135328
+mem_heap_B=185796
+mem_heap_extra_B=692
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=1152863
+mem_heap_B=185789
+mem_heap_extra_B=699
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1170673
+mem_heap_B=185802
+mem_heap_extra_B=702
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=1193756
+mem_heap_B=190127
+mem_heap_extra_B=945
+mem_stacks_B=0
+heap_tree=detailed
+n4: 190127 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 86422 0x42DB2B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 65536 0x42D842: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 65536 0x4326E8: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 65536 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n4: 16256 0x42D801: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432417: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B0F: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B28: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n1: 3808 0x436EB7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 3808 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 3808 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 822 in 12 places, all below massif's threshold (1.00%)
+ n1: 72704 0x42D559: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 72704 0x5038EBA: call_init (libc-start.c:145)
+   n1: 72704 0x5038EBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+    n1: 72704 0x431F64: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 72704 0x1FFEFF7E67: ???
+      n1: 72704 0x1B: ???
+       n1: 72704 0xE8: ???
+        n1: 72704 0x1FFEFF8ADA: ???
+         n1: 72704 0x1FFEFF8AE6: ???
+          n1: 72704 0x1FFEFF8AEB: ???
+           n1: 72704 0x1FFEFF8B06: ???
+            n1: 72704 0x1FFEFF8BB4: ???
+             n1: 72704 0x1FFEFF8C62: ???
+              n1: 72704 0x1FFEFF8D10: ???
+               n1: 72704 0x1FFEFF8DBE: ???
+                n1: 72704 0x1FFEFF8E6C: ???
+                 n1: 72704 0x1FFEFF8F1A: ???
+                  n1: 72704 0x1FFEFF8FC8: ???
+                   n1: 72704 0x1FFEFF9076: ???
+                    n1: 72704 0x1FFEFF9124: ???
+                     n1: 72704 0x1FFEFF91D2: ???
+                      n1: 72704 0x1FFEFF9280: ???
+                       n1: 72704 0x1FFEFF932E: ???
+                        n1: 72704 0x1FFEFF93DC: ???
+                         n1: 72704 0x1FFEFF948A: ???
+                          n1: 72704 0x1FFEFF9538: ???
+                           n1: 72704 0x1FFEFF95E6: ???
+                            n1: 72704 0x1FFEFF9687: ???
+                             n1: 72704 0x1FFEFF9697: ???
+                              n1: 72704 0x1FFEFF969A: ???
+                               n0: 72704 0x1FFEFF96FA: ???
+ n3: 27929 0x42DBAF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 19712 0x435C6B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 19712 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 19712 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n1: 8192 0x43911C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 8192 0x43909D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 8192 0x4379CB: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 8192 0x436EAD: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 8192 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n0: 8192 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 25 in 1 place, below massif's threshold (1.00%)
+ n0: 3072 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=1214468
+mem_heap_B=190091
+mem_heap_extra_B=957
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1223071
+mem_heap_B=190068
+mem_heap_extra_B=964
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=2066055
+mem_heap_B=190367
+mem_heap_extra_B=1049
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=2076946
+mem_heap_B=195735
+mem_heap_extra_B=1129
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=2090440
+mem_heap_B=199950
+mem_heap_extra_B=1178
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=2095924
+mem_heap_B=199958
+mem_heap_extra_B=1170
+mem_stacks_B=0
+heap_tree=detailed
+n4: 199958 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 95053 0x42DB2B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 65536 0x42D842: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 65536 0x4326E8: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 65536 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n6: 24384 0x42D801: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432417: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B0F: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B28: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432F1C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x433720: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n1: 3808 0x436EB7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 3808 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 3808 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 1325 in 17 places, all below massif's threshold (1.00%)
+ n1: 72704 0x42D559: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 72704 0x5038EBA: call_init (libc-start.c:145)
+   n1: 72704 0x5038EBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+    n1: 72704 0x431F64: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 72704 0x1FFEFF7E67: ???
+      n1: 72704 0x1B: ???
+       n1: 72704 0xE8: ???
+        n1: 72704 0x1FFEFF8ADA: ???
+         n1: 72704 0x1FFEFF8AE6: ???
+          n1: 72704 0x1FFEFF8AEB: ???
+           n1: 72704 0x1FFEFF8B06: ???
+            n1: 72704 0x1FFEFF8BB4: ???
+             n1: 72704 0x1FFEFF8C62: ???
+              n1: 72704 0x1FFEFF8D10: ???
+               n1: 72704 0x1FFEFF8DBE: ???
+                n1: 72704 0x1FFEFF8E6C: ???
+                 n1: 72704 0x1FFEFF8F1A: ???
+                  n1: 72704 0x1FFEFF8FC8: ???
+                   n1: 72704 0x1FFEFF9076: ???
+                    n1: 72704 0x1FFEFF9124: ???
+                     n1: 72704 0x1FFEFF91D2: ???
+                      n1: 72704 0x1FFEFF9280: ???
+                       n1: 72704 0x1FFEFF932E: ???
+                        n1: 72704 0x1FFEFF93DC: ???
+                         n1: 72704 0x1FFEFF948A: ???
+                          n1: 72704 0x1FFEFF9538: ???
+                           n1: 72704 0x1FFEFF95E6: ???
+                            n1: 72704 0x1FFEFF9687: ???
+                             n1: 72704 0x1FFEFF9697: ???
+                              n1: 72704 0x1FFEFF969A: ???
+                               n0: 72704 0x1FFEFF96FA: ???
+ n3: 27929 0x42DBAF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n2: 19712 0x435C6B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 19712 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 19712 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 8192 0x43911C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 8192 0x43909D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 8192 0x4379CB: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 8192 0x436EAD: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 8192 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n0: 8192 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 25 in 1 place, below massif's threshold (1.00%)
+ n0: 4272 in 14 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=6149787
+mem_heap_B=201886
+mem_heap_extra_B=1210
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=6151184
+mem_heap_B=202002
+mem_heap_extra_B=1238
+mem_stacks_B=0
+heap_tree=detailed
+n5: 202002 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 95053 0x42DB2B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 65536 0x42D842: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 65536 0x4326E8: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 65536 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n6: 24384 0x42D801: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432417: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B0F: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B28: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432F1C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x433720: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n1: 3808 0x436EB7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 3808 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 3808 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 1325 in 17 places, all below massif's threshold (1.00%)
+ n1: 72704 0x42D559: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 72704 0x5038EBA: call_init (libc-start.c:145)
+   n1: 72704 0x5038EBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+    n1: 72704 0x431F64: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 72704 0x1FFEFF7E67: ???
+      n1: 72704 0x1B: ???
+       n1: 72704 0xE8: ???
+        n1: 72704 0x1FFEFF8ADA: ???
+         n1: 72704 0x1FFEFF8AE6: ???
+          n1: 72704 0x1FFEFF8AEB: ???
+           n1: 72704 0x1FFEFF8B06: ???
+            n1: 72704 0x1FFEFF8BB4: ???
+             n1: 72704 0x1FFEFF8C62: ???
+              n1: 72704 0x1FFEFF8D10: ???
+               n1: 72704 0x1FFEFF8DBE: ???
+                n1: 72704 0x1FFEFF8E6C: ???
+                 n1: 72704 0x1FFEFF8F1A: ???
+                  n1: 72704 0x1FFEFF8FC8: ???
+                   n1: 72704 0x1FFEFF9076: ???
+                    n1: 72704 0x1FFEFF9124: ???
+                     n1: 72704 0x1FFEFF91D2: ???
+                      n1: 72704 0x1FFEFF9280: ???
+                       n1: 72704 0x1FFEFF932E: ???
+                        n1: 72704 0x1FFEFF93DC: ???
+                         n1: 72704 0x1FFEFF948A: ???
+                          n1: 72704 0x1FFEFF9538: ???
+                           n1: 72704 0x1FFEFF95E6: ???
+                            n1: 72704 0x1FFEFF9687: ???
+                             n1: 72704 0x1FFEFF9697: ???
+                              n1: 72704 0x1FFEFF969A: ???
+                               n0: 72704 0x1FFEFF96FA: ???
+ n3: 27904 0x42DBAF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n2: 19712 0x435C6B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 19712 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 19712 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 8192 0x43911C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 8192 0x43909D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 8192 0x4379CB: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 8192 0x436EAD: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 8192 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n0: 8192 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 4022 in 13 places, all below massif's threshold (1.00%)
+ n1: 2319 0x42D6CE: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n0: 2319 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=57
+#-----------
+time=6161925
+mem_heap_B=202166
+mem_heap_extra_B=1298
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=6219323
+mem_heap_B=205271
+mem_heap_extra_B=1329
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=6268385
+mem_heap_B=208352
+mem_heap_extra_B=1344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=6317366
+mem_heap_B=211427
+mem_heap_extra_B=1365
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=6366533
+mem_heap_B=214495
+mem_heap_extra_B=1377
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=6415336
+mem_heap_B=217557
+mem_heap_extra_B=1395
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=6464065
+mem_heap_B=220612
+mem_heap_extra_B=1404
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=6475351
+mem_heap_B=221113
+mem_heap_extra_B=1447
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=6485571
+mem_heap_B=221200
+mem_heap_extra_B=1560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=6490975
+mem_heap_B=221278
+mem_heap_extra_B=1578
+mem_stacks_B=0
+heap_tree=detailed
+n5: 221278 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 114365 0x42DB2B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 65536 0x42D842: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 65536 0x4326E8: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 65536 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n6: 24384 0x42D801: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432417: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B0F: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B28: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432F1C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x433720: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n2: 19011 0x438657: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 18991 0x42F5D7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n2: 18991 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 15904 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n2: 15904 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n1: 12823 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n2: 12823 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n1: 9748 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n2: 9748 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n1: 6680 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n2: 6680 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n1: 3618 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n2: 3618 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n1: 3055 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                n1: 3055 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                 n1: 3055 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                  n1: 3055 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                   n0: 3055 0x5038D8F: (below main) (libc_start_call_main.h:58)
+               n0: 563 in 1 place, below massif's threshold (1.00%)
+             n1: 3062 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n1: 3062 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n1: 3062 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                n1: 3062 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                 n0: 3062 0x5038D8F: (below main) (libc_start_call_main.h:58)
+           n1: 3068 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n1: 3068 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n1: 3068 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n1: 3068 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n0: 3068 0x5038D8F: (below main) (libc_start_call_main.h:58)
+         n2: 3075 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n1: 3075 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n1: 3075 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n1: 3075 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n0: 3075 0x5038D8F: (below main) (libc_start_call_main.h:58)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+       n2: 3081 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n1: 3081 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n1: 3081 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n1: 3081 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n0: 3081 0x5038D8F: (below main) (libc_start_call_main.h:58)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+     n2: 3087 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 3087 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n1: 3087 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n1: 3087 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n0: 3087 0x5038D8F: (below main) (libc_start_call_main.h:58)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 20 in 4 places, all below massif's threshold (1.00%)
+  n1: 3808 0x436EB7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 3808 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 3808 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 1626 in 20 places, all below massif's threshold (1.00%)
+ n1: 72704 0x42D559: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 72704 0x5038EBA: call_init (libc-start.c:145)
+   n1: 72704 0x5038EBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+    n1: 72704 0x431F64: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 72704 0x1FFEFF7E67: ???
+      n1: 72704 0x1B: ???
+       n1: 72704 0xE8: ???
+        n1: 72704 0x1FFEFF8ADA: ???
+         n1: 72704 0x1FFEFF8AE6: ???
+          n1: 72704 0x1FFEFF8AEB: ???
+           n1: 72704 0x1FFEFF8B06: ???
+            n1: 72704 0x1FFEFF8BB4: ???
+             n1: 72704 0x1FFEFF8C62: ???
+              n1: 72704 0x1FFEFF8D10: ???
+               n1: 72704 0x1FFEFF8DBE: ???
+                n1: 72704 0x1FFEFF8E6C: ???
+                 n1: 72704 0x1FFEFF8F1A: ???
+                  n1: 72704 0x1FFEFF8FC8: ???
+                   n1: 72704 0x1FFEFF9076: ???
+                    n1: 72704 0x1FFEFF9124: ???
+                     n1: 72704 0x1FFEFF91D2: ???
+                      n1: 72704 0x1FFEFF9280: ???
+                       n1: 72704 0x1FFEFF932E: ???
+                        n1: 72704 0x1FFEFF93DC: ???
+                         n1: 72704 0x1FFEFF948A: ???
+                          n1: 72704 0x1FFEFF9538: ???
+                           n1: 72704 0x1FFEFF95E6: ???
+                            n1: 72704 0x1FFEFF9687: ???
+                             n1: 72704 0x1FFEFF9697: ???
+                              n1: 72704 0x1FFEFF969A: ???
+                               n0: 72704 0x1FFEFF96FA: ???
+ n3: 27904 0x42DBAF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n2: 19712 0x435C6B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 19712 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 19712 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 8192 0x43911C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 8192 0x43909D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 8192 0x4379CB: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 8192 0x436EAD: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 8192 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n0: 8192 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 3986 in 13 places, all below massif's threshold (1.00%)
+ n1: 2319 0x42D6CE: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n0: 2319 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=67
+#-----------
+time=6512676
+mem_heap_B=221519
+mem_heap_extra_B=1545
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=6521696
+mem_heap_B=221531
+mem_heap_extra_B=1557
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=6533750
+mem_heap_B=222204
+mem_heap_extra_B=1556
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=6542856
+mem_heap_B=222716
+mem_heap_extra_B=1564
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=6551710
+mem_heap_B=223206
+mem_heap_extra_B=1578
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=6561877
+mem_heap_B=223352
+mem_heap_extra_B=1600
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=6570545
+mem_heap_B=223539
+mem_heap_extra_B=1629
+mem_stacks_B=0
+heap_tree=detailed
+n5: 223539 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 116546 0x42DB2B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 65536 0x42D842: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 65536 0x4326E8: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 65536 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n6: 24384 0x42D801: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432417: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B0F: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B28: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432F1C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x433720: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n2: 21192 0x438657: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 21172 0x42F5D7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n3: 21172 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 17281 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n3: 17281 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n1: 13595 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n3: 13595 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n1: 10008 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n3: 10008 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n1: 6450 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n3: 6450 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n1: 3242 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n2: 3242 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n1: 3055 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                n1: 3055 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                 n1: 3055 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                  n1: 3055 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                   n0: 3055 0x5038D8F: (below main) (libc_start_call_main.h:58)
+               n0: 187 in 2 places, all below massif's threshold (1.00%)
+             n1: 3062 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n1: 3062 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n1: 3062 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                n1: 3062 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                 n0: 3062 0x5038D8F: (below main) (libc_start_call_main.h:58)
+             n0: 146 in 1 place, below massif's threshold (1.00%)
+           n1: 3068 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n1: 3068 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n1: 3068 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n1: 3068 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n0: 3068 0x5038D8F: (below main) (libc_start_call_main.h:58)
+           n0: 490 in 1 place, below massif's threshold (1.00%)
+         n2: 3075 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n1: 3075 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n1: 3075 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n1: 3075 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n0: 3075 0x5038D8F: (below main) (libc_start_call_main.h:58)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+         n0: 512 in 1 place, below massif's threshold (1.00%)
+       n2: 3081 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n1: 3081 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n1: 3081 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n1: 3081 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n0: 3081 0x5038D8F: (below main) (libc_start_call_main.h:58)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+       n0: 605 in 1 place, below massif's threshold (1.00%)
+     n2: 3087 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 3087 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n1: 3087 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n1: 3087 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n0: 3087 0x5038D8F: (below main) (libc_start_call_main.h:58)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+     n0: 804 in 1 place, below massif's threshold (1.00%)
+   n0: 20 in 4 places, all below massif's threshold (1.00%)
+  n1: 3808 0x436EB7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 3808 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 3808 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 1626 in 20 places, all below massif's threshold (1.00%)
+ n1: 72704 0x42D559: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 72704 0x5038EBA: call_init (libc-start.c:145)
+   n1: 72704 0x5038EBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+    n1: 72704 0x431F64: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 72704 0x1FFEFF7E67: ???
+      n1: 72704 0x1B: ???
+       n1: 72704 0xE8: ???
+        n1: 72704 0x1FFEFF8ADA: ???
+         n1: 72704 0x1FFEFF8AE6: ???
+          n1: 72704 0x1FFEFF8AEB: ???
+           n1: 72704 0x1FFEFF8B06: ???
+            n1: 72704 0x1FFEFF8BB4: ???
+             n1: 72704 0x1FFEFF8C62: ???
+              n1: 72704 0x1FFEFF8D10: ???
+               n1: 72704 0x1FFEFF8DBE: ???
+                n1: 72704 0x1FFEFF8E6C: ???
+                 n1: 72704 0x1FFEFF8F1A: ???
+                  n1: 72704 0x1FFEFF8FC8: ???
+                   n1: 72704 0x1FFEFF9076: ???
+                    n1: 72704 0x1FFEFF9124: ???
+                     n1: 72704 0x1FFEFF91D2: ???
+                      n1: 72704 0x1FFEFF9280: ???
+                       n1: 72704 0x1FFEFF932E: ???
+                        n1: 72704 0x1FFEFF93DC: ???
+                         n1: 72704 0x1FFEFF948A: ???
+                          n1: 72704 0x1FFEFF9538: ???
+                           n1: 72704 0x1FFEFF95E6: ???
+                            n1: 72704 0x1FFEFF9687: ???
+                             n1: 72704 0x1FFEFF9697: ???
+                              n1: 72704 0x1FFEFF969A: ???
+                               n0: 72704 0x1FFEFF96FA: ???
+ n3: 28072 0x42DBAF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n2: 19712 0x435C6B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 19712 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 19712 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 8192 0x43911C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 8192 0x43909D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 8192 0x4379CB: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 8192 0x436EAD: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 8192 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n0: 8192 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 168 in 2 places, all below massif's threshold (1.00%)
+ n0: 3898 in 13 places, all below massif's threshold (1.00%)
+ n1: 2319 0x42D6CE: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n0: 2319 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=74
+#-----------
+time=6593302
+mem_heap_B=220807
+mem_heap_extra_B=1537
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=6610382
+mem_heap_B=220821
+mem_heap_extra_B=1539
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=6620225
+mem_heap_B=221260
+mem_heap_extra_B=1588
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=6630680
+mem_heap_B=221391
+mem_heap_extra_B=1633
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=6639282
+mem_heap_B=221627
+mem_heap_extra_B=1749
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=6647925
+mem_heap_B=221317
+mem_heap_extra_B=1707
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=6668238
+mem_heap_B=221391
+mem_heap_extra_B=1665
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=6679378
+mem_heap_B=221515
+mem_heap_extra_B=1701
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=6701869
+mem_heap_B=226320
+mem_heap_extra_B=1704
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=6715802
+mem_heap_B=227161
+mem_heap_extra_B=1719
+mem_stacks_B=0
+heap_tree=detailed
+n5: 227161 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n6: 119896 0x42DB2B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 65536 0x42D842: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 65536 0x4326E8: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 65536 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n6: 24384 0x42D801: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432417: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B0F: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B28: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432F1C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x433720: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n2: 20136 0x438657: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 20116 0x42F5D7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n3: 20116 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 17029 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n3: 17029 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n1: 13948 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n3: 13948 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n1: 10873 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n3: 10873 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n1: 7805 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n3: 7805 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n1: 4743 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n2: 4743 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n1: 3055 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                n1: 3055 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                 n1: 3055 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                  n1: 3055 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                   n0: 3055 0x5038D8F: (below main) (libc_start_call_main.h:58)
+               n0: 1688 in 2 places, all below massif's threshold (1.00%)
+             n1: 3062 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n1: 3062 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n1: 3062 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                n1: 3062 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                 n0: 3062 0x5038D8F: (below main) (libc_start_call_main.h:58)
+             n0: 0 in 1 place, below massif's threshold (1.00%)
+           n1: 3068 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n1: 3068 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n1: 3068 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n1: 3068 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n0: 3068 0x5038D8F: (below main) (libc_start_call_main.h:58)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+         n2: 3075 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n1: 3075 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n1: 3075 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n1: 3075 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n0: 3075 0x5038D8F: (below main) (libc_start_call_main.h:58)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+       n2: 3081 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n1: 3081 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n1: 3081 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n1: 3081 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n0: 3081 0x5038D8F: (below main) (libc_start_call_main.h:58)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n2: 3087 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 3087 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n1: 3087 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n1: 3087 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n0: 3087 0x5038D8F: (below main) (libc_start_call_main.h:58)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 20 in 4 places, all below massif's threshold (1.00%)
+  n1: 4064 0x43175F: _obstack_newchunk (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x409E04: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43039B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x4398AE: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 4064 0x43AF18: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n1: 4064 0x43AA7E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                 n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                  n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                   n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                    n1: 4064 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                     n1: 4064 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                      n1: 4064 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                       n1: 4064 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                        n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n1: 3808 0x436EB7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 3808 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 3808 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 1968 in 20 places, all below massif's threshold (1.00%)
+ n1: 72704 0x42D559: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 72704 0x5038EBA: call_init (libc-start.c:145)
+   n1: 72704 0x5038EBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+    n1: 72704 0x431F64: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 72704 0x1FFEFF7E67: ???
+      n1: 72704 0x1B: ???
+       n1: 72704 0xE8: ???
+        n1: 72704 0x1FFEFF8ADA: ???
+         n1: 72704 0x1FFEFF8AE6: ???
+          n1: 72704 0x1FFEFF8AEB: ???
+           n1: 72704 0x1FFEFF8B06: ???
+            n1: 72704 0x1FFEFF8BB4: ???
+             n1: 72704 0x1FFEFF8C62: ???
+              n1: 72704 0x1FFEFF8D10: ???
+               n1: 72704 0x1FFEFF8DBE: ???
+                n1: 72704 0x1FFEFF8E6C: ???
+                 n1: 72704 0x1FFEFF8F1A: ???
+                  n1: 72704 0x1FFEFF8FC8: ???
+                   n1: 72704 0x1FFEFF9076: ???
+                    n1: 72704 0x1FFEFF9124: ???
+                     n1: 72704 0x1FFEFF91D2: ???
+                      n1: 72704 0x1FFEFF9280: ???
+                       n1: 72704 0x1FFEFF932E: ???
+                        n1: 72704 0x1FFEFF93DC: ???
+                         n1: 72704 0x1FFEFF948A: ???
+                          n1: 72704 0x1FFEFF9538: ???
+                           n1: 72704 0x1FFEFF95E6: ???
+                            n1: 72704 0x1FFEFF9687: ???
+                             n1: 72704 0x1FFEFF9697: ???
+                              n1: 72704 0x1FFEFF969A: ???
+                               n0: 72704 0x1FFEFF96FA: ???
+ n3: 28272 0x42DBAF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n2: 19712 0x435C6B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 19712 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 19712 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 8192 0x43911C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 8192 0x43909D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 8192 0x4379CB: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 8192 0x436EAD: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 8192 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n0: 8192 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 368 in 2 places, all below massif's threshold (1.00%)
+ n0: 3970 in 13 places, all below massif's threshold (1.00%)
+ n1: 2319 0x42D6CE: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n0: 2319 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=84
+#-----------
+time=6729851
+mem_heap_B=227161
+mem_heap_extra_B=1719
+mem_stacks_B=0
+heap_tree=detailed
+n5: 227161 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n6: 119896 0x42DB2B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 65536 0x42D842: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 65536 0x4326E8: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 65536 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n6: 24384 0x42D801: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432417: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B0F: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B28: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432F1C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x433720: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n2: 20136 0x438657: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 20116 0x42F5D7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n3: 20116 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 17029 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n3: 17029 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n1: 13948 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n3: 13948 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n1: 10873 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n3: 10873 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n1: 7805 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n3: 7805 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n1: 4743 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n2: 4743 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n1: 3055 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                n1: 3055 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                 n1: 3055 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                  n1: 3055 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                   n0: 3055 0x5038D8F: (below main) (libc_start_call_main.h:58)
+               n0: 1688 in 2 places, all below massif's threshold (1.00%)
+             n1: 3062 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n1: 3062 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n1: 3062 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                n1: 3062 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                 n0: 3062 0x5038D8F: (below main) (libc_start_call_main.h:58)
+             n0: 0 in 1 place, below massif's threshold (1.00%)
+           n1: 3068 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n1: 3068 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n1: 3068 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n1: 3068 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n0: 3068 0x5038D8F: (below main) (libc_start_call_main.h:58)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+         n2: 3075 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n1: 3075 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n1: 3075 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n1: 3075 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n0: 3075 0x5038D8F: (below main) (libc_start_call_main.h:58)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+       n2: 3081 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n1: 3081 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n1: 3081 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n1: 3081 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n0: 3081 0x5038D8F: (below main) (libc_start_call_main.h:58)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n2: 3087 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 3087 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n1: 3087 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n1: 3087 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n0: 3087 0x5038D8F: (below main) (libc_start_call_main.h:58)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 20 in 4 places, all below massif's threshold (1.00%)
+  n1: 4064 0x43175F: _obstack_newchunk (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x409E04: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43039B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x4398AE: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 4064 0x43AF18: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n1: 4064 0x43AA7E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                 n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                  n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                   n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                    n1: 4064 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                     n1: 4064 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                      n1: 4064 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                       n1: 4064 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                        n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n1: 3808 0x436EB7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 3808 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 3808 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 1968 in 20 places, all below massif's threshold (1.00%)
+ n1: 72704 0x42D559: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 72704 0x5038EBA: call_init (libc-start.c:145)
+   n1: 72704 0x5038EBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+    n1: 72704 0x431F64: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 72704 0x1FFEFF7E67: ???
+      n1: 72704 0x1B: ???
+       n1: 72704 0xE8: ???
+        n1: 72704 0x1FFEFF8ADA: ???
+         n1: 72704 0x1FFEFF8AE6: ???
+          n1: 72704 0x1FFEFF8AEB: ???
+           n1: 72704 0x1FFEFF8B06: ???
+            n1: 72704 0x1FFEFF8BB4: ???
+             n1: 72704 0x1FFEFF8C62: ???
+              n1: 72704 0x1FFEFF8D10: ???
+               n1: 72704 0x1FFEFF8DBE: ???
+                n1: 72704 0x1FFEFF8E6C: ???
+                 n1: 72704 0x1FFEFF8F1A: ???
+                  n1: 72704 0x1FFEFF8FC8: ???
+                   n1: 72704 0x1FFEFF9076: ???
+                    n1: 72704 0x1FFEFF9124: ???
+                     n1: 72704 0x1FFEFF91D2: ???
+                      n1: 72704 0x1FFEFF9280: ???
+                       n1: 72704 0x1FFEFF932E: ???
+                        n1: 72704 0x1FFEFF93DC: ???
+                         n1: 72704 0x1FFEFF948A: ???
+                          n1: 72704 0x1FFEFF9538: ???
+                           n1: 72704 0x1FFEFF95E6: ???
+                            n1: 72704 0x1FFEFF9687: ???
+                             n1: 72704 0x1FFEFF9697: ???
+                              n1: 72704 0x1FFEFF969A: ???
+                               n0: 72704 0x1FFEFF96FA: ???
+ n3: 28272 0x42DBAF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n2: 19712 0x435C6B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 19712 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 19712 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 8192 0x43911C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 8192 0x43909D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 8192 0x4379CB: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 8192 0x436EAD: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 8192 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n0: 8192 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 368 in 2 places, all below massif's threshold (1.00%)
+ n0: 3970 in 13 places, all below massif's threshold (1.00%)
+ n1: 2319 0x42D6CE: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n0: 2319 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=85
+#-----------
+time=6743540
+mem_heap_B=227809
+mem_heap_extra_B=1695
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=6771232
+mem_heap_B=228733
+mem_heap_extra_B=1731
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=6785043
+mem_heap_B=229563
+mem_heap_extra_B=1741
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=6798970
+mem_heap_B=229563
+mem_heap_extra_B=1741
+mem_stacks_B=0
+heap_tree=peak
+n5: 229563 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n6: 119874 0x42DB2B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 65536 0x42D842: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 65536 0x4326E8: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 65536 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n6: 24384 0x42D801: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432417: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43234A: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x43288D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B0F: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432B28: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x432F1C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n1: 4064 0x433720: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n2: 20114 0x438657: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 20094 0x42F5D7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n3: 20094 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 17007 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n3: 17007 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n1: 13926 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n3: 13926 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n1: 10851 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n3: 10851 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n1: 7783 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n3: 7783 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n1: 4721 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n2: 4721 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n1: 3055 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                n1: 3055 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                 n1: 3055 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                  n1: 3055 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                   n0: 3055 0x5038D8F: (below main) (libc_start_call_main.h:58)
+               n0: 1666 in 2 places, all below massif's threshold (1.00%)
+             n1: 3062 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n1: 3062 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n1: 3062 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                n1: 3062 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                 n0: 3062 0x5038D8F: (below main) (libc_start_call_main.h:58)
+             n0: 0 in 1 place, below massif's threshold (1.00%)
+           n1: 3068 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n1: 3068 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n1: 3068 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n1: 3068 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n0: 3068 0x5038D8F: (below main) (libc_start_call_main.h:58)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+         n2: 3075 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n1: 3075 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n1: 3075 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n1: 3075 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n0: 3075 0x5038D8F: (below main) (libc_start_call_main.h:58)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+       n2: 3081 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n1: 3081 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n1: 3081 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n1: 3081 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n0: 3081 0x5038D8F: (below main) (libc_start_call_main.h:58)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n2: 3087 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 3087 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n1: 3087 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n1: 3087 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n0: 3087 0x5038D8F: (below main) (libc_start_call_main.h:58)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 20 in 4 places, all below massif's threshold (1.00%)
+  n1: 4064 0x43175F: _obstack_newchunk (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 4064 0x409E04: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 4064 0x43039B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 4064 0x4398AE: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 4064 0x43AF18: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n1: 4064 0x43AA7E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                 n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                  n1: 4064 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                   n1: 4064 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                    n1: 4064 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                     n1: 4064 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                      n1: 4064 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                       n1: 4064 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                        n0: 4064 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n1: 3808 0x436EB7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 3808 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 3808 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n0: 1968 in 20 places, all below massif's threshold (1.00%)
+ n1: 72704 0x42D559: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n1: 72704 0x5038EBA: call_init (libc-start.c:145)
+   n1: 72704 0x5038EBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+    n1: 72704 0x431F64: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 72704 0x1FFEFF7E67: ???
+      n1: 72704 0x1B: ???
+       n1: 72704 0xE8: ???
+        n1: 72704 0x1FFEFF8ADA: ???
+         n1: 72704 0x1FFEFF8AE6: ???
+          n1: 72704 0x1FFEFF8AEB: ???
+           n1: 72704 0x1FFEFF8B06: ???
+            n1: 72704 0x1FFEFF8BB4: ???
+             n1: 72704 0x1FFEFF8C62: ???
+              n1: 72704 0x1FFEFF8D10: ???
+               n1: 72704 0x1FFEFF8DBE: ???
+                n1: 72704 0x1FFEFF8E6C: ???
+                 n1: 72704 0x1FFEFF8F1A: ???
+                  n1: 72704 0x1FFEFF8FC8: ???
+                   n1: 72704 0x1FFEFF9076: ???
+                    n1: 72704 0x1FFEFF9124: ???
+                     n1: 72704 0x1FFEFF91D2: ???
+                      n1: 72704 0x1FFEFF9280: ???
+                       n1: 72704 0x1FFEFF932E: ???
+                        n1: 72704 0x1FFEFF93DC: ???
+                         n1: 72704 0x1FFEFF948A: ???
+                          n1: 72704 0x1FFEFF9538: ???
+                           n1: 72704 0x1FFEFF95E6: ???
+                            n1: 72704 0x1FFEFF9687: ???
+                             n1: 72704 0x1FFEFF9697: ???
+                              n1: 72704 0x1FFEFF969A: ???
+                               n0: 72704 0x1FFEFF96FA: ???
+ n4: 30608 0x42DBAF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n2: 19712 0x435C6B: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 19712 0x43275E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n0: 19712 0x5038D8F: (below main) (libc_start_call_main.h:58)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 8192 0x43911C: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 8192 0x43909D: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n1: 8192 0x4379CB: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 8192 0x436EAD: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 8192 0x432EF0: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n0: 8192 0x5038D8F: (below main) (libc_start_call_main.h:58)
+  n1: 2704 0x436E14: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+   n1: 2704 0x43B228: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+    n2: 2704 0x43B1AC: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+     n1: 2704 0x43AF67: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+      n1: 2704 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+       n1: 2704 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+        n1: 2704 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+         n1: 2704 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+          n1: 2704 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+           n1: 2704 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+            n1: 2704 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+             n1: 2704 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+              n1: 2704 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+               n1: 2704 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                n1: 2704 0x42F5EF: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                 n1: 2704 0x43A728: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                  n1: 2704 0x43A4A7: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                   n1: 2704 0x43C24E: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                    n1: 2704 0x43CEE2: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                     n1: 2704 0x433FE4: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+                      n0: 2704 0x5038D8F: (below main) (libc_start_call_main.h:58)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 4058 in 13 places, all below massif's threshold (1.00%)
+ n1: 2319 0x42D6CE: ??? (in /usr/bin/x86_64-linux-gnu-gcc-11)
+  n0: 2319 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=89
+#-----------
+time=6815676
+mem_heap_B=228384
+mem_heap_extra_B=1784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=6826198
+mem_heap_B=228496
+mem_heap_extra_B=1792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=91
+#-----------
+time=6835021
+mem_heap_B=228410
+mem_heap_extra_B=1838
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=92
+#-----------
+time=6845147
+mem_heap_B=228206
+mem_heap_extra_B=1834
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=93
+#-----------
+time=6853839
+mem_heap_B=228168
+mem_heap_extra_B=1792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=94
+#-----------
+time=6863393
+mem_heap_B=228186
+mem_heap_extra_B=1830
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=95
+#-----------
+time=6874256
+mem_heap_B=228444
+mem_heap_extra_B=1860
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=96
+#-----------
+time=6887553
+mem_heap_B=209543
+mem_heap_extra_B=1729
+mem_stacks_B=0
+heap_tree=empty
