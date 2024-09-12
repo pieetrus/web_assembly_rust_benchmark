@@ -1,6 +1,6 @@
 using BenchmarkPlotter.Models;
 
-namespace BenchmarkPlotter;
+namespace BenchmarkPlotter.Utils;
 
 public static class DataLoader
 {
@@ -21,7 +21,7 @@ public static class DataLoader
             else if (line.StartsWith("time="))
             {
                 var timeValue = long.Parse(line.Split('=')[1]);
-                currentData.Snapshots.Add(new Snapshot { Time = timeValue });            
+                currentData.Snapshots.Add(new Snapshot { InstructionsExecuted = timeValue });            
             }
             else if (line.StartsWith("mem_heap_B="))
             {

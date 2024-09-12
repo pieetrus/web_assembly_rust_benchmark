@@ -4,23 +4,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkPlotter", "Benchma
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmark_results", "benchmark_results", "{23253038-C8CD-48E9-9E0D-F1412B359A21}"
 	ProjectSection(SolutionItems) = preProject
-		benchmark_results\memory\massif.out.debug-naive-100 = benchmark_results\memory\massif.out.debug-naive-100
-		benchmark_results\memory\massif.out.debug-naive-1000 = benchmark_results\memory\massif.out.debug-naive-1000
-		benchmark_results\memory\massif.out.debug-naive-10000 = benchmark_results\memory\massif.out.debug-naive-10000
-		benchmark_results\memory\massif.out.debug-naive-100000 = benchmark_results\memory\massif.out.debug-naive-100000
-		benchmark_results\memory\massif.out.debug-wasm-100 = benchmark_results\memory\massif.out.debug-wasm-100
-		benchmark_results\memory\massif.out.debug-wasm-1000 = benchmark_results\memory\massif.out.debug-wasm-1000
-		benchmark_results\memory\massif.out.debug-wasm-10000 = benchmark_results\memory\massif.out.debug-wasm-10000
-		benchmark_results\memory\massif.out.debug-wasm-100000 = benchmark_results\memory\massif.out.debug-wasm-100000
-		benchmark_results\memory\massif.out.release-naive-100 = benchmark_results\memory\massif.out.release-naive-100
-		benchmark_results\memory\massif.out.release-naive-1000 = benchmark_results\memory\massif.out.release-naive-1000
-		benchmark_results\memory\massif.out.release-naive-10000 = benchmark_results\memory\massif.out.release-naive-10000
-		benchmark_results\memory\massif.out.release-naive-100000 = benchmark_results\memory\massif.out.release-naive-100000
-		benchmark_results\memory\massif.out.release-wasm-100 = benchmark_results\memory\massif.out.release-wasm-100
-		benchmark_results\memory\massif.out.release-wasm-1000 = benchmark_results\memory\massif.out.release-wasm-1000
-		benchmark_results\memory\massif.out.release-wasm-10000 = benchmark_results\memory\massif.out.release-wasm-10000
-		benchmark_results\memory\massif.out.release-wasm-100000 = benchmark_results\memory\massif.out.release-wasm-100000
-		benchmark_results\memory\results_combined.txt = benchmark_results\memory\results_combined.txt
+		benchmark_results\memory_results_combined.txt = benchmark_results\memory_results_combined.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkPlotter.UnitTests", "tests\BenchmarkPlotter.UnitTests\BenchmarkPlotter.UnitTests.csproj", "{B87DD555-EDCE-422F-B4C9-42F08CF26AF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "charts", "charts", "{98D12C74-6D73-4C91-810B-C3AEE0B881A2}"
+	ProjectSection(SolutionItems) = preProject
+		charts\max_memory_usage_all_chart.png = charts\max_memory_usage_all_chart.png
+		charts\instructions_to_max_memory_usage_all_chart.png = charts\instructions_to_max_memory_usage_all_chart.png
+		charts\instructions_to_max_memory_usage_release_chart.png = charts\instructions_to_max_memory_usage_release_chart.png
 	EndProjectSection
 EndProject
 Global
@@ -33,5 +26,9 @@ Global
 		{BCBBFFB3-36F8-4619-AC10-703B4A8E85AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCBBFFB3-36F8-4619-AC10-703B4A8E85AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCBBFFB3-36F8-4619-AC10-703B4A8E85AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87DD555-EDCE-422F-B4C9-42F08CF26AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87DD555-EDCE-422F-B4C9-42F08CF26AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87DD555-EDCE-422F-B4C9-42F08CF26AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87DD555-EDCE-422F-B4C9-42F08CF26AF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

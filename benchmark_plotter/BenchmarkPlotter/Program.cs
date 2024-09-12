@@ -1,15 +1,14 @@
 ﻿using BenchmarkPlotter;
-using static BenchmarkPlotter.Constants;
+using BenchmarkPlotter.Models;
+using BenchmarkPlotter.Utils;
+
+using static BenchmarkPlotter.Utils.Constants;
 
 var allData = DataLoader.LoadData(InputFilePath);
 
-Console.WriteLine("Data loaded successfully.");
+// Średnie zużycie pamięci w trakcie foreach (var data in allData) działania programu  dla każdego rozmiaru danych
+var averageMemoryUsageMB = allData.First(x => x is {Size: 1_00, Platform: Platform.NAIVE, Mode: Mode.RELEASE})
+    .Snapshots.Average(snapshot => snapshot.MemoryUsageMB);
 
-foreach (var data in allData)
-{
-    Console.WriteLine($"Filename: {data.Name}");
-    Console.WriteLine($"Max Memory Usage: {data.MaxMemoryUsageMB:F2} MB");
-    Console.WriteLine($"Time to Max Memory: {data.TimeToMaxMemory}");
-    Console.WriteLine($"Average Memory Usage: {data.AverageMemoryUsageMB:F2} MB");
-    Console.WriteLine();
-}
+Console.WriteLine($"Average memory usage: {averageMemoryUsageMB} MB");
+
