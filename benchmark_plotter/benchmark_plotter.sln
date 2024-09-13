@@ -11,9 +11,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkPlotter.UnitTests"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "charts", "charts", "{98D12C74-6D73-4C91-810B-C3AEE0B881A2}"
 	ProjectSection(SolutionItems) = preProject
-		charts\max_memory_usage_all_chart.png = charts\max_memory_usage_all_chart.png
+		charts\benchmark_release_bar_chart.png = charts\benchmark_release_bar_chart.png
+		charts\benchmark_time_per_data_size.png = charts\benchmark_time_per_data_size.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "memory", "memory", "{B27D6FF8-AB04-4C1C-B8CD-7F7C00290F50}"
+	ProjectSection(SolutionItems) = preProject
 		charts\instructions_to_max_memory_usage_all_chart.png = charts\instructions_to_max_memory_usage_all_chart.png
 		charts\instructions_to_max_memory_usage_release_chart.png = charts\instructions_to_max_memory_usage_release_chart.png
+		charts\max_memory_usage_all_chart.png = charts\max_memory_usage_all_chart.png
 	EndProjectSection
 EndProject
 Global
@@ -30,5 +36,8 @@ Global
 		{B87DD555-EDCE-422F-B4C9-42F08CF26AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B87DD555-EDCE-422F-B4C9-42F08CF26AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B87DD555-EDCE-422F-B4C9-42F08CF26AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B27D6FF8-AB04-4C1C-B8CD-7F7C00290F50} = {98D12C74-6D73-4C91-810B-C3AEE0B881A2}
 	EndGlobalSection
 EndGlobal

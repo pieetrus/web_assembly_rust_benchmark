@@ -22,6 +22,8 @@ The system consists of four main components:
 3. Consumer Application: Reads data from Kafka and processes it using WebAssembly.
 4. WebAssembly Module: Filters the options data (currently filtering options with a strike price above $85.00).
 
+<img src="./wasm-architecture.png" alt="architectue-diagram">
+
 ## Data Description
 
 The application processes mock historical options data, which includes the following information for each option contract:
@@ -54,29 +56,34 @@ The benchmark focuses on the processing time of the WebAssembly module. It uses 
 ## Setup
 
 1. Clone the repository:
+
    ```
    git clone <repository-url>
    cd wasm-rust-benchmark
    ```
 
 2. Start Kafka, Zookeeper, and the mock server using Docker Compose:
+
    ```
    docker-compose up -d
    ```
 
 3. Build the WebAssembly module:
+
    ```
    cd wasm-filter
    cargo build --target wasm32-unknown-unknown --release
    ```
 
 4. Build and run the producer application:
+
    ```
    cd ../historical_options_producer
    cargo run
    ```
 
 5. In a separate terminal, build and run the consumer application:
+
    ```
    cd ../historical_options_consumer
    cargo run

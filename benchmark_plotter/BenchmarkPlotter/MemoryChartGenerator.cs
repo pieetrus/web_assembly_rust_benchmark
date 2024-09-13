@@ -7,7 +7,7 @@ using Platform = BenchmarkPlotter.Models.Platform;
 // multiplot: https://scottplot.net/faq/multiplot/
 namespace BenchmarkPlotter;
 
-public static class ChartGenerator
+public static class MemoryChartGenerator
 {
     private const int width = 1000;
     private const int height = 700;
